@@ -1,0 +1,1330 @@
+2025-04-15 12:53:02.038 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 875.8559 ms
+2025-04-15 12:53:02.092 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 2654.5629 ms
+2025-04-15 12:53:02.411 +03:00 [INF] HTTP GET /api/advisors/1/clubs responded 200 in 303.2393 ms
+2025-04-15 12:53:02.427 +03:00 [INF] HTTP GET /api/clubs/1 responded 405 in 0.1710 ms
+2025-04-15 12:53:07.717 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 832.9273 ms
+2025-04-15 12:53:07.806 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 55.7357 ms
+2025-04-15 12:53:09.817 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.7866 ms
+2025-04-15 12:53:09.894 +03:00 [INF] HTTP GET /api/advisors/1/clubs responded 200 in 55.3485 ms
+2025-04-15 12:53:09.914 +03:00 [INF] HTTP GET /api/clubs/1 responded 405 in 0.1875 ms
+2025-04-15 12:53:44.957 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 17.0543 ms
+2025-04-15 12:53:45.021 +03:00 [INF] HTTP GET /api/advisors/1/clubs responded 200 in 41.7149 ms
+2025-04-15 12:53:45.040 +03:00 [INF] HTTP GET /api/clubs/1 responded 405 in 0.0999 ms
+2025-04-15 12:54:37.909 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 130.0632 ms
+2025-04-15 12:54:43.342 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 55.8596 ms
+2025-04-15 12:54:54.127 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 27.3112 ms
+2025-04-15 12:55:09.749 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 76.5585 ms
+2025-04-15 12:55:35.820 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 55.6369 ms
+2025-04-15 12:57:46.811 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 87.7484 ms
+2025-04-15 12:57:54.782 +03:00 [INF] HTTP GET /api/auth/whoami responded 200 in 5.9657 ms
+2025-04-15 12:58:02.490 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 108.7321 ms
+2025-04-15 12:58:09.790 +03:00 [INF] HTTP POST /api/clubs responded 400 in 97.6593 ms
+2025-04-15 12:58:25.475 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 20.6443 ms
+2025-04-15 12:58:45.089 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 76.3869 ms
+2025-04-15 12:58:53.373 +03:00 [INF] HTTP GET /api/Departments responded 200 in 24.4923 ms
+2025-04-15 12:59:02.996 +03:00 [INF] HTTP GET /api/diagnostic/ping responded 200 in 4.1325 ms
+2025-04-15 12:59:11.612 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 154.5368 ms
+2025-04-15 13:07:54.374 +03:00 [INF] HTTP POST /api/clubs responded 400 in 110.6394 ms
+2025-04-15 13:14:21.145 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 13:14:22.351 +03:00 [INF] HTTP GET /api/clubs/2 responded 400 in 3639.6459 ms
+2025-04-15 13:14:26.363 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 441.0466 ms
+2025-04-15 13:28:22.241 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 586.1480 ms
+2025-04-15 13:28:23.067 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 64.3630 ms
+2025-04-15 13:28:23.331 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 231.6168 ms
+2025-04-15 13:28:27.893 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 86.9764 ms
+2025-04-15 13:28:29.937 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 19.6668 ms
+2025-04-15 13:28:30.065 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 102.8203 ms
+2025-04-15 13:28:33.418 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 15.3456 ms
+2025-04-15 13:28:33.519 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 81.0301 ms
+2025-04-15 13:28:37.875 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 11.8395 ms
+2025-04-15 13:28:37.998 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 102.3120 ms
+2025-04-15 13:28:38.027 +03:00 [INF] HTTP GET /api/api/memberships/pending/1 responded 404 in 0.2174 ms
+2025-04-15 13:28:40.057 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 11.6844 ms
+2025-04-15 13:28:40.164 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 85.8973 ms
+2025-04-15 13:28:40.192 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.1218 ms
+2025-04-15 13:28:43.166 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 15.9080 ms
+2025-04-15 13:28:43.281 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 84.8772 ms
+2025-04-15 13:29:00.592 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 14.4442 ms
+2025-04-15 13:29:00.708 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 88.8064 ms
+2025-04-15 13:29:08.292 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 12.2443 ms
+2025-04-15 13:29:08.392 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 69.3900 ms
+2025-04-15 13:29:12.057 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.5130 ms
+2025-04-15 13:29:12.130 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 57.9213 ms
+2025-04-15 13:30:37.699 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 191.6825 ms
+2025-04-15 13:30:45.963 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 3254.6440 ms
+2025-04-15 13:32:52.577 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 279.3301 ms
+2025-04-15 13:32:54.907 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 115.4229 ms
+2025-04-15 13:32:55.001 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 40.9717 ms
+2025-04-15 13:33:05.045 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 135.9861 ms
+2025-04-15 13:33:05.110 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 13.7206 ms
+2025-04-15 13:33:10.904 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 12.2994 ms
+2025-04-15 13:33:10.935 +03:00 [INF] HTTP GET /api/advisors responded 200 in 42.9429 ms
+2025-04-15 13:33:58.534 +03:00 [INF] HTTP POST /api/clubs responded 200 in 465.7056 ms
+2025-04-15 13:33:58.770 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 157.0045 ms
+2025-04-15 13:33:58.857 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 17.3181 ms
+2025-04-15 13:34:15.500 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 125.3443 ms
+2025-04-15 13:34:15.566 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 12.7858 ms
+2025-04-15 13:34:39.130 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 178.2671 ms
+2025-04-15 13:34:39.266 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 79.3671 ms
+2025-04-15 13:34:41.448 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 15.0112 ms
+2025-04-15 13:34:41.632 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 158.4231 ms
+2025-04-15 13:35:00.078 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1640 ms
+2025-04-15 13:35:01.362 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0662 ms
+2025-04-15 13:35:01.851 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0624 ms
+2025-04-15 13:35:02.024 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0563 ms
+2025-04-15 13:35:02.176 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0553 ms
+2025-04-15 13:35:02.329 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0543 ms
+2025-04-15 13:35:02.619 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0951 ms
+2025-04-15 13:35:07.766 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 12.5461 ms
+2025-04-15 13:35:07.928 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 123.5913 ms
+2025-04-15 13:35:08.104 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 64.0426 ms
+2025-04-15 13:35:09.357 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 9.5032 ms
+2025-04-15 13:35:09.547 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 170.1327 ms
+2025-04-15 13:41:55.739 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 51.0833 ms
+2025-04-15 13:41:55.867 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 101.3623 ms
+2025-04-15 13:41:55.892 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0842 ms
+2025-04-15 13:42:09.961 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 13.2387 ms
+2025-04-15 13:42:10.156 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 169.0780 ms
+2025-04-15 13:42:18.328 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1616 ms
+2025-04-15 13:42:19.353 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1004 ms
+2025-04-15 13:42:20.615 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 79.3399 ms
+2025-04-15 13:42:24.511 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 7.0389 ms
+2025-04-15 13:42:24.674 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 144.9391 ms
+2025-04-15 13:42:34.338 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 9.2945 ms
+2025-04-15 13:42:34.484 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 126.1889 ms
+2025-04-15 13:44:35.542 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 18.1771 ms
+2025-04-15 13:44:35.729 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 142.6104 ms
+2025-04-15 13:45:40.298 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 16.7217 ms
+2025-04-15 13:45:40.488 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 160.3707 ms
+2025-04-15 13:45:46.365 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 240.7956 ms
+2025-04-15 13:45:46.485 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 67.6297 ms
+2025-04-15 13:45:47.441 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.7757 ms
+2025-04-15 13:45:47.617 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 150.3200 ms
+2025-04-15 13:45:54.944 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 8.5657 ms
+2025-04-15 13:45:55.113 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 144.0742 ms
+2025-04-15 13:46:58.790 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 31.4949 ms
+2025-04-15 13:46:58.970 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 140.2342 ms
+2025-04-15 14:34:45.825 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 2505.3996 ms
+2025-04-15 14:34:46.834 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 827.4240 ms
+2025-04-15 14:34:46.975 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 113.7195 ms
+2025-04-15 14:34:48.116 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 59.8590 ms
+2025-04-15 14:34:48.370 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 242.0345 ms
+2025-04-15 14:39:21.154 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.1609 ms
+2025-04-15 14:39:21.245 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 79.3512 ms
+2025-04-15 14:39:22.166 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 7.4729 ms
+2025-04-15 14:39:22.240 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 55.3852 ms
+2025-04-15 14:39:54.232 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1448 ms
+2025-04-15 14:58:39.757 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 25.3544 ms
+2025-04-15 14:58:39.874 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 97.4581 ms
+2025-04-15 14:59:29.668 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.4473 ms
+2025-04-15 14:59:29.857 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 172.9601 ms
+2025-04-15 14:59:31.458 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1104 ms
+2025-04-15 14:59:32.358 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1407 ms
+2025-04-15 14:59:32.589 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0996 ms
+2025-04-15 14:59:32.758 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1105 ms
+2025-04-15 14:59:32.932 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1276 ms
+2025-04-15 14:59:33.086 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0681 ms
+2025-04-15 14:59:33.249 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0987 ms
+2025-04-15 15:00:28.273 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 983.8345 ms
+2025-04-15 15:00:28.440 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 118.8037 ms
+2025-04-15 15:00:29.454 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 54.8984 ms
+2025-04-15 15:00:29.546 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 84.6873 ms
+2025-04-15 15:00:30.632 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0872 ms
+2025-04-15 15:00:31.304 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0601 ms
+2025-04-15 15:00:31.477 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0761 ms
+2025-04-15 15:00:31.637 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1052 ms
+2025-04-15 15:00:31.795 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0724 ms
+2025-04-15 15:00:32.097 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1723 ms
+2025-04-15 15:03:21.365 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 47.9178 ms
+2025-04-15 15:03:22.664 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.4619 ms
+2025-04-15 15:03:22.743 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 67.1308 ms
+2025-04-15 15:03:24.060 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0683 ms
+2025-04-15 15:03:24.624 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0995 ms
+2025-04-15 15:03:25.064 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0883 ms
+2025-04-15 15:03:25.685 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0662 ms
+2025-04-15 15:03:25.954 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0771 ms
+2025-04-15 15:03:26.562 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0873 ms
+2025-04-15 15:03:26.758 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0772 ms
+2025-04-15 15:03:26.942 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0632 ms
+2025-04-15 15:03:27.127 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0732 ms
+2025-04-15 15:03:27.311 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0678 ms
+2025-04-15 15:03:27.485 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0847 ms
+2025-04-15 15:03:27.671 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0698 ms
+2025-04-15 15:03:27.839 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1181 ms
+2025-04-15 15:03:28.017 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0659 ms
+2025-04-15 15:03:28.203 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0701 ms
+2025-04-15 15:03:28.367 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1530 ms
+2025-04-15 15:03:28.544 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0515 ms
+2025-04-15 15:03:28.718 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0509 ms
+2025-04-15 15:03:28.882 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0749 ms
+2025-04-15 15:03:29.046 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0551 ms
+2025-04-15 15:03:29.216 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0567 ms
+2025-04-15 15:03:29.384 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0570 ms
+2025-04-15 15:03:32.217 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 190.6122 ms
+2025-04-15 15:03:32.247 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 11.2868 ms
+2025-04-15 15:03:33.452 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.6378 ms
+2025-04-15 15:03:33.482 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 23.0668 ms
+2025-04-15 15:03:34.494 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0573 ms
+2025-04-15 15:06:23.397 +03:00 [ERR] An error occurred using the connection to database 'Elasoft53' on server 'EMRE\SQLEXPRESS'.
+2025-04-15 15:06:23.397 +03:00 [ERR] An error occurred using the connection to database 'Elasoft53' on server 'EMRE\SQLEXPRESS'.
+2025-04-15 15:06:23.398 +03:00 [ERR] An error occurred using the connection to database 'Elasoft53' on server 'EMRE\SQLEXPRESS'.
+2025-04-15 15:06:23.396 +03:00 [ERR] An error occurred using the connection to database 'Elasoft53' on server 'EMRE\SQLEXPRESS'.
+2025-04-15 15:06:23.496 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.496 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.496 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.496 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.510 +03:00 [ERR] Kategoriler getirilirken hata oluu015ftu
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.CategoryService.GetAllCategoriesAsync() in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Services\CategoryService.cs:line 28
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.532 +03:00 [ERR] HTTP GET /api/clubs/listele responded 500 in 4628.0548 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.ClubService.GetClubsAsync(String status) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Services\ClubService.cs:line 31
+   at ElasoftCommunityManagementSystem.Controllers.ClubController.GetClubs(String status) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Controllers\ClubController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.532 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 2949.7151 ms
+2025-04-15 15:06:23.545 +03:00 [ERR] HTTP GET /api/dashboard/advisordashboard responded 500 in 16780.7834 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Controllers.DashboardController.GetAdvisorDashboard() in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Controllers\DashboardController.cs:line 160
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.574 +03:00 [ERR] Kategoriler listelenirken hata oluu015ftu
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.CategoryService.GetAllCategoriesAsync() in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Services\CategoryService.cs:line 28
+   at ElasoftCommunityManagementSystem.Controllers.CategoryController.GetAllCategories() in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Controllers\CategoryController.cs:line 34
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.619 +03:00 [ERR] Unexpected error occurred: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified), TraceId: 0HNBS2N86M7H0:00000003
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.ClubService.GetClubsAsync(String status) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Services\ClubService.cs:line 31
+   at ElasoftCommunityManagementSystem.Controllers.ClubController.GetClubs(String status) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Controllers\ClubController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ElasoftCommunityManagementSystem.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Middleware\ExceptionHandlingMiddleware.cs:line 26
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.636 +03:00 [ERR] Unexpected error occurred: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified), TraceId: 0HNBS2N86M7GU:00000003
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Controllers.DashboardController.GetAdvisorDashboard() in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Controllers\DashboardController.cs:line 160
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ElasoftCommunityManagementSystem.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Middleware\ExceptionHandlingMiddleware.cs:line 26
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:23.642 +03:00 [ERR] HTTP GET /api/categories/listele responded 500 in 14740.1330 ms
+2025-04-15 15:06:26.455 +03:00 [ERR] An error occurred using the connection to database 'Elasoft53' on server 'EMRE\SQLEXPRESS'.
+2025-04-15 15:06:26.463 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-15 15:06:26.481 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 34.8632 ms
+2025-04-15 15:06:42.061 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 992.4381 ms
+2025-04-15 15:06:42.273 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 178.3563 ms
+2025-04-15 15:06:47.513 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 26.7485 ms
+2025-04-15 15:06:47.626 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 92.7394 ms
+2025-04-15 15:06:49.358 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1964 ms
+2025-04-15 15:06:50.246 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1099 ms
+2025-04-15 15:09:23.835 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1374 ms
+2025-04-15 15:09:24.311 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0945 ms
+2025-04-15 15:09:24.511 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0989 ms
+2025-04-15 15:28:38.527 +03:00 [INF] HTTP GET /api/auth/whoami responded 200 in 6.6835 ms
+2025-04-15 15:28:51.873 +03:00 [INF] HTTP PUT /api/clubs/2/aktif-et responded 200 in 97.5332 ms
+2025-04-15 15:33:12.754 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 50.8210 ms
+2025-04-15 15:33:14.132 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.9317 ms
+2025-04-15 15:33:14.215 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 68.1714 ms
+2025-04-15 15:33:16.502 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0799 ms
+2025-04-15 15:33:35.184 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1060 ms
+2025-04-15 15:33:35.782 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0678 ms
+2025-04-15 15:33:36.346 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.0961 ms
+2025-04-15 15:33:37.039 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1026 ms
+2025-04-15 15:33:40.082 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 220.7591 ms
+2025-04-15 15:33:40.124 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 21.8347 ms
+2025-04-15 15:33:42.126 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.9731 ms
+2025-04-15 15:33:42.192 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 54.0259 ms
+2025-04-15 15:33:43.727 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.9515 ms
+2025-04-15 15:33:43.802 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 15:33:43.972 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 237.0643 ms
+2025-04-15 15:33:44.018 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 33.1138 ms
+2025-04-15 15:35:02.769 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.8524 ms
+2025-04-15 15:35:02.904 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 121.6211 ms
+2025-04-15 15:35:09.811 +03:00 [INF] HTTP PUT /api/clubs/2/status responded 404 in 0.1157 ms
+2025-04-15 15:36:09.366 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.2926 ms
+2025-04-15 15:36:09.436 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 56.2932 ms
+2025-04-15 15:36:27.396 +03:00 [INF] HTTP PUT /api/clubs/2/guncelle responded 400 in 97.4638 ms
+2025-04-15 15:36:33.415 +03:00 [INF] HTTP PUT /api/clubs/1/guncelle responded 400 in 57.4246 ms
+2025-04-15 15:36:41.355 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 400 in 31.0240 ms
+2025-04-15 15:36:43.662 +03:00 [INF] HTTP PUT /api/clubs/2/club-member-count responded 400 in 19.7412 ms
+2025-04-15 15:36:50.343 +03:00 [INF] HTTP PUT /api/clubs/1/aktif-et responded 400 in 27.6650 ms
+2025-04-15 15:37:07.354 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.0457 ms
+2025-04-15 15:37:07.422 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 50.5030 ms
+2025-04-15 15:37:18.257 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.3768 ms
+2025-04-15 15:37:18.312 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 41.2105 ms
+2025-04-15 15:37:23.280 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.3340 ms
+2025-04-15 15:37:23.336 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 44.4816 ms
+2025-04-15 15:37:24.789 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 39.2607 ms
+2025-04-15 15:37:26.417 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.0939 ms
+2025-04-15 15:37:26.508 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 80.7396 ms
+2025-04-15 15:37:28.073 +03:00 [INF] HTTP PUT /api/clubs/2/aktif-et responded 200 in 37.1485 ms
+2025-04-15 15:37:48.327 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.1024 ms
+2025-04-15 15:37:48.389 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 49.1993 ms
+2025-04-15 15:37:48.414 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.7763 ms
+2025-04-15 15:37:48.473 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 44.6408 ms
+2025-04-15 15:37:49.351 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 21.3319 ms
+2025-04-15 15:37:51.962 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.4648 ms
+2025-04-15 15:37:52.033 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 56.2887 ms
+2025-04-15 15:38:15.676 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.1356 ms
+2025-04-15 15:38:15.765 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 76.9587 ms
+2025-04-15 15:38:17.552 +03:00 [INF] HTTP PUT /api/clubs/2/guncelle responded 415 in 0.1643 ms
+2025-04-15 15:38:18.369 +03:00 [INF] HTTP PUT /api/clubs/2/guncelle responded 415 in 0.0821 ms
+2025-04-15 15:38:18.531 +03:00 [INF] HTTP PUT /api/clubs/2/guncelle responded 415 in 0.1454 ms
+2025-04-15 15:38:18.678 +03:00 [INF] HTTP PUT /api/clubs/2/guncelle responded 415 in 0.0809 ms
+2025-04-15 15:38:25.166 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.6427 ms
+2025-04-15 15:38:25.227 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 52.4014 ms
+2025-04-15 15:38:27.158 +03:00 [INF] HTTP PUT /api/clubs/2/aktif-et responded 200 in 12.5454 ms
+2025-04-15 15:38:30.187 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.2637 ms
+2025-04-15 15:38:30.228 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 33.8966 ms
+2025-04-15 15:38:30.255 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0259 ms
+2025-04-15 15:38:30.262 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0261 ms
+2025-04-15 15:38:30.288 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 16.5784 ms
+2025-04-15 15:39:28.141 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.7591 ms
+2025-04-15 15:39:28.182 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 28.4283 ms
+2025-04-15 15:39:28.228 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0434 ms
+2025-04-15 15:39:28.241 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0606 ms
+2025-04-15 15:39:28.283 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 28.0778 ms
+2025-04-15 15:40:23.207 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.5517 ms
+2025-04-15 15:40:23.272 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 48.4834 ms
+2025-04-15 15:40:23.296 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0555 ms
+2025-04-15 15:40:23.307 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0165 ms
+2025-04-15 15:40:23.352 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 35.3545 ms
+2025-04-15 15:44:26.056 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.5772 ms
+2025-04-15 15:44:26.140 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 31.7351 ms
+2025-04-15 15:44:26.159 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0358 ms
+2025-04-15 15:44:26.170 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0551 ms
+2025-04-15 15:44:26.201 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 23.3772 ms
+2025-04-15 15:44:34.119 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.6517 ms
+2025-04-15 15:44:34.154 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 20.2754 ms
+2025-04-15 15:44:34.173 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0319 ms
+2025-04-15 15:44:34.181 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0396 ms
+2025-04-15 15:44:34.209 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 20.5945 ms
+2025-04-15 15:44:36.547 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 16.4908 ms
+2025-04-15 15:44:38.907 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.2780 ms
+2025-04-15 15:44:38.957 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 43.3863 ms
+2025-04-15 15:45:04.483 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.4771 ms
+2025-04-15 15:45:04.555 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 48.1989 ms
+2025-04-15 15:45:06.118 +03:00 [INF] HTTP PUT /api/clubs/2/aktif-et responded 200 in 22.2698 ms
+2025-04-15 15:45:08.330 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.3721 ms
+2025-04-15 15:45:08.368 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 29.3757 ms
+2025-04-15 15:45:08.383 +03:00 [INF] HTTP GET /api/memberships/pending/2 responded 404 in 0.0694 ms
+2025-04-15 15:45:08.390 +03:00 [INF] HTTP GET /api/memberships/pending/2 responded 404 in 0.0353 ms
+2025-04-15 15:45:08.416 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 21.3110 ms
+2025-04-15 15:45:13.045 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.5453 ms
+2025-04-15 15:45:13.097 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 41.4213 ms
+2025-04-15 15:45:20.885 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.8140 ms
+2025-04-15 15:45:20.939 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 42.6830 ms
+2025-04-15 15:45:20.951 +03:00 [INF] HTTP GET /api/memberships/pending/2 responded 404 in 0.0403 ms
+2025-04-15 15:45:20.960 +03:00 [INF] HTTP GET /api/memberships/pending/2 responded 404 in 0.0502 ms
+2025-04-15 15:45:20.988 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 21.7457 ms
+2025-04-15 15:46:34.239 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.8831 ms
+2025-04-15 15:46:34.282 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 37.1744 ms
+2025-04-15 15:49:45.975 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.2116 ms
+2025-04-15 15:49:46.031 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 47.4814 ms
+2025-04-15 15:49:48.825 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.4597 ms
+2025-04-15 15:49:48.883 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 48.7546 ms
+2025-04-15 15:49:48.900 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0320 ms
+2025-04-15 15:49:48.910 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0256 ms
+2025-04-15 15:49:48.949 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 28.5811 ms
+2025-04-15 15:49:51.795 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 26.4170 ms
+2025-04-15 15:49:52.322 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.3358 ms
+2025-04-15 15:49:52.361 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 31.4000 ms
+2025-04-15 15:49:53.594 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.2923 ms
+2025-04-15 15:49:53.620 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 16.8949 ms
+2025-04-15 15:49:53.632 +03:00 [INF] HTTP GET /api/memberships/pending/2 responded 404 in 0.0343 ms
+2025-04-15 15:49:53.638 +03:00 [INF] HTTP GET /api/memberships/pending/2 responded 404 in 0.0259 ms
+2025-04-15 15:49:53.661 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 17.5888 ms
+2025-04-15 15:51:38.249 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.6234 ms
+2025-04-15 15:51:38.308 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 33.4614 ms
+2025-04-15 15:51:38.341 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0651 ms
+2025-04-15 15:52:12.725 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.8179 ms
+2025-04-15 15:52:12.773 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 38.1598 ms
+2025-04-15 15:52:14.147 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.5929 ms
+2025-04-15 15:52:14.182 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 26.7383 ms
+2025-04-15 15:52:16.114 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1361 ms
+2025-04-15 15:52:16.153 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 33.7133 ms
+2025-04-15 15:52:16.169 +03:00 [INF] HTTP GET /api/api/memberships/pending/1 responded 404 in 0.0274 ms
+2025-04-15 15:52:17.764 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.7758 ms
+2025-04-15 15:52:17.795 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 23.5774 ms
+2025-04-15 15:52:19.104 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.5005 ms
+2025-04-15 15:52:19.136 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 24.7375 ms
+2025-04-15 15:52:19.147 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0262 ms
+2025-04-15 15:52:20.898 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.0892 ms
+2025-04-15 15:52:20.913 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 10.6327 ms
+2025-04-15 15:52:20.922 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0232 ms
+2025-04-15 15:52:20.928 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0258 ms
+2025-04-15 15:52:20.934 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0229 ms
+2025-04-15 15:52:24.165 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.4536 ms
+2025-04-15 15:52:24.196 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 22.7114 ms
+2025-04-15 15:52:26.456 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1651 ms
+2025-04-15 15:52:26.479 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 15.6298 ms
+2025-04-15 15:52:26.487 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0214 ms
+2025-04-15 15:52:26.494 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0219 ms
+2025-04-15 15:52:26.504 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0227 ms
+2025-04-15 15:52:40.973 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1961 ms
+2025-04-15 15:52:40.995 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 14.4776 ms
+2025-04-15 15:52:41.011 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0239 ms
+2025-04-15 15:52:41.018 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0206 ms
+2025-04-15 15:52:41.028 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0249 ms
+2025-04-15 15:52:41.890 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1044 ms
+2025-04-15 15:52:41.934 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 32.1121 ms
+2025-04-15 15:52:43.209 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.2934 ms
+2025-04-15 15:52:43.243 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 23.7003 ms
+2025-04-15 15:52:43.270 +03:00 [INF] HTTP GET /api/api/memberships/pending/1 responded 404 in 0.0346 ms
+2025-04-15 15:52:43.282 +03:00 [INF] HTTP GET /api/api/clubs/1/members responded 404 in 0.0245 ms
+2025-04-15 15:52:43.291 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0257 ms
+2025-04-15 15:52:45.982 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1114 ms
+2025-04-15 15:52:46.011 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 24.6368 ms
+2025-04-15 15:52:47.509 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.5485 ms
+2025-04-15 15:52:47.540 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 22.8022 ms
+2025-04-15 15:52:48.708 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1957 ms
+2025-04-15 15:52:48.729 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 12.2034 ms
+2025-04-15 15:52:48.737 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0312 ms
+2025-04-15 15:52:48.742 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0251 ms
+2025-04-15 15:52:48.753 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0229 ms
+2025-04-15 15:52:56.766 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.0545 ms
+2025-04-15 15:52:56.791 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 13.5348 ms
+2025-04-15 15:52:56.840 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0212 ms
+2025-04-15 15:52:56.861 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0222 ms
+2025-04-15 15:52:56.892 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0411 ms
+2025-04-15 15:53:25.646 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.2657 ms
+2025-04-15 15:53:25.714 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 49.4624 ms
+2025-04-15 15:53:25.742 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0463 ms
+2025-04-15 15:53:25.759 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0431 ms
+2025-04-15 15:53:25.775 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0210 ms
+2025-04-15 15:53:32.909 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1696 ms
+2025-04-15 15:53:32.940 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 17.4820 ms
+2025-04-15 15:53:32.965 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0278 ms
+2025-04-15 15:53:32.976 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0242 ms
+2025-04-15 15:53:32.987 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0510 ms
+2025-04-15 15:53:33.484 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.0051 ms
+2025-04-15 15:53:33.507 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 16.6722 ms
+2025-04-15 15:53:33.533 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0214 ms
+2025-04-15 15:53:33.542 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0219 ms
+2025-04-15 15:53:33.548 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0296 ms
+2025-04-15 15:53:59.753 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.2898 ms
+2025-04-15 15:53:59.814 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 36.9374 ms
+2025-04-15 15:53:59.832 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0289 ms
+2025-04-15 15:53:59.845 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0447 ms
+2025-04-15 15:53:59.858 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0323 ms
+2025-04-15 15:54:01.991 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 128.7601 ms
+2025-04-15 15:54:02.045 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 27.4953 ms
+2025-04-15 15:54:05.226 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.0200 ms
+2025-04-15 15:54:05.264 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 31.2455 ms
+2025-04-15 15:54:06.482 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1590 ms
+2025-04-15 15:54:06.506 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 18.7155 ms
+2025-04-15 15:54:06.526 +03:00 [INF] HTTP GET /api/api/memberships/pending/2 responded 404 in 0.0355 ms
+2025-04-15 15:54:06.550 +03:00 [INF] HTTP GET /api/api/clubs/2/members responded 404 in 0.0459 ms
+2025-04-15 15:54:06.584 +03:00 [INF] HTTP GET /api/events/club/2 responded 404 in 0.0206 ms
+2025-04-15 15:54:07.196 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.5140 ms
+2025-04-15 15:54:07.234 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 30.8749 ms
+2025-04-15 15:54:07.889 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.2379 ms
+2025-04-15 15:54:07.916 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 19.7096 ms
+2025-04-15 15:54:07.953 +03:00 [INF] HTTP GET /api/api/memberships/pending/1 responded 404 in 0.0553 ms
+2025-04-15 15:54:07.966 +03:00 [INF] HTTP GET /api/api/clubs/1/members responded 404 in 0.0205 ms
+2025-04-15 15:54:07.972 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0197 ms
+2025-04-15 15:54:08.557 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.5156 ms
+2025-04-15 15:54:08.587 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 22.9578 ms
+2025-04-15 15:54:09.074 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.7786 ms
+2025-04-15 15:54:09.112 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 34.1373 ms
+2025-04-15 15:54:09.122 +03:00 [INF] HTTP GET /api/api/memberships/pending/1 responded 404 in 0.0206 ms
+2025-04-15 15:54:09.127 +03:00 [INF] HTTP GET /api/api/clubs/1/members responded 404 in 0.0194 ms
+2025-04-15 15:54:09.132 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0145 ms
+2025-04-15 15:54:11.347 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.5332 ms
+2025-04-15 15:54:11.393 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 39.5621 ms
+2025-04-15 15:54:14.374 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.4551 ms
+2025-04-15 15:54:14.420 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 39.0095 ms
+2025-04-15 15:54:14.438 +03:00 [INF] HTTP GET /api/api/memberships/pending/1 responded 404 in 0.0425 ms
+2025-04-15 15:54:14.452 +03:00 [INF] HTTP GET /api/api/clubs/1/members responded 404 in 0.0301 ms
+2025-04-15 15:54:14.462 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0192 ms
+2025-04-15 15:55:46.551 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.3268 ms
+2025-04-15 15:55:46.604 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 45.3095 ms
+2025-04-15 15:55:46.639 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0369 ms
+2025-04-15 15:55:46.686 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 29.5138 ms
+2025-04-15 15:55:46.817 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 79.0244 ms
+2025-04-15 15:56:04.453 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.7918 ms
+2025-04-15 15:56:04.523 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 47.8207 ms
+2025-04-15 15:56:04.554 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0250 ms
+2025-04-15 15:56:04.595 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 22.9344 ms
+2025-04-15 15:56:04.642 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.3449 ms
+2025-04-15 15:56:18.361 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.9401 ms
+2025-04-15 15:56:18.410 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 29.5335 ms
+2025-04-15 15:56:18.438 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0222 ms
+2025-04-15 15:56:18.477 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 27.1207 ms
+2025-04-15 15:56:18.526 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 17.4665 ms
+2025-04-15 15:56:31.300 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.8425 ms
+2025-04-15 15:56:31.351 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 41.6705 ms
+2025-04-15 15:56:31.385 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0264 ms
+2025-04-15 15:56:31.436 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 26.8550 ms
+2025-04-15 15:56:31.500 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 32.9044 ms
+2025-04-15 15:56:42.326 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.2136 ms
+2025-04-15 15:56:42.368 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 31.2987 ms
+2025-04-15 15:56:42.408 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0402 ms
+2025-04-15 15:56:42.458 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 29.0572 ms
+2025-04-15 15:56:42.519 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 16.0623 ms
+2025-04-15 15:56:53.500 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1031 ms
+2025-04-15 15:56:53.535 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 21.3805 ms
+2025-04-15 15:56:53.562 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0209 ms
+2025-04-15 15:56:53.601 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 25.4616 ms
+2025-04-15 15:56:53.663 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 12.2210 ms
+2025-04-15 15:57:06.351 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 19.8403 ms
+2025-04-15 15:58:24.065 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.4338 ms
+2025-04-15 15:58:24.110 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 32.8652 ms
+2025-04-15 15:58:24.132 +03:00 [INF] HTTP GET /api/api/memberships/pending/1 responded 404 in 0.0224 ms
+2025-04-15 15:58:24.144 +03:00 [INF] HTTP GET /api/api/clubs/1 responded 404 in 0.0354 ms
+2025-04-15 15:58:24.153 +03:00 [INF] HTTP GET /api/api/events/club/1 responded 404 in 0.0228 ms
+2025-04-15 15:58:52.929 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 127.7171 ms
+2025-04-15 15:58:53.086 +03:00 [INF] GetUnreadNotifications started
+2025-04-15 15:58:53.088 +03:00 [INF] UserIdClaim: 1
+2025-04-15 15:58:53.090 +03:00 [INF] User ID parsed: 1
+2025-04-15 15:58:53.111 +03:00 [INF] Result obtained with 0 notifications
+2025-04-15 15:58:53.114 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 30.8856 ms
+2025-04-15 15:58:55.288 +03:00 [INF] HTTP GET /api/api/events/listele responded 404 in 0.0217 ms
+2025-04-15 15:58:55.324 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 35.4760 ms
+2025-04-15 15:58:59.795 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.8751 ms
+2025-04-15 15:58:59.799 +03:00 [INF] HTTP GET /api/advisors responded 200 in 11.3555 ms
+2025-04-15 15:58:59.837 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 50.8800 ms
+2025-04-15 15:59:00.988 +03:00 [INF] HTTP GET /api/api/events/listele responded 404 in 0.0358 ms
+2025-04-15 15:59:01.034 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 46.1313 ms
+2025-04-15 15:59:02.072 +03:00 [INF] HTTP GET /api/api/events/listele responded 404 in 0.0289 ms
+2025-04-15 15:59:03.066 +03:00 [INF] HTTP GET /api/announcements responded 200 in 23.8534 ms
+2025-04-15 15:59:03.073 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 33.8150 ms
+2025-04-15 15:59:04.779 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 17.9667 ms
+2025-04-15 15:59:04.785 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-04-15 15:59:04.792 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-04-15 15:59:04.808 +03:00 [INF] HTTP GET /api/Users responded 200 in 46.8788 ms
+2025-04-15 15:59:10.784 +03:00 [INF] HTTP GET /api/announcements responded 200 in 1.5113 ms
+2025-04-15 15:59:10.860 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 78.0327 ms
+2025-04-15 15:59:16.341 +03:00 [INF] HTTP GET /api/announcements responded 200 in 1.1468 ms
+2025-04-15 15:59:16.390 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 50.3921 ms
+2025-04-15 15:59:16.717 +03:00 [INF] HTTP GET /api/api/events/listele responded 404 in 0.0264 ms
+2025-04-15 15:59:16.766 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 51.1196 ms
+2025-04-15 15:59:17.749 +03:00 [INF] HTTP GET /api/api/events/listele responded 404 in 0.0206 ms
+2025-04-15 15:59:19.924 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 0.9737 ms
+2025-04-15 15:59:19.924 +03:00 [INF] HTTP GET /api/advisors responded 200 in 1.4645 ms
+2025-04-15 15:59:19.948 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 28.0601 ms
+2025-04-15 15:59:32.041 +03:00 [INF] HTTP GET /api/api/clubs responded 404 in 0.0378 ms
+2025-04-15 15:59:32.043 +03:00 [INF] GetUnreadNotifications started
+2025-04-15 15:59:32.043 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.9918 ms
+2025-04-15 15:59:32.044 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.4261 ms
+2025-04-15 15:59:32.046 +03:00 [INF] UserIdClaim: 1
+2025-04-15 15:59:32.052 +03:00 [INF] User ID parsed: 1
+2025-04-15 15:59:32.054 +03:00 [INF] Result obtained with 0 notifications
+2025-04-15 15:59:32.057 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 14.5059 ms
+2025-04-15 15:59:39.611 +03:00 [INF] HTTP GET /api/api/clubs responded 404 in 0.0370 ms
+2025-04-15 15:59:39.611 +03:00 [INF] HTTP GET /api/api/events/listele responded 404 in 0.0210 ms
+2025-04-15 15:59:40.266 +03:00 [INF] HTTP GET /api/api/clubs responded 404 in 0.0245 ms
+2025-04-15 15:59:40.275 +03:00 [INF] HTTP GET /api/advisors responded 200 in 5.9886 ms
+2025-04-15 15:59:40.275 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.8272 ms
+2025-04-15 15:59:41.035 +03:00 [INF] HTTP GET /api/api/clubs responded 404 in 0.0308 ms
+2025-04-15 15:59:41.036 +03:00 [INF] HTTP GET /api/api/events/listele responded 404 in 0.0141 ms
+2025-04-15 16:00:01.081 +03:00 [INF] HTTP GET /api/api/clubs responded 404 in 0.1020 ms
+2025-04-15 16:00:01.084 +03:00 [INF] GetUnreadNotifications started
+2025-04-15 16:00:01.091 +03:00 [INF] UserIdClaim: 1
+2025-04-15 16:00:01.095 +03:00 [INF] User ID parsed: 1
+2025-04-15 16:00:01.107 +03:00 [INF] Result obtained with 0 notifications
+2025-04-15 16:00:01.108 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 25.2432 ms
+2025-04-15 16:00:01.118 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 36.9594 ms
+2025-04-15 16:00:07.328 +03:00 [INF] GetUnreadNotifications started
+2025-04-15 16:00:07.330 +03:00 [INF] UserIdClaim: 1
+2025-04-15 16:00:07.331 +03:00 [INF] User ID parsed: 1
+2025-04-15 16:00:07.336 +03:00 [INF] Result obtained with 0 notifications
+2025-04-15 16:00:07.338 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.4885 ms
+2025-04-15 16:00:07.339 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 10.6380 ms
+2025-04-15 16:00:07.356 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 29.3239 ms
+2025-04-15 16:00:23.355 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.8128 ms
+2025-04-15 16:00:23.355 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.7496 ms
+2025-04-15 16:00:23.386 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 33.9342 ms
+2025-04-15 16:00:40.267 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 12.5026 ms
+2025-04-15 16:00:40.280 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 25.6667 ms
+2025-04-15 16:00:52.417 +03:00 [INF] HTTP POST /api/events/ekle responded 400 in 22.3529 ms
+2025-04-15 16:00:52.468 +03:00 [ERR] HTTP PUT /api/events/4/update responded 500 in 44.0823 ms
+ElasoftCommunityManagementSystem.Exceptions.ValidationException: Geçmiş tarihli etkinlikler güncellenemez.
+   at ElasoftCommunityManagementSystem.Services.EventService.UpdateEvent(Int32 id, CreateEventDto dto, Int32 userId, String userRole) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 192
+   at ElasoftCommunityManagementSystem.Controllers.EventController.UpdateEvent(Int32 id, CreateEventDto eventDto) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-15 16:00:52.487 +03:00 [WRN] ValidationException: Geçmiş tarihli etkinlikler güncellenemez., TraceId: 0HNBS2N86M7H8:000002B5
+2025-04-15 16:00:59.581 +03:00 [INF] HTTP POST /api/events/ekle responded 400 in 0.9475 ms
+2025-04-15 16:00:59.601 +03:00 [ERR] HTTP PUT /api/events/4/update responded 500 in 12.4844 ms
+ElasoftCommunityManagementSystem.Exceptions.ValidationException: Geçmiş tarihli etkinlikler güncellenemez.
+   at ElasoftCommunityManagementSystem.Services.EventService.UpdateEvent(Int32 id, CreateEventDto dto, Int32 userId, String userRole) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 192
+   at ElasoftCommunityManagementSystem.Controllers.EventController.UpdateEvent(Int32 id, CreateEventDto eventDto) in C:\Users\Muhammed Emre\source\repos\ElasoftCommunityManagementSystem-samet\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-15 16:00:59.617 +03:00 [WRN] ValidationException: Geçmiş tarihli etkinlikler güncellenemez., TraceId: 0HNBS2N86M7H8:000002BD
+2025-04-15 16:01:12.920 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 127.2364 ms
+2025-04-15 16:01:12.998 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 28.1249 ms
+2025-04-15 16:01:14.025 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.7474 ms
+2025-04-15 16:01:14.068 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 33.4848 ms
+2025-04-15 16:01:15.410 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.3149 ms
+2025-04-15 16:01:15.467 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 47.2457 ms
+2025-04-15 16:01:15.485 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0216 ms
+2025-04-15 16:01:15.492 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0199 ms
+2025-04-15 16:01:15.520 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 21.3148 ms
+2025-04-15 16:03:52.672 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 837.5158 ms
+2025-04-15 16:03:53.057 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 25.8033 ms
+2025-04-15 16:03:53.177 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 109.4674 ms
+2025-04-15 16:03:54.388 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.7076 ms
+2025-04-15 16:03:54.433 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 16:03:54.548 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 150.8714 ms
+2025-04-15 16:03:54.558 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0960 ms
+2025-04-15 16:03:54.564 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0462 ms
+2025-04-15 16:03:54.597 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 26.4356 ms
+2025-04-15 16:04:18.953 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.2335 ms
+2025-04-15 16:04:19.034 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 68.9513 ms
+2025-04-15 16:06:12.132 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.7309 ms
+2025-04-15 16:06:12.179 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 37.0055 ms
+2025-04-15 16:06:33.140 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.1199 ms
+2025-04-15 16:06:33.241 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 93.4198 ms
+2025-04-15 16:06:33.256 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0460 ms
+2025-04-15 16:06:33.268 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0522 ms
+2025-04-15 16:06:33.307 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 30.2605 ms
+2025-04-15 16:06:34.000 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.7406 ms
+2025-04-15 16:06:34.038 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 30.4650 ms
+2025-04-15 16:08:10.398 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.3291 ms
+2025-04-15 16:08:10.454 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 47.8933 ms
+2025-04-15 16:08:10.466 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0416 ms
+2025-04-15 16:08:10.473 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0377 ms
+2025-04-15 16:08:10.499 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 20.8445 ms
+2025-04-15 16:11:44.710 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.5367 ms
+2025-04-15 16:11:44.775 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 56.0893 ms
+2025-04-15 16:11:48.961 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.5229 ms
+2025-04-15 16:11:49.042 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 68.2400 ms
+2025-04-15 16:11:49.054 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0705 ms
+2025-04-15 16:11:49.060 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0882 ms
+2025-04-15 16:11:49.150 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 72.7254 ms
+2025-04-15 16:11:50.995 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.6361 ms
+2025-04-15 16:11:51.072 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 65.4191 ms
+2025-04-15 16:11:51.482 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.5513 ms
+2025-04-15 16:11:51.533 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 42.0198 ms
+2025-04-15 16:11:51.543 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0768 ms
+2025-04-15 16:11:51.549 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0736 ms
+2025-04-15 16:11:51.597 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 42.8605 ms
+2025-04-15 16:11:52.095 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.1208 ms
+2025-04-15 16:11:52.155 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 49.0601 ms
+2025-04-15 16:11:52.730 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.6812 ms
+2025-04-15 16:11:52.818 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 78.4425 ms
+2025-04-15 16:11:52.827 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0600 ms
+2025-04-15 16:11:52.834 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0715 ms
+2025-04-15 16:11:52.891 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 49.1559 ms
+2025-04-15 16:11:53.773 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.9750 ms
+2025-04-15 16:11:53.838 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 55.2191 ms
+2025-04-15 16:11:55.101 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.2293 ms
+2025-04-15 16:11:55.153 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 43.0672 ms
+2025-04-15 16:11:55.162 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0679 ms
+2025-04-15 16:11:55.169 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0612 ms
+2025-04-15 16:11:55.214 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 36.8332 ms
+2025-04-15 16:17:17.255 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 75.3490 ms
+2025-04-15 16:19:26.419 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.4485 ms
+2025-04-15 16:19:26.506 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 70.3270 ms
+2025-04-15 16:19:26.530 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0581 ms
+2025-04-15 16:19:29.603 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.1413 ms
+2025-04-15 16:19:29.662 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 33.7691 ms
+2025-04-15 16:19:29.670 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0425 ms
+2025-04-15 16:19:30.638 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 48.7333 ms
+2025-04-15 16:19:31.065 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.3921 ms
+2025-04-15 16:19:31.171 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 95.4351 ms
+2025-04-15 16:19:32.462 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.0045 ms
+2025-04-15 16:19:32.546 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 73.6746 ms
+2025-04-15 16:19:32.560 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0610 ms
+2025-04-15 16:20:38.679 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.6450 ms
+2025-04-15 16:20:38.728 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 40.3406 ms
+2025-04-15 16:20:38.738 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0358 ms
+2025-04-15 16:20:39.672 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.5290 ms
+2025-04-15 16:20:39.717 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 35.8636 ms
+2025-04-15 16:20:40.747 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.1235 ms
+2025-04-15 16:20:40.800 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 45.8010 ms
+2025-04-15 16:20:40.817 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0227 ms
+2025-04-15 16:20:55.496 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.9196 ms
+2025-04-15 16:20:55.561 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 42.3883 ms
+2025-04-15 16:20:55.575 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0229 ms
+2025-04-15 16:20:56.183 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.8004 ms
+2025-04-15 16:20:56.234 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 39.0492 ms
+2025-04-15 16:20:56.247 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0251 ms
+2025-04-15 16:20:56.385 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.2612 ms
+2025-04-15 16:20:56.435 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 40.4951 ms
+2025-04-15 16:20:56.450 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0240 ms
+2025-04-15 16:20:56.569 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.7277 ms
+2025-04-15 16:20:56.618 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 41.3418 ms
+2025-04-15 16:20:56.635 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0258 ms
+2025-04-15 16:20:57.215 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.8074 ms
+2025-04-15 16:20:57.260 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 37.2635 ms
+2025-04-15 16:20:57.684 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 26.0613 ms
+2025-04-15 16:20:58.937 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1588 ms
+2025-04-15 16:20:58.974 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 29.2540 ms
+2025-04-15 16:20:59.715 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.4176 ms
+2025-04-15 16:20:59.766 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 45.0542 ms
+2025-04-15 16:20:59.778 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0311 ms
+2025-04-15 16:21:29.856 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1789 ms
+2025-04-15 16:21:29.892 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 26.8118 ms
+2025-04-15 16:21:29.911 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0253 ms
+2025-04-15 16:21:32.333 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.1241 ms
+2025-04-15 16:21:32.373 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 35.4575 ms
+2025-04-15 16:21:32.417 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0238 ms
+2025-04-15 16:21:32.426 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0263 ms
+2025-04-15 16:21:32.455 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 21.7649 ms
+2025-04-15 16:25:28.646 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 61.9435 ms
+2025-04-15 16:26:20.671 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 400 in 57.5126 ms
+2025-04-15 16:27:02.194 +03:00 [INF] HTTP PUT /api/clubs/1/club-event-count responded 400 in 42.3346 ms
+2025-04-15 16:27:42.134 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 17.9713 ms
+2025-04-15 16:29:48.420 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 400 in 26.2211 ms
+2025-04-15 16:30:15.950 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 7.2437 ms
+2025-04-15 16:34:20.510 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 73.8717 ms
+2025-04-15 16:34:20.543 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0898 ms
+2025-04-15 16:34:20.563 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0964 ms
+2025-04-15 16:34:20.578 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0435 ms
+2025-04-15 16:34:37.950 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 30.3481 ms
+2025-04-15 16:34:39.079 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.5814 ms
+2025-04-15 16:34:39.165 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 66.3990 ms
+2025-04-15 16:34:40.608 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 27.1557 ms
+2025-04-15 16:34:40.617 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0229 ms
+2025-04-15 16:34:40.624 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0241 ms
+2025-04-15 16:34:40.632 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0417 ms
+2025-04-15 16:34:44.910 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.2166 ms
+2025-04-15 16:34:44.939 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 22.0436 ms
+2025-04-15 16:34:45.167 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 12.4935 ms
+2025-04-15 16:37:10.286 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 30.2330 ms
+2025-04-15 16:37:11.400 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.4194 ms
+2025-04-15 16:37:11.463 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 57.9486 ms
+2025-04-15 16:37:13.069 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.5727 ms
+2025-04-15 16:37:13.101 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 25.3185 ms
+2025-04-15 16:37:14.367 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 50.5697 ms
+2025-04-15 16:37:14.382 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0365 ms
+2025-04-15 16:37:14.394 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0258 ms
+2025-04-15 16:37:14.404 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0258 ms
+2025-04-15 16:37:23.204 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 42.3337 ms
+2025-04-15 16:37:23.226 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0314 ms
+2025-04-15 16:37:23.233 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0219 ms
+2025-04-15 16:37:23.240 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0320 ms
+2025-04-15 16:37:49.780 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 74.5699 ms
+2025-04-15 16:39:50.034 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 35.1040 ms
+2025-04-15 16:42:10.445 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 111.3298 ms
+2025-04-15 16:42:10.467 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0435 ms
+2025-04-15 16:42:10.479 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0357 ms
+2025-04-15 16:42:10.489 +03:00 [INF] HTTP GET /api/events/club/1 responded 404 in 0.0458 ms
+2025-04-15 16:42:52.181 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 73.6552 ms
+2025-04-15 16:42:52.193 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0612 ms
+2025-04-15 16:42:52.204 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0435 ms
+2025-04-15 16:42:52.266 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 51.2340 ms
+2025-04-15 16:42:52.275 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0800 ms
+2025-04-15 16:42:52.533 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 44.5774 ms
+2025-04-15 16:42:56.382 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 90.0568 ms
+2025-04-15 16:42:56.400 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0487 ms
+2025-04-15 16:42:56.410 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0369 ms
+2025-04-15 16:42:56.459 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 39.8399 ms
+2025-04-15 16:42:56.471 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0729 ms
+2025-04-15 16:43:01.335 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.2084 ms
+2025-04-15 16:43:01.406 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 59.4843 ms
+2025-04-15 16:43:03.378 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 33.6624 ms
+2025-04-15 16:43:03.393 +03:00 [INF] HTTP GET /api/clubs/2/club-member-count responded 405 in 0.0447 ms
+2025-04-15 16:43:03.405 +03:00 [INF] HTTP GET /api/clubs/2/club-event-count responded 405 in 0.0427 ms
+2025-04-15 16:43:03.426 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 11.9423 ms
+2025-04-15 16:43:03.437 +03:00 [INF] HTTP GET /api/memberships/pending/2 responded 404 in 0.0598 ms
+2025-04-15 16:43:07.104 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.6972 ms
+2025-04-15 16:43:07.153 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 38.5150 ms
+2025-04-15 16:43:08.017 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 37.5338 ms
+2025-04-15 16:43:08.029 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0369 ms
+2025-04-15 16:43:08.037 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0350 ms
+2025-04-15 16:43:08.071 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 27.2123 ms
+2025-04-15 16:43:08.080 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0583 ms
+2025-04-15 16:43:13.801 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.8719 ms
+2025-04-15 16:43:13.861 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 48.9575 ms
+2025-04-15 16:43:14.842 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 22.2251 ms
+2025-04-15 16:43:14.854 +03:00 [INF] HTTP GET /api/clubs/2/club-member-count responded 405 in 0.0524 ms
+2025-04-15 16:43:14.869 +03:00 [INF] HTTP GET /api/clubs/2/club-event-count responded 405 in 0.0516 ms
+2025-04-15 16:43:14.885 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 1.6698 ms
+2025-04-15 16:43:14.895 +03:00 [INF] HTTP GET /api/memberships/pending/2 responded 404 in 0.0325 ms
+2025-04-15 16:43:15.768 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.9952 ms
+2025-04-15 16:43:15.828 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 50.5000 ms
+2025-04-15 16:43:16.470 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 63.7674 ms
+2025-04-15 16:43:16.482 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0501 ms
+2025-04-15 16:43:16.489 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0502 ms
+2025-04-15 16:43:16.518 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 20.4983 ms
+2025-04-15 16:43:16.528 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0433 ms
+2025-04-15 16:43:30.902 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.9254 ms
+2025-04-15 16:43:30.952 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 41.6379 ms
+2025-04-15 16:43:32.211 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 53.3319 ms
+2025-04-15 16:43:32.223 +03:00 [INF] HTTP GET /api/clubs/1/club-member-count responded 405 in 0.0377 ms
+2025-04-15 16:43:32.230 +03:00 [INF] HTTP GET /api/clubs/1/club-event-count responded 405 in 0.0431 ms
+2025-04-15 16:43:32.268 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 29.1263 ms
+2025-04-15 16:43:32.278 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0455 ms
+2025-04-15 16:43:48.414 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.6792 ms
+2025-04-15 16:43:48.484 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 59.1235 ms
+2025-04-15 16:43:48.526 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0326 ms
+2025-04-15 16:43:48.538 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0588 ms
+2025-04-15 16:43:48.580 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 30.8116 ms
+2025-04-15 16:59:20.670 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.3694 ms
+2025-04-15 16:59:20.749 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 69.6283 ms
+2025-04-15 16:59:37.548 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.2439 ms
+2025-04-15 16:59:37.592 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 36.3038 ms
+2025-04-15 16:59:49.564 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.4028 ms
+2025-04-15 16:59:49.623 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 47.1267 ms
+2025-04-15 16:59:49.658 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0257 ms
+2025-04-15 16:59:49.671 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0231 ms
+2025-04-15 16:59:49.707 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 25.5770 ms
+2025-04-15 17:00:23.869 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 13.1510 ms
+2025-04-15 17:00:23.928 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 50.0826 ms
+2025-04-15 17:03:24.622 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 28.0981 ms
+2025-04-15 17:03:40.230 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.4429 ms
+2025-04-15 17:03:40.274 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 37.5732 ms
+2025-04-15 17:03:41.274 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 27.4956 ms
+2025-04-15 17:03:42.928 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.9215 ms
+2025-04-15 17:03:42.957 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 23.4816 ms
+2025-04-15 17:03:48.322 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.2656 ms
+2025-04-15 17:03:48.367 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 37.9522 ms
+2025-04-15 17:03:48.390 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0373 ms
+2025-04-15 17:03:48.397 +03:00 [INF] HTTP GET /api/memberships/pending/1 responded 404 in 0.0276 ms
+2025-04-15 17:03:48.423 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 20.0296 ms
+2025-04-15 17:07:48.107 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-04-15 17:07:48.111 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-04-15 17:07:48.131 +03:00 [INF] HTTP GET /api/Users responded 200 in 40.4292 ms
+2025-04-15 17:08:45.550 +03:00 [INF] HTTP GET /api/Users responded 200 in 10.8452 ms
+2025-04-15 17:09:10.025 +03:00 [INF] HTTP GET /api/Users/1 responded 200 in 24.1333 ms
+2025-04-15 17:13:01.467 +03:00 [INF] HTTP GET /api/diagnostic/ping responded 200 in 4.9701 ms
+2025-04-15 17:13:06.320 +03:00 [INF] HTTP GET /api/diagnostic/db-connection responded 200 in 17.3338 ms
+2025-04-15 17:15:01.735 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.4606 ms
+2025-04-15 17:15:01.793 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 47.1293 ms
+2025-04-15 19:33:57.467 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 400 in 1087.8188 ms
+2025-04-15 19:34:02.276 +03:00 [INF] HTTP PUT /api/clubs/2/club-member-count responded 400 in 48.4409 ms
+2025-04-15 19:43:38.850 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 400 in 2163.9936 ms
+2025-04-15 19:43:42.141 +03:00 [INF] HTTP PUT /api/clubs/2/club-member-count responded 400 in 91.3291 ms
+2025-04-15 19:44:52.899 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 400 in 772.8690 ms
+2025-04-15 19:49:41.317 +03:00 [INF] HTTP GET /api/auth/whoami responded 200 in 247.7004 ms
+2025-04-15 19:49:50.184 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 400 in 1895.4190 ms
+2025-04-15 19:49:53.288 +03:00 [INF] HTTP PUT /api/clubs/2/club-member-count responded 400 in 32.7103 ms
+2025-04-15 19:49:56.163 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 400 in 98.0434 ms
+2025-04-15 19:50:26.273 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 120.1807 ms
+2025-04-15 19:51:42.090 +03:00 [INF] HTTP PUT /api/clubs/1/club-member-count responded 200 in 3722.4051 ms
+2025-04-15 19:52:59.626 +03:00 [INF] HTTP PUT /api/clubs/1/club-event-count responded 200 in 212.3014 ms
+2025-04-15 19:53:02.101 +03:00 [INF] HTTP PUT /api/clubs/2/club-event-count responded 400 in 326.2167 ms
+2025-04-15 19:53:05.759 +03:00 [INF] HTTP PUT /api/clubs/2/club-member-count responded 400 in 140.6574 ms
+2025-04-15 19:53:47.835 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 64.1464 ms
+2025-04-15 19:53:54.357 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 67.4394 ms
+2025-04-15 19:56:10.350 +03:00 [INF] HTTP PUT /api/memberships/2/basvuruonaylama responded 400 in 140.6805 ms
+2025-04-15 20:00:51.510 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 77.4703 ms
+2025-04-15 20:00:53.092 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 21.8832 ms
+2025-04-15 20:00:53.210 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 105.7025 ms
+2025-04-15 20:00:54.743 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.0422 ms
+2025-04-15 20:00:54.765 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 20:00:54.866 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 115.4897 ms
+2025-04-15 20:00:54.890 +03:00 [INF] HTTP GET /api/clubmemberships/my-club/basvurular responded 404 in 0.1221 ms
+2025-04-15 20:01:39.170 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.7295 ms
+2025-04-15 20:01:39.229 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 48.1597 ms
+2025-04-15 20:01:39.257 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 5.2855 ms
+2025-04-15 20:01:54.228 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.8571 ms
+2025-04-15 20:01:54.283 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 45.4830 ms
+2025-04-15 20:01:55.197 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.3505 ms
+2025-04-15 20:01:55.228 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 20.8120 ms
+2025-04-15 20:01:55.248 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.5664 ms
+2025-04-15 20:01:58.213 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.9674 ms
+2025-04-15 20:01:58.273 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 54.4399 ms
+2025-04-15 20:01:59.258 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.5396 ms
+2025-04-15 20:01:59.309 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 43.8100 ms
+2025-04-15 20:01:59.322 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.8138 ms
+2025-04-15 20:04:09.612 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 288.4898 ms
+2025-04-15 20:04:13.937 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 185.2702 ms
+2025-04-15 20:04:44.708 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 211.0564 ms
+2025-04-15 20:04:45.764 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 213.6622 ms
+2025-04-15 20:04:50.826 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 207.7574 ms
+2025-04-15 20:06:50.598 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.2219 ms
+2025-04-15 20:06:50.647 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 41.4990 ms
+2025-04-15 20:06:50.679 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.4878 ms
+2025-04-15 20:07:16.310 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.0981 ms
+2025-04-15 20:07:16.349 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 23.6328 ms
+2025-04-15 20:07:16.380 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 6.8379 ms
+2025-04-15 20:07:50.317 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.0819 ms
+2025-04-15 20:07:50.368 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 37.9898 ms
+2025-04-15 20:07:50.393 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.2348 ms
+2025-04-15 20:07:52.281 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.2545 ms
+2025-04-15 20:07:52.315 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 25.7082 ms
+2025-04-15 20:07:52.342 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 4.9266 ms
+2025-04-15 20:07:55.941 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.9728 ms
+2025-04-15 20:07:55.978 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 27.7946 ms
+2025-04-15 20:07:55.994 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.4591 ms
+2025-04-15 20:08:25.812 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 216.4990 ms
+2025-04-15 20:10:04.228 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.7021 ms
+2025-04-15 20:10:04.296 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 56.0375 ms
+2025-04-15 20:10:04.324 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 5.4976 ms
+2025-04-15 20:10:25.841 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.8550 ms
+2025-04-15 20:10:25.873 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 22.9530 ms
+2025-04-15 20:10:25.903 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.7077 ms
+2025-04-15 20:10:40.274 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.9403 ms
+2025-04-15 20:10:40.316 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 23.3581 ms
+2025-04-15 20:10:40.344 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.5042 ms
+2025-04-15 20:10:50.308 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.0920 ms
+2025-04-15 20:10:50.358 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 37.1733 ms
+2025-04-15 20:10:50.382 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 4.3005 ms
+2025-04-15 20:10:55.227 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 23.9824 ms
+2025-04-15 20:10:56.567 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.7856 ms
+2025-04-15 20:10:56.616 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 39.4435 ms
+2025-04-15 20:10:57.930 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.6542 ms
+2025-04-15 20:10:57.964 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 27.9676 ms
+2025-04-15 20:10:57.978 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.5327 ms
+2025-04-15 20:11:15.130 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 181.6364 ms
+2025-04-15 20:11:27.006 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 181.7327 ms
+2025-04-15 20:12:18.953 +03:00 [INF] HTTP POST /api/events/ekle responded 403 in 202.5957 ms
+2025-04-15 20:16:19.078 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 2400.0883 ms
+2025-04-15 20:16:19.822 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 101.7534 ms
+2025-04-15 20:16:20.138 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 299.0811 ms
+2025-04-15 20:16:21.595 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 16.6844 ms
+2025-04-15 20:16:21.714 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 20:16:22.048 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 433.4743 ms
+2025-04-15 20:16:22.092 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 22.0736 ms
+2025-04-15 20:16:31.307 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.8899 ms
+2025-04-15 20:16:31.393 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 73.4157 ms
+2025-04-15 20:16:32.329 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.1725 ms
+2025-04-15 20:16:32.406 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 64.9677 ms
+2025-04-15 20:16:32.427 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 6.4494 ms
+2025-04-15 20:17:17.054 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.8807 ms
+2025-04-15 20:17:17.128 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 61.2154 ms
+2025-04-15 20:17:21.143 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.9107 ms
+2025-04-15 20:17:21.212 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 58.8213 ms
+2025-04-15 20:17:21.231 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 8.7192 ms
+2025-04-15 20:17:29.750 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.4876 ms
+2025-04-15 20:17:29.939 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 177.6463 ms
+2025-04-15 20:17:50.896 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 148.8612 ms
+2025-04-15 20:18:21.650 +03:00 [INF] HTTP GET /api/Departments responded 200 in 29.1167 ms
+2025-04-15 20:18:34.256 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.3727 ms
+2025-04-15 20:19:38.790 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 408.0603 ms
+2025-04-15 20:19:47.035 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.4363 ms
+2025-04-15 20:19:47.041 +03:00 [INF] HTTP GET /api/advisors responded 200 in 10.5104 ms
+2025-04-15 20:19:49.017 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 34.6675 ms
+2025-04-15 20:19:49.072 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 22.0435 ms
+2025-04-15 20:19:54.601 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.3075 ms
+2025-04-15 20:19:54.604 +03:00 [INF] HTTP GET /api/advisors responded 200 in 7.8772 ms
+2025-04-15 20:20:06.040 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.4262 ms
+2025-04-15 20:20:06.040 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.3655 ms
+2025-04-15 20:20:58.331 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 187.4439 ms
+2025-04-15 20:20:58.371 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 25.2220 ms
+2025-04-15 20:20:59.266 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.2203 ms
+2025-04-15 20:20:59.314 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 40.3883 ms
+2025-04-15 20:21:10.230 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.1215 ms
+2025-04-15 20:21:10.289 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 47.8420 ms
+2025-04-15 20:21:10.312 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 5.7190 ms
+2025-04-15 20:22:01.490 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 6.8900 ms
+2025-04-15 20:22:04.985 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.1192 ms
+2025-04-15 20:22:05.038 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 43.6670 ms
+2025-04-15 20:22:05.064 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 5.4054 ms
+2025-04-15 20:22:55.063 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.8201 ms
+2025-04-15 20:22:55.131 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 41.6681 ms
+2025-04-15 20:22:55.148 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 4.9835 ms
+2025-04-15 20:23:04.377 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 7.8969 ms
+2025-04-15 20:23:11.815 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 6.4309 ms
+2025-04-15 20:23:58.761 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 10.5196 ms
+2025-04-15 20:24:31.642 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.5826 ms
+2025-04-15 20:24:31.695 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 46.0073 ms
+2025-04-15 20:24:31.718 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 5.1367 ms
+2025-04-15 20:24:33.867 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.2454 ms
+2025-04-15 20:24:33.921 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 45.6325 ms
+2025-04-15 20:24:44.646 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 1.6587 ms
+2025-04-15 20:24:44.673 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 20.1677 ms
+2025-04-15 20:24:44.692 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.1745 ms
+2025-04-15 20:26:34.061 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.0468 ms
+2025-04-15 20:26:34.119 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 48.5857 ms
+2025-04-15 20:26:34.140 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 404 in 0.0843 ms
+2025-04-15 20:30:42.200 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.0360 ms
+2025-04-15 20:30:42.247 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 37.3022 ms
+2025-04-15 20:30:42.268 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 404 in 0.0430 ms
+2025-04-15 20:31:18.719 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 2642.2359 ms
+2025-04-15 20:31:32.346 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 181.5404 ms
+2025-04-15 20:31:32.561 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 20:31:32.896 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 523.6011 ms
+2025-04-15 20:31:32.936 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 12.8586 ms
+2025-04-15 20:31:39.667 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 389.1575 ms
+2025-04-15 20:31:42.342 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 191.0892 ms
+2025-04-15 20:31:43.263 +03:00 [INF] HTTP DELETE /api/memberships/4/basvurureddet responded 400 in 174.9759 ms
+2025-04-15 20:31:44.585 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 179.0592 ms
+2025-04-15 20:33:36.280 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 197.3525 ms
+2025-04-15 20:35:53.663 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 240.8549 ms
+2025-04-15 20:43:40.868 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1997.3670 ms
+2025-04-15 20:44:01.877 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 39.6508 ms
+2025-04-15 20:44:22.134 +03:00 [INF] HTTP GET /api/auth/whoami responded 200 in 46.2576 ms
+2025-04-15 20:44:33.214 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 99.8754 ms
+2025-04-15 20:44:40.182 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 170.7320 ms
+2025-04-15 20:44:40.299 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 20:44:40.641 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 444.8518 ms
+2025-04-15 20:44:40.812 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 154.7635 ms
+2025-04-15 20:45:02.741 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 20.9016 ms
+2025-04-15 20:45:03.099 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.8737 ms
+2025-04-15 20:45:03.291 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.8683 ms
+2025-04-15 20:45:03.446 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.7213 ms
+2025-04-15 20:45:03.590 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.8067 ms
+2025-04-15 20:45:03.751 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.2057 ms
+2025-04-15 20:45:03.902 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.9791 ms
+2025-04-15 20:45:45.808 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 57.1003 ms
+2025-04-15 20:49:35.974 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 946.7949 ms
+2025-04-15 20:49:44.876 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 463.5935 ms
+2025-04-15 20:49:48.962 +03:00 [INF] HTTP PUT /api/memberships/3/basvuruonaylama responded 400 in 153.8073 ms
+2025-04-15 20:49:52.050 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 146.5071 ms
+2025-04-15 20:49:57.055 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 31.2743 ms
+2025-04-15 20:50:09.892 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 77.4866 ms
+2025-04-15 20:53:53.365 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 894.1608 ms
+2025-04-15 20:53:56.579 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 97.2826 ms
+2025-04-15 20:54:03.795 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 400 in 351.4401 ms
+2025-04-15 20:55:47.641 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 200 in 3057.2898 ms
+2025-04-15 20:55:58.237 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 89.6838 ms
+2025-04-15 20:55:59.288 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 54.2295 ms
+2025-04-15 20:55:59.376 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 80.2779 ms
+2025-04-15 20:56:00.754 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.1895 ms
+2025-04-15 20:56:00.791 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 20:56:00.870 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 105.9951 ms
+2025-04-15 20:56:00.945 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 62.6602 ms
+2025-04-15 20:56:21.003 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 7.2964 ms
+2025-04-15 20:56:21.055 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 39.3348 ms
+2025-04-15 20:56:21.108 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 35.3750 ms
+2025-04-15 20:56:23.274 +03:00 [INF] HTTP PUT /api/memberships/4/basvuruonaylama responded 200 in 32.3761 ms
+2025-04-15 23:55:23.370 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 809.8789 ms
+2025-04-15 23:55:23.535 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 131.2243 ms
+2025-04-15 23:55:32.579 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 39.4430 ms
+2025-04-15 23:55:32.624 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 36.4599 ms
+2025-04-15 23:55:33.922 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.2922 ms
+2025-04-15 23:55:33.967 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-04-15 23:55:34.132 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 200.8754 ms
+2025-04-15 23:55:34.219 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 69.9999 ms
+2025-04-15 23:56:07.870 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 21.3859 ms
+2025-04-15 23:56:29.502 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 43.9107 ms
+2025-04-15 23:56:49.933 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.9714 ms
+2025-04-15 23:56:49.979 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 37.6850 ms
+2025-04-15 23:56:52.373 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.4102 ms
+2025-04-15 23:56:52.412 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 33.0743 ms
+2025-04-15 23:56:52.456 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 30.6843 ms
+2025-04-15 23:56:53.560 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.5507 ms
+2025-04-15 23:56:53.632 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 66.3110 ms
+2025-04-15 23:57:21.486 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.1379 ms
+2025-04-15 23:57:21.539 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 44.3868 ms
+2025-04-15 23:57:21.586 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 31.2612 ms
+2025-04-15 23:58:19.787 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 53.3301 ms
+2025-04-15 23:58:32.392 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 61.8772 ms
+2025-04-15 23:58:38.157 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.2122 ms
+2025-04-15 23:58:41.279 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 26.7197 ms
+2025-04-15 23:58:45.657 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 38.8311 ms
+2025-04-15 23:58:50.483 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 35.8421 ms

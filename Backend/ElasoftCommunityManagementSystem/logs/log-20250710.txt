@@ -1,0 +1,1121 @@
+2025-07-10 14:45:11.118 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 1519.2491 ms
+2025-07-10 14:47:24.515 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 3201.9673 ms
+2025-07-10 14:48:19.305 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 285.0979 ms
+2025-07-10 14:48:19.598 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 141.3787 ms
+2025-07-10 14:48:19.675 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 61.9895 ms
+2025-07-10 14:48:26.475 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 21.8712 ms
+2025-07-10 14:48:26.495 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 10.5540 ms
+2025-07-10 14:48:26.513 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 9.4153 ms
+2025-07-10 14:48:27.938 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 17.9900 ms
+2025-07-10 14:48:27.947 +03:00 [INF] HTTP GET /api/advisors responded 200 in 27.2391 ms
+2025-07-10 14:48:28.006 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 25.2757 ms
+2025-07-10 14:48:31.596 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.9881 ms
+2025-07-10 14:48:35.852 +03:00 [INF] HTTP GET /api/announcements responded 200 in 21.4373 ms
+2025-07-10 14:48:35.871 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 9.2920 ms
+2025-07-10 14:48:37.115 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 34.0957 ms
+2025-07-10 14:48:37.145 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 19.2451 ms
+2025-07-10 14:48:37.164 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.7907 ms
+2025-07-10 14:48:53.672 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 8.4396 ms
+2025-07-10 14:48:53.685 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.4320 ms
+2025-07-10 14:48:53.699 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 7.3282 ms
+2025-07-10 14:48:54.375 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 6.0530 ms
+2025-07-10 14:48:54.402 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 19.0252 ms
+2025-07-10 14:48:57.294 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 6.8080 ms
+2025-07-10 14:48:57.309 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.3690 ms
+2025-07-10 14:48:57.325 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 8.2867 ms
+2025-07-10 14:48:57.879 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.3115 ms
+2025-07-10 14:48:57.889 +03:00 [INF] HTTP GET /api/advisors responded 200 in 16.7624 ms
+2025-07-10 14:48:57.915 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 29.3043 ms
+2025-07-10 14:48:58.346 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 9.5494 ms
+2025-07-10 14:49:00.059 +03:00 [INF] HTTP GET /api/announcements responded 200 in 4.3493 ms
+2025-07-10 14:49:00.075 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 7.9349 ms
+2025-07-10 14:49:03.514 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 9.9440 ms
+2025-07-10 14:49:03.518 +03:00 [INF] HTTP GET /api/advisors responded 200 in 14.6913 ms
+2025-07-10 14:49:03.520 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 5.2322 ms
+2025-07-10 14:49:04.109 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.7946 ms
+2025-07-10 14:49:08.591 +03:00 [INF] HTTP GET /api/advisors responded 200 in 4.3028 ms
+2025-07-10 14:49:08.591 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.3647 ms
+2025-07-10 14:49:08.595 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 3.3143 ms
+2025-07-10 14:51:50.534 +03:00 [INF] HTTP GET /api/advisors responded 200 in 5.1752 ms
+2025-07-10 14:51:50.540 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 25.4885 ms
+2025-07-10 14:51:50.548 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 25.2965 ms
+2025-07-10 14:53:16.245 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 2340.4985 ms
+2025-07-10 14:53:58.391 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 2006.6520 ms
+2025-07-10 14:55:00.926 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 132.5349 ms
+2025-07-10 14:55:01.052 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.7151 ms
+2025-07-10 14:55:01.083 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 20.9160 ms
+2025-07-10 14:55:46.899 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 217.9525 ms
+2025-07-10 14:56:02.025 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 139.5978 ms
+2025-07-10 14:56:02.089 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 6.2579 ms
+2025-07-10 14:56:02.115 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 17.3932 ms
+2025-07-10 14:56:33.412 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 135.2838 ms
+2025-07-10 14:56:33.474 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 6.7052 ms
+2025-07-10 14:56:33.507 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 23.8959 ms
+2025-07-10 14:56:38.547 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 8.0896 ms
+2025-07-10 14:56:38.593 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 23.0269 ms
+2025-07-10 14:56:38.611 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.8839 ms
+2025-07-10 14:56:41.982 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.5381 ms
+2025-07-10 14:56:41.998 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 7.1370 ms
+2025-07-10 14:56:42.985 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.4323 ms
+2025-07-10 14:56:44.022 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 7.6579 ms
+2025-07-10 14:56:44.028 +03:00 [INF] HTTP GET /api/advisors responded 200 in 14.1877 ms
+2025-07-10 14:56:44.034 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 5.4689 ms
+2025-07-10 14:56:45.069 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 6.5663 ms
+2025-07-10 14:56:45.081 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.3549 ms
+2025-07-10 14:56:45.094 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 6.6405 ms
+2025-07-10 14:56:47.832 +03:00 [INF] HTTP GET /api/advisors responded 200 in 4.3905 ms
+2025-07-10 14:56:47.832 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.9851 ms
+2025-07-10 14:56:47.839 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 4.0697 ms
+2025-07-10 14:56:48.863 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 5.3967 ms
+2025-07-10 14:56:48.872 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.9710 ms
+2025-07-10 14:56:48.885 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 6.0927 ms
+2025-07-10 14:56:49.967 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 6.0650 ms
+2025-07-10 14:56:55.535 +03:00 [INF] HTTP GET /api/announcements responded 200 in 4.0910 ms
+2025-07-10 14:56:55.551 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 8.1480 ms
+2025-07-10 14:56:56.163 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 6.4196 ms
+2025-07-10 14:56:56.197 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 23.0932 ms
+2025-07-10 14:56:56.215 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.4565 ms
+2025-07-10 14:57:05.459 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 5.8030 ms
+2025-07-10 14:57:05.472 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.6431 ms
+2025-07-10 14:57:05.493 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 6.0372 ms
+2025-07-10 14:57:07.140 +03:00 [INF] HTTP GET /api/advisors responded 200 in 3.3858 ms
+2025-07-10 14:57:07.140 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.5511 ms
+2025-07-10 14:57:07.147 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 4.8203 ms
+2025-07-10 14:57:08.821 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 5.7197 ms
+2025-07-10 14:57:08.830 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.8829 ms
+2025-07-10 14:57:08.841 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 6.5213 ms
+2025-07-10 14:57:10.653 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.6840 ms
+2025-07-10 14:57:10.668 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 6.4884 ms
+2025-07-10 14:57:11.224 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 5.1841 ms
+2025-07-10 14:57:11.253 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 19.0348 ms
+2025-07-10 14:57:11.268 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 5.5536 ms
+2025-07-10 14:58:14.961 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 7.9939 ms
+2025-07-10 14:58:14.995 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 18.8634 ms
+2025-07-10 14:58:15.010 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 6.2875 ms
+2025-07-10 14:58:21.670 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 126.8056 ms
+2025-07-10 14:58:21.792 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 6.8176 ms
+2025-07-10 14:58:21.854 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 25.9530 ms
+2025-07-10 15:02:06.949 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 138.7952 ms
+2025-07-10 15:02:07.030 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 9.4813 ms
+2025-07-10 15:02:07.066 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 24.2804 ms
+2025-07-10 15:04:19.536 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 141.6607 ms
+2025-07-10 15:04:19.604 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.9251 ms
+2025-07-10 15:04:19.629 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 17.7550 ms
+2025-07-10 15:05:13.309 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 134.3358 ms
+2025-07-10 15:05:13.395 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.3880 ms
+2025-07-10 15:05:13.433 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 21.1834 ms
+2025-07-10 15:05:16.006 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 1.9467 ms
+2025-07-10 15:05:16.488 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.3737 ms
+2025-07-10 15:05:16.502 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 6.0137 ms
+2025-07-10 15:05:17.556 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 5.1408 ms
+2025-07-10 15:05:17.567 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 3.9908 ms
+2025-07-10 15:05:17.574 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 1.6200 ms
+2025-07-10 15:05:18.034 +03:00 [INF] HTTP GET /api/announcements responded 200 in 1.7534 ms
+2025-07-10 15:05:18.042 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.3784 ms
+2025-07-10 15:05:18.487 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 1.6438 ms
+2025-07-10 15:05:19.029 +03:00 [INF] HTTP GET /api/announcements responded 200 in 1.9733 ms
+2025-07-10 15:05:19.036 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 1.8158 ms
+2025-07-10 15:05:19.435 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 4.1627 ms
+2025-07-10 15:05:19.447 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 3.3011 ms
+2025-07-10 15:05:19.456 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.0221 ms
+2025-07-10 15:06:27.736 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 13.7664 ms
+2025-07-10 15:06:27.778 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 22.8577 ms
+2025-07-10 15:06:27.792 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 5.7221 ms
+2025-07-10 15:06:45.438 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 3.5184 ms
+2025-07-10 15:06:45.459 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.4210 ms
+2025-07-10 15:06:45.471 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.5475 ms
+2025-07-10 15:06:55.220 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 133.9704 ms
+2025-07-10 15:07:03.726 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 126.1238 ms
+2025-07-10 15:07:06.491 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 140.4330 ms
+2025-07-10 15:07:09.116 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 164.4158 ms
+2025-07-10 15:07:25.289 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 55.4957 ms
+2025-07-10 15:07:25.327 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 24.5426 ms
+2025-07-10 15:07:48.221 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 135.3039 ms
+2025-07-10 15:08:25.734 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 169.1690 ms
+2025-07-10 15:08:26.752 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 127.5536 ms
+2025-07-10 15:08:52.468 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 128.0240 ms
+2025-07-10 15:08:53.053 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 129.5959 ms
+2025-07-10 15:08:53.527 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 129.9988 ms
+2025-07-10 15:09:00.840 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 146.4508 ms
+2025-07-10 15:09:10.237 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 137.0429 ms
+2025-07-10 15:10:47.637 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 29.2583 ms
+2025-07-10 15:10:47.669 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 18.6602 ms
+2025-07-10 15:10:57.859 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 135.5545 ms
+2025-07-10 15:11:04.988 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 130.0428 ms
+2025-07-10 15:11:16.028 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 131.1427 ms
+2025-07-10 15:11:28.450 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 133.0891 ms
+2025-07-10 15:12:08.609 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 20.5418 ms
+2025-07-10 15:12:08.652 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 21.3663 ms
+2025-07-10 15:12:39.765 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 149.1899 ms
+2025-07-10 15:12:39.911 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 15:12:39.912 +03:00 [INF] UserIdClaim: 3
+2025-07-10 15:12:39.916 +03:00 [INF] User ID parsed: 3
+2025-07-10 15:12:39.925 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 21.1364 ms
+2025-07-10 15:12:39.953 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 15:12:39.956 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 51.9801 ms
+2025-07-10 15:12:39.991 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 86.5924 ms
+2025-07-10 15:12:43.249 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 15:12:43.250 +03:00 [INF] UserIdClaim: 3
+2025-07-10 15:12:43.250 +03:00 [INF] User ID parsed: 3
+2025-07-10 15:12:43.270 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 15:12:43.271 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 22.2189 ms
+2025-07-10 15:12:51.065 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 9.4578 ms
+2025-07-10 15:12:51.069 +03:00 [INF] HTTP GET /api/advisors responded 200 in 15.4853 ms
+2025-07-10 15:12:51.104 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 33.2463 ms
+2025-07-10 15:12:51.104 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 48.9138 ms
+2025-07-10 15:13:01.799 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.9687 ms
+2025-07-10 15:13:01.804 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.8293 ms
+2025-07-10 15:13:06.497 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.3014 ms
+2025-07-10 15:13:06.501 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.3648 ms
+2025-07-10 15:13:07.104 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 11.1415 ms
+2025-07-10 15:13:07.114 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-07-10 15:13:07.116 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-07-10 15:13:07.126 +03:00 [INF] HTTP GET /api/Users responded 200 in 33.9293 ms
+2025-07-10 15:13:10.414 +03:00 [INF] HTTP GET /api/statistics/clubs responded 200 in 48.9637 ms
+2025-07-10 15:13:10.415 +03:00 [INF] HTTP GET /api/statistics/expenses responded 200 in 50.5750 ms
+2025-07-10 15:13:10.427 +03:00 [INF] HTTP GET /api/statistics/events responded 200 in 62.4845 ms
+2025-07-10 15:13:10.433 +03:00 [INF] HTTP GET /api/statistics/summary responded 200 in 68.8665 ms
+2025-07-10 15:13:25.054 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.0429 ms
+2025-07-10 15:13:25.056 +03:00 [INF] HTTP GET /api/users responded 200 in 5.0606 ms
+2025-07-10 15:13:25.068 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.2758 ms
+2025-07-10 15:13:25.077 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.3484 ms
+2025-07-10 15:13:25.086 +03:00 [INF] HTTP GET /api/users responded 200 in 2.9287 ms
+2025-07-10 15:13:29.930 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 2.8445 ms
+2025-07-10 15:13:29.933 +03:00 [INF] HTTP GET /api/Users responded 200 in 4.7166 ms
+2025-07-10 15:13:39.860 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 15:13:39.861 +03:00 [INF] UserIdClaim: 3
+2025-07-10 15:13:39.862 +03:00 [INF] User ID parsed: 3
+2025-07-10 15:13:39.867 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 15:13:39.868 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 7.9703 ms
+2025-07-10 15:13:43.841 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 12.6364 ms
+2025-07-10 15:13:43.847 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 18.4858 ms
+2025-07-10 15:13:44.651 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.2254 ms
+2025-07-10 15:13:44.652 +03:00 [INF] HTTP GET /api/advisors responded 200 in 5.2350 ms
+2025-07-10 15:13:44.656 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 13.7773 ms
+2025-07-10 15:13:44.660 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 7.4093 ms
+2025-07-10 15:14:14.632 +03:00 [INF] HTTP POST /api/settings/club-create-dates responded 200 in 49.3056 ms
+2025-07-10 15:14:19.608 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 15:14:19.610 +03:00 [INF] UserIdClaim: 3
+2025-07-10 15:14:19.611 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 13.3141 ms
+2025-07-10 15:14:19.611 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 12.0504 ms
+2025-07-10 15:14:19.627 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 29.7125 ms
+2025-07-10 15:14:19.634 +03:00 [INF] HTTP GET /api/advisors responded 200 in 27.4144 ms
+2025-07-10 15:14:19.616 +03:00 [INF] User ID parsed: 3
+2025-07-10 15:14:19.667 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 15:14:19.669 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 61.9616 ms
+2025-07-10 15:14:33.647 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 136.2231 ms
+2025-07-10 15:14:33.775 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 5.9896 ms
+2025-07-10 15:14:33.800 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 16.3925 ms
+2025-07-10 15:14:36.225 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.4742 ms
+2025-07-10 15:14:36.225 +03:00 [INF] HTTP GET /api/advisors responded 200 in 3.5353 ms
+2025-07-10 15:14:36.230 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 2.3249 ms
+2025-07-10 15:17:11.674 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 19.1377 ms
+2025-07-10 15:17:11.675 +03:00 [INF] HTTP GET /api/advisors responded 200 in 19.8674 ms
+2025-07-10 15:17:11.687 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 30.5706 ms
+2025-07-10 15:31:48.368 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 59.3772 ms
+2025-07-10 15:31:48.396 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 16.6671 ms
+2025-07-10 15:31:49.567 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 4.5968 ms
+2025-07-10 15:31:49.580 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 4.6899 ms
+2025-07-10 15:31:49.593 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 6.3268 ms
+2025-07-10 15:31:51.172 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 14.2588 ms
+2025-07-10 15:31:51.177 +03:00 [INF] HTTP GET /api/advisors responded 200 in 18.8017 ms
+2025-07-10 15:31:51.184 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 8.2810 ms
+2025-07-10 15:31:53.813 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.4483 ms
+2025-07-10 15:31:54.663 +03:00 [INF] HTTP GET /api/announcements responded 200 in 4.0613 ms
+2025-07-10 15:31:54.673 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 1.8637 ms
+2025-07-10 15:31:56.038 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 23.4919 ms
+2025-07-10 15:31:56.079 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 3.0675 ms
+2025-07-10 15:31:56.090 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.2305 ms
+2025-07-10 15:31:56.876 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.3628 ms
+2025-07-10 15:31:56.886 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.0288 ms
+2025-07-10 15:32:00.126 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 1.6508 ms
+2025-07-10 15:32:00.566 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.3881 ms
+2025-07-10 15:32:00.574 +03:00 [INF] HTTP GET /api/advisors responded 200 in 12.8874 ms
+2025-07-10 15:32:00.576 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 1.6744 ms
+2025-07-10 15:32:18.420 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.4222 ms
+2025-07-10 15:32:19.770 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.2812 ms
+2025-07-10 15:32:19.780 +03:00 [INF] HTTP GET /api/advisors responded 200 in 14.6904 ms
+2025-07-10 15:32:19.782 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 6.6773 ms
+2025-07-10 15:42:07.002 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 159.6551 ms
+2025-07-10 15:42:07.177 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 15:42:07.184 +03:00 [INF] UserIdClaim: 3
+2025-07-10 15:42:07.192 +03:00 [INF] User ID parsed: 3
+2025-07-10 15:42:07.209 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 32.8073 ms
+2025-07-10 15:42:07.226 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 15:42:07.229 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 53.5619 ms
+2025-07-10 15:42:07.234 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 57.4178 ms
+2025-07-10 15:42:10.683 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 15:42:10.684 +03:00 [INF] UserIdClaim: 3
+2025-07-10 15:42:10.685 +03:00 [INF] User ID parsed: 3
+2025-07-10 15:42:10.688 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 15:42:10.688 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 5.8411 ms
+2025-07-10 15:42:14.897 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.1182 ms
+2025-07-10 15:42:14.898 +03:00 [INF] HTTP GET /api/advisors responded 200 in 11.0971 ms
+2025-07-10 15:42:14.905 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 17.7879 ms
+2025-07-10 15:42:14.907 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 12.8957 ms
+2025-07-10 15:42:20.227 +03:00 [INF] HTTP POST /api/settings/club-create-dates responded 200 in 23.4563 ms
+2025-07-10 15:42:22.163 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.3949 ms
+2025-07-10 15:42:22.164 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 11.6231 ms
+2025-07-10 15:42:22.901 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.6475 ms
+2025-07-10 15:42:22.909 +03:00 [INF] HTTP GET /api/announcements responded 200 in 4.6231 ms
+2025-07-10 15:42:24.301 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.5660 ms
+2025-07-10 15:42:24.305 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.9927 ms
+2025-07-10 15:42:24.305 +03:00 [INF] HTTP GET /api/advisors responded 200 in 4.0365 ms
+2025-07-10 15:42:24.309 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 2.4784 ms
+2025-07-10 15:42:42.459 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.5455 ms
+2025-07-10 15:42:42.459 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.5922 ms
+2025-07-10 15:42:43.139 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.4888 ms
+2025-07-10 15:42:43.142 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.2675 ms
+2025-07-10 15:43:02.690 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 158.4764 ms
+2025-07-10 15:43:02.753 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 1.8188 ms
+2025-07-10 15:43:02.782 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 20.2714 ms
+2025-07-10 15:43:04.527 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 8.6457 ms
+2025-07-10 15:43:04.538 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.8103 ms
+2025-07-10 15:43:04.552 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 1.8509 ms
+2025-07-10 15:43:06.815 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.1200 ms
+2025-07-10 15:43:06.816 +03:00 [INF] HTTP GET /api/advisors responded 200 in 3.3469 ms
+2025-07-10 15:43:06.823 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 1.6499 ms
+2025-07-10 15:43:47.197 +03:00 [INF] HTTP POST /api/clubs responded 200 in 192.4347 ms
+2025-07-10 15:43:47.273 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 13.4026 ms
+2025-07-10 15:43:47.284 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.1338 ms
+2025-07-10 15:43:47.314 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 21.9165 ms
+2025-07-10 15:43:47.335 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 11.7895 ms
+2025-07-10 15:43:56.539 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 2.9290 ms
+2025-07-10 15:43:56.562 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-07-10 15:43:56.614 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 68.3142 ms
+2025-07-10 15:43:56.696 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 71.7031 ms
+2025-07-10 15:43:56.706 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 1.9058 ms
+2025-07-10 15:43:56.742 +03:00 [INF] HTTP GET /api/memberships/member-details/1 responded 200 in 29.0530 ms
+2025-07-10 15:43:56.742 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 28.6877 ms
+2025-07-10 15:43:56.765 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 12.5126 ms
+2025-07-10 15:43:56.773 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 20.9729 ms
+2025-07-10 15:43:56.800 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 18.9756 ms
+2025-07-10 15:43:56.808 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.1342 ms
+2025-07-10 15:44:04.625 +03:00 [INF] HTTP GET /api/users/department-distribution responded 200 in 52.3281 ms
+2025-07-10 15:44:35.123 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 20.1630 ms
+2025-07-10 15:45:58.516 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 24.7637 ms
+2025-07-10 15:46:00.958 +03:00 [INF] HTTP GET /api/announcements responded 200 in 4.2894 ms
+2025-07-10 15:46:00.981 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 14.1721 ms
+2025-07-10 15:46:01.439 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.0036 ms
+2025-07-10 15:46:01.801 +03:00 [INF] HTTP GET /api/announcements responded 200 in 1.6809 ms
+2025-07-10 15:46:01.812 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 5.3362 ms
+2025-07-10 15:46:02.380 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 9.6794 ms
+2025-07-10 15:46:02.382 +03:00 [INF] HTTP GET /api/advisors responded 200 in 11.4098 ms
+2025-07-10 15:46:02.389 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 7.3491 ms
+2025-07-10 15:46:03.942 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 6.0183 ms
+2025-07-10 15:46:03.956 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.4500 ms
+2025-07-10 15:46:03.967 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.6284 ms
+2025-07-10 15:46:03.982 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 3.9702 ms
+2025-07-10 15:46:07.756 +03:00 [INF] HTTP GET /api/advisors responded 200 in 6.7252 ms
+2025-07-10 15:46:07.756 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 7.2121 ms
+2025-07-10 15:46:07.763 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 5.6482 ms
+2025-07-10 15:46:27.622 +03:00 [INF] HTTP POST /api/clubs responded 200 in 142.1935 ms
+2025-07-10 15:46:27.708 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.0252 ms
+2025-07-10 15:46:27.720 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.9728 ms
+2025-07-10 15:46:27.767 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 39.7808 ms
+2025-07-10 15:46:27.792 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 2.7599 ms
+2025-07-10 15:46:27.793 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 4.3631 ms
+2025-07-10 15:46:43.191 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 167.4657 ms
+2025-07-10 15:46:43.267 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 15:46:43.269 +03:00 [INF] UserIdClaim: 3
+2025-07-10 15:46:43.271 +03:00 [INF] User ID parsed: 3
+2025-07-10 15:46:43.285 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 15:46:43.287 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 19.9081 ms
+2025-07-10 15:46:43.303 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 35.8111 ms
+2025-07-10 15:46:43.432 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 164.8320 ms
+2025-07-10 15:46:45.807 +03:00 [INF] HTTP GET /api/advisors responded 200 in 4.2125 ms
+2025-07-10 15:46:45.807 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.4126 ms
+2025-07-10 15:46:45.817 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 4.8979 ms
+2025-07-10 15:46:45.898 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 98.5395 ms
+2025-07-10 15:46:48.315 +03:00 [INF] HTTP PUT /api/clubs/1/aktif-et responded 200 in 19.0913 ms
+2025-07-10 15:46:49.499 +03:00 [INF] HTTP PUT /api/clubs/2/aktif-et responded 200 in 29.9984 ms
+2025-07-10 15:47:02.855 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 141.9262 ms
+2025-07-10 15:47:02.935 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.6207 ms
+2025-07-10 15:47:02.982 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 29.7106 ms
+2025-07-10 15:47:04.955 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 9.4364 ms
+2025-07-10 15:47:04.969 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 6.0562 ms
+2025-07-10 15:47:05.036 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 47.9330 ms
+2025-07-10 15:47:05.066 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 4.4546 ms
+2025-07-10 15:47:05.066 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 4.4548 ms
+2025-07-10 15:51:02.480 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 27.1110 ms
+2025-07-10 15:51:02.574 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 85.7323 ms
+2025-07-10 15:51:02.630 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 14.6510 ms
+2025-07-10 15:51:02.647 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 3.4932 ms
+2025-07-10 15:51:02.668 +03:00 [INF] HTTP GET /api/memberships/member-details/1 responded 200 in 10.8331 ms
+2025-07-10 15:51:02.669 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 12.9602 ms
+2025-07-10 15:51:02.683 +03:00 [INF] HTTP GET /api/announcements/club/2 responded 200 in 4.1506 ms
+2025-07-10 15:51:02.686 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.1013 ms
+2025-07-10 15:51:02.726 +03:00 [INF] HTTP GET /api/club-expenses/club/2 responded 200 in 29.4221 ms
+2025-07-10 15:51:02.737 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0346 ms
+2025-07-10 15:51:04.940 +03:00 [INF] HTTP GET /api/club-expenses/club/2 responded 200 in 28.2612 ms
+2025-07-10 15:51:05.445 +03:00 [INF] HTTP GET /api/announcements/club/2 responded 200 in 3.5805 ms
+2025-07-10 15:51:25.592 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 13.9545 ms
+2025-07-10 15:51:25.592 +03:00 [INF] HTTP GET /api/advisors responded 200 in 14.1119 ms
+2025-07-10 15:51:25.597 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 6.2532 ms
+2025-07-10 15:51:26.318 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 9.3353 ms
+2025-07-10 15:51:26.329 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.1492 ms
+2025-07-10 15:51:26.402 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 63.4174 ms
+2025-07-10 15:51:26.437 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 3.5670 ms
+2025-07-10 15:51:26.437 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 3.5609 ms
+2025-07-10 15:51:27.794 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.7995 ms
+2025-07-10 15:51:27.838 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 37.3545 ms
+2025-07-10 15:51:28.731 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 5.8681 ms
+2025-07-10 15:51:29.681 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 6.8092 ms
+2025-07-10 15:51:29.709 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 18.9173 ms
+2025-07-10 15:51:29.732 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 13.5521 ms
+2025-07-10 15:51:29.787 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 68.3253 ms
+2025-07-10 15:51:29.825 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 1.9549 ms
+2025-07-10 16:07:28.368 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 31.6355 ms
+2025-07-10 16:07:28.385 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.4341 ms
+2025-07-10 16:07:28.454 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 59.6708 ms
+2025-07-10 16:07:28.507 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 10.1259 ms
+2025-07-10 16:07:28.519 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 22.3680 ms
+2025-07-10 16:07:30.612 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 2.5976 ms
+2025-07-10 16:07:30.633 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 14.1862 ms
+2025-07-10 16:07:30.657 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 12.7575 ms
+2025-07-10 16:07:30.665 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 1.9032 ms
+2025-07-10 16:07:30.683 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 9.0476 ms
+2025-07-10 16:07:30.683 +03:00 [INF] HTTP GET /api/memberships/member-details/1 responded 200 in 9.0486 ms
+2025-07-10 16:07:30.700 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 4.4830 ms
+2025-07-10 16:07:30.705 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.9215 ms
+2025-07-10 16:07:30.721 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 5.6452 ms
+2025-07-10 16:07:30.734 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0377 ms
+2025-07-10 16:07:31.999 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.0258 ms
+2025-07-10 16:10:29.206 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 18.2367 ms
+2025-07-10 16:10:30.780 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 11.0446 ms
+2025-07-10 16:10:30.797 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 5.0922 ms
+2025-07-10 16:10:30.888 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 76.2240 ms
+2025-07-10 16:10:30.924 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 4.4130 ms
+2025-07-10 16:10:30.925 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 5.7175 ms
+2025-07-10 16:10:31.517 +03:00 [INF] HTTP GET /api/advisors responded 200 in 10.7272 ms
+2025-07-10 16:10:31.517 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.7520 ms
+2025-07-10 16:10:31.525 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 8.7781 ms
+2025-07-10 16:10:32.619 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 4.0080 ms
+2025-07-10 16:10:32.629 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.9397 ms
+2025-07-10 16:10:32.679 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 43.1698 ms
+2025-07-10 16:10:32.712 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 3.6269 ms
+2025-07-10 16:10:32.712 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 3.6270 ms
+2025-07-10 16:10:33.748 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 2.9472 ms
+2025-07-10 16:10:33.770 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 13.7828 ms
+2025-07-10 16:10:33.796 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 16.0039 ms
+2025-07-10 16:10:33.804 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.0932 ms
+2025-07-10 16:10:33.819 +03:00 [INF] HTTP GET /api/memberships/member-details/1 responded 200 in 6.4506 ms
+2025-07-10 16:10:33.819 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 6.4506 ms
+2025-07-10 16:10:33.833 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 3.8413 ms
+2025-07-10 16:10:33.837 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.7805 ms
+2025-07-10 16:10:33.856 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 6.0096 ms
+2025-07-10 16:10:33.866 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0406 ms
+2025-07-10 16:10:34.981 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.7050 ms
+2025-07-10 16:11:21.539 +03:00 [INF] HTTP POST /api/events/ekle responded 200 in 227.4855 ms
+2025-07-10 16:11:21.640 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 79.2737 ms
+2025-07-10 16:11:25.926 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 60.3651 ms
+2025-07-10 16:11:48.016 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 134.8239 ms
+2025-07-10 16:11:48.089 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:11:48.090 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:11:48.091 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:11:48.121 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 38.3291 ms
+2025-07-10 16:11:48.122 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:11:48.124 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 35.8443 ms
+2025-07-10 16:11:48.173 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 90.1261 ms
+2025-07-10 16:11:51.468 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 52.5114 ms
+2025-07-10 16:11:51.480 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 60.9918 ms
+2025-07-10 16:12:48.041 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:12:48.042 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:12:48.043 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:12:48.059 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:12:48.061 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 21.8032 ms
+2025-07-10 16:13:48.037 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:13:48.038 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:13:48.039 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:13:48.055 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:13:48.055 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 18.3158 ms
+2025-07-10 16:14:50.027 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 143.3313 ms
+2025-07-10 16:14:50.169 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 80.6950 ms
+2025-07-10 16:14:50.282 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 37.3194 ms
+2025-07-10 16:14:59.563 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 132.1905 ms
+2025-07-10 16:14:59.635 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:14:59.646 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:14:59.650 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:14:59.665 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:14:59.666 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 31.5589 ms
+2025-07-10 16:14:59.674 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 39.1233 ms
+2025-07-10 16:14:59.730 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 94.0831 ms
+2025-07-10 16:15:00.498 +03:00 [INF] HTTP GET /api/advisors responded 200 in 7.1172 ms
+2025-07-10 16:15:00.498 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 7.1150 ms
+2025-07-10 16:15:00.516 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 10.5716 ms
+2025-07-10 16:15:00.560 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 79.3536 ms
+2025-07-10 16:15:10.708 +03:00 [INF] HTTP POST /api/settings/club-create-dates responded 200 in 3.3752 ms
+2025-07-10 16:15:23.002 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 130.9838 ms
+2025-07-10 16:15:23.124 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 53.6161 ms
+2025-07-10 16:15:23.168 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 6.4645 ms
+2025-07-10 16:15:24.711 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.7676 ms
+2025-07-10 16:15:24.712 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.0248 ms
+2025-07-10 16:15:24.724 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 1.6357 ms
+2025-07-10 16:18:50.193 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 37.3394 ms
+2025-07-10 16:18:50.238 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 28.4523 ms
+2025-07-10 16:18:50.425 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 172.8502 ms
+2025-07-10 16:18:50.444 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 192.0998 ms
+2025-07-10 16:18:50.614 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 121.7377 ms
+2025-07-10 16:18:52.930 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 2.2771 ms
+2025-07-10 16:18:56.000 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 23.1498 ms
+2025-07-10 16:18:56.012 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 4.1120 ms
+2025-07-10 16:19:15.763 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 1.7254 ms
+2025-07-10 16:19:20.527 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 4.2974 ms
+2025-07-10 16:19:20.540 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 3.7118 ms
+2025-07-10 16:19:43.735 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 1.6920 ms
+2025-07-10 16:19:54.417 +03:00 [INF] HTTP PUT /api/users/1 responded 400 in 17.5317 ms
+2025-07-10 16:19:59.081 +03:00 [INF] HTTP PUT /api/users/1 responded 400 in 3.3806 ms
+2025-07-10 16:20:25.005 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 244.7412 ms
+2025-07-10 16:20:30.900 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 130.5327 ms
+2025-07-10 16:20:31.024 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 57.9061 ms
+2025-07-10 16:20:31.079 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 28.9007 ms
+2025-07-10 16:20:32.505 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 4.5946 ms
+2025-07-10 16:20:32.517 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.0923 ms
+2025-07-10 16:20:32.603 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 74.0760 ms
+2025-07-10 16:20:32.624 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 95.6220 ms
+2025-07-10 16:20:32.705 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 41.9085 ms
+2025-07-10 16:21:18.870 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 2.4177 ms
+2025-07-10 16:21:29.258 +03:00 [INF] HTTP PUT /api/users/1 responded 400 in 18.6020 ms
+2025-07-10 16:21:36.746 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 8.3074 ms
+2025-07-10 16:21:36.762 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 7.8626 ms
+2025-07-10 16:21:40.386 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 2.6047 ms
+2025-07-10 16:21:40.438 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 32.1860 ms
+2025-07-10 16:21:40.541 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 85.8051 ms
+2025-07-10 16:21:40.545 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 89.8070 ms
+2025-07-10 16:21:40.675 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 57.8793 ms
+2025-07-10 16:21:41.860 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 3.4603 ms
+2025-07-10 16:21:41.883 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 9.1096 ms
+2025-07-10 16:21:41.964 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 74.0862 ms
+2025-07-10 16:21:41.979 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 88.4713 ms
+2025-07-10 16:21:42.119 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 42.2111 ms
+2025-07-10 16:21:45.126 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 1.6889 ms
+2025-07-10 16:22:54.974 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 3.1128 ms
+2025-07-10 16:22:57.557 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 15.5672 ms
+2025-07-10 16:22:57.575 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 9.1354 ms
+2025-07-10 16:23:00.428 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 3.9563 ms
+2025-07-10 16:23:00.480 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 29.1581 ms
+2025-07-10 16:23:00.574 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 79.4507 ms
+2025-07-10 16:23:00.586 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 90.8948 ms
+2025-07-10 16:23:00.732 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 49.0894 ms
+2025-07-10 16:23:01.515 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 5.4568 ms
+2025-07-10 16:23:01.538 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 5.4893 ms
+2025-07-10 16:23:01.622 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 72.3559 ms
+2025-07-10 16:23:01.629 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 80.2461 ms
+2025-07-10 16:23:01.767 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 42.2382 ms
+2025-07-10 16:23:02.230 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 4.0070 ms
+2025-07-10 16:23:02.252 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.4032 ms
+2025-07-10 16:23:02.350 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 86.7002 ms
+2025-07-10 16:23:02.353 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 90.2554 ms
+2025-07-10 16:23:02.497 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 42.9207 ms
+2025-07-10 16:23:16.098 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 2.7899 ms
+2025-07-10 16:26:07.075 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 23.2438 ms
+2025-07-10 16:26:07.130 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 28.8727 ms
+2025-07-10 16:26:07.234 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 92.3854 ms
+2025-07-10 16:26:07.262 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 120.4212 ms
+2025-07-10 16:26:07.412 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 63.1776 ms
+2025-07-10 16:26:26.221 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 4.5884 ms
+2025-07-10 16:26:26.261 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 6.2583 ms
+2025-07-10 16:26:26.352 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 75.6611 ms
+2025-07-10 16:26:26.357 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 80.4552 ms
+2025-07-10 16:26:26.508 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 47.8394 ms
+2025-07-10 16:26:27.061 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 1.7974 ms
+2025-07-10 16:26:30.600 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 25.5174 ms
+2025-07-10 16:26:30.638 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 26.9668 ms
+2025-07-10 16:26:33.771 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 35.4799 ms
+2025-07-10 16:26:33.836 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 53.2210 ms
+2025-07-10 16:26:34.999 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 1150.5131 ms
+2025-07-10 16:26:35.058 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 1210.1145 ms
+2025-07-10 16:26:35.223 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 61.8289 ms
+2025-07-10 16:27:06.737 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 6.7275 ms
+2025-07-10 16:27:06.781 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 31.1251 ms
+2025-07-10 16:27:06.869 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 75.7595 ms
+2025-07-10 16:27:06.873 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 79.2691 ms
+2025-07-10 16:27:06.995 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 44.6451 ms
+2025-07-10 16:27:25.535 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 37.1732 ms
+2025-07-10 16:27:27.141 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 5.7747 ms
+2025-07-10 16:27:27.153 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.0812 ms
+2025-07-10 16:27:27.210 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 46.9132 ms
+2025-07-10 16:27:27.243 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 5.0462 ms
+2025-07-10 16:27:27.243 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 5.4194 ms
+2025-07-10 16:27:27.578 +03:00 [INF] HTTP GET /api/advisors responded 200 in 8.8181 ms
+2025-07-10 16:27:27.579 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.2368 ms
+2025-07-10 16:27:27.591 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 6.4996 ms
+2025-07-10 16:27:28.602 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.5196 ms
+2025-07-10 16:27:28.612 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.6084 ms
+2025-07-10 16:27:28.669 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 51.7370 ms
+2025-07-10 16:27:28.698 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.3502 ms
+2025-07-10 16:27:28.698 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 2.3892 ms
+2025-07-10 16:27:29.037 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 38.5128 ms
+2025-07-10 16:27:29.069 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.0736 ms
+2025-07-10 16:27:29.645 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.2918 ms
+2025-07-10 16:27:29.645 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.3911 ms
+2025-07-10 16:27:29.656 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 1.6188 ms
+2025-07-10 16:27:30.079 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 48.5396 ms
+2025-07-10 16:27:30.486 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.2422 ms
+2025-07-10 16:27:30.536 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 42.0099 ms
+2025-07-10 16:27:30.884 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 2.4956 ms
+2025-07-10 16:27:30.896 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 6.0810 ms
+2025-07-10 16:27:30.966 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 63.3022 ms
+2025-07-10 16:27:30.970 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 67.0454 ms
+2025-07-10 16:27:31.047 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 37.1448 ms
+2025-07-10 16:27:57.423 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 154.4661 ms
+2025-07-10 16:27:57.575 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:27:57.576 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:27:57.578 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:27:57.634 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:27:57.645 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 70.2869 ms
+2025-07-10 16:27:57.657 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 82.0141 ms
+2025-07-10 16:27:57.706 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 131.1429 ms
+2025-07-10 16:27:59.153 +03:00 [INF] HTTP GET /api/users responded 200 in 11.6652 ms
+2025-07-10 16:27:59.206 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 70.0492 ms
+2025-07-10 16:27:59.294 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 56.3038 ms
+2025-07-10 16:27:59.330 +03:00 [INF] HTTP GET /api/announcements responded 200 in 4.3817 ms
+2025-07-10 16:27:59.348 +03:00 [INF] HTTP GET /api/users responded 200 in 5.6943 ms
+2025-07-10 16:28:00.482 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 1.9388 ms
+2025-07-10 16:28:07.219 +03:00 [INF] HTTP PUT /api/users/3 responded 204 in 8.1967 ms
+2025-07-10 16:28:07.232 +03:00 [INF] HTTP GET /api/users responded 200 in 2.5876 ms
+2025-07-10 16:28:21.650 +03:00 [INF] HTTP PUT /api/users/3 responded 204 in 239.2024 ms
+2025-07-10 16:28:29.608 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 125.8399 ms
+2025-07-10 16:28:29.673 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:28:29.674 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:28:29.677 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:28:29.696 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:28:29.698 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 24.4246 ms
+2025-07-10 16:28:29.708 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 35.1949 ms
+2025-07-10 16:28:29.744 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 70.7852 ms
+2025-07-10 16:29:29.630 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:29:29.636 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:29:29.639 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:29:29.657 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:29:29.658 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 29.4181 ms
+2025-07-10 16:30:29.656 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:30:29.657 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:30:29.658 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:30:29.672 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:30:29.673 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 17.6206 ms
+2025-07-10 16:31:29.632 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:31:29.633 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:31:29.634 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:31:29.655 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:31:29.656 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 24.4286 ms
+2025-07-10 16:32:29.636 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:32:29.637 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:32:29.638 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:32:29.655 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:32:29.656 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 21.6304 ms
+2025-07-10 16:33:01.181 +03:00 [INF] HTTP GET /api/users responded 200 in 14.1414 ms
+2025-07-10 16:33:01.242 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 75.4086 ms
+2025-07-10 16:33:01.331 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 59.3415 ms
+2025-07-10 16:33:01.362 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.6885 ms
+2025-07-10 16:33:01.378 +03:00 [INF] HTTP GET /api/users responded 200 in 3.7796 ms
+2025-07-10 16:33:02.626 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 2.5724 ms
+2025-07-10 16:33:05.552 +03:00 [INF] HTTP PUT /api/users/3 responded 204 in 11.2521 ms
+2025-07-10 16:33:05.564 +03:00 [INF] HTTP GET /api/users responded 200 in 3.2676 ms
+2025-07-10 16:33:29.637 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:33:29.638 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:33:29.639 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:33:29.668 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:33:29.668 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 33.2261 ms
+2025-07-10 16:34:29.640 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:34:29.641 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:34:29.641 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:34:29.657 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:34:29.657 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 17.7356 ms
+2025-07-10 16:35:29.636 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:35:29.637 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:35:29.637 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:35:29.653 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:35:29.654 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 18.3696 ms
+2025-07-10 16:35:37.585 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 2.8781 ms
+2025-07-10 16:35:37.590 +03:00 [INF] HTTP GET /api/Users responded 200 in 8.4985 ms
+2025-07-10 16:35:46.130 +03:00 [INF] HTTP PUT /api/Users/2 responded 204 in 11.3272 ms
+2025-07-10 16:35:46.148 +03:00 [INF] HTTP GET /api/Users responded 200 in 2.8536 ms
+2025-07-10 16:35:52.124 +03:00 [INF] HTTP PUT /api/Users/2 responded 204 in 7.0099 ms
+2025-07-10 16:35:52.142 +03:00 [INF] HTTP GET /api/Users responded 200 in 2.3458 ms
+2025-07-10 16:36:12.488 +03:00 [INF] HTTP GET /api/statistics/expenses responded 200 in 36.7227 ms
+2025-07-10 16:36:12.497 +03:00 [INF] HTTP GET /api/statistics/summary responded 200 in 45.6582 ms
+2025-07-10 16:36:12.505 +03:00 [INF] HTTP GET /api/statistics/clubs responded 200 in 54.2866 ms
+2025-07-10 16:36:12.544 +03:00 [INF] HTTP GET /api/statistics/events responded 200 in 92.9182 ms
+2025-07-10 16:36:29.631 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:36:29.632 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:36:29.633 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:36:29.648 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:36:29.649 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 17.3042 ms
+2025-07-10 16:37:29.637 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:37:29.638 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:37:29.638 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:37:29.683 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:37:29.683 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 46.7314 ms
+2025-07-10 16:38:29.666 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:38:29.668 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:38:29.668 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:38:29.717 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:38:29.718 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 51.8600 ms
+2025-07-10 16:39:29.637 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:39:29.638 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:39:29.639 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:39:29.687 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:39:29.688 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 50.4231 ms
+2025-07-10 16:40:29.631 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:40:29.632 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:40:29.632 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:40:29.673 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:40:29.674 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 43.0559 ms
+2025-07-10 16:41:29.637 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:41:29.638 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:41:29.639 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:41:29.654 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:41:29.655 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 18.0749 ms
+2025-07-10 16:42:29.623 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:42:29.624 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:42:29.624 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:42:30.767 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:42:30.768 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 1145.1861 ms
+2025-07-10 16:43:29.638 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:43:29.641 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:43:29.643 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:43:29.693 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:43:29.694 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 58.0774 ms
+2025-07-10 16:44:29.637 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:44:29.638 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:44:29.639 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:44:29.679 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:44:29.679 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 42.1811 ms
+2025-07-10 16:45:29.640 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:45:29.641 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:45:29.642 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:45:29.678 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:45:29.680 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 39.9791 ms
+2025-07-10 16:46:29.628 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:46:29.629 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:46:29.629 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:46:29.687 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:46:29.687 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 59.7864 ms
+2025-07-10 16:47:29.626 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:47:29.626 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:47:29.627 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:47:29.630 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:47:29.631 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 5.3186 ms
+2025-07-10 16:48:29.631 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:48:29.632 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:48:29.633 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:48:29.651 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:48:29.651 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 19.8874 ms
+2025-07-10 16:49:29.644 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:49:29.647 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:49:29.649 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:49:30.455 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:49:30.456 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 813.2819 ms
+2025-07-10 16:50:29.640 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:50:29.641 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:50:29.641 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:50:29.680 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:50:29.682 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 41.8785 ms
+2025-07-10 16:51:29.632 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:51:29.633 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:51:29.634 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:51:29.649 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:51:29.649 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 17.0666 ms
+2025-07-10 16:52:29.630 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:52:29.631 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:52:29.632 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:52:29.648 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:52:29.649 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 19.1818 ms
+2025-07-10 16:53:29.672 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:53:29.672 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:53:29.673 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:53:29.694 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:53:29.694 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 22.6685 ms
+2025-07-10 16:53:56.647 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 21.1900 ms
+2025-07-10 16:53:56.656 +03:00 [INF] HTTP GET /api/Users responded 200 in 31.0882 ms
+2025-07-10 16:54:23.990 +03:00 [INF] HTTP GET /api/announcements responded 200 in 19.8215 ms
+2025-07-10 16:54:24.051 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 80.5157 ms
+2025-07-10 16:54:24.711 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 61.1185 ms
+2025-07-10 16:54:24.738 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 83.7159 ms
+2025-07-10 16:54:46.989 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 133.3041 ms
+2025-07-10 16:54:47.201 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 78.7585 ms
+2025-07-10 16:54:50.079 +03:00 [INF] HTTP GET /api/users/2 responded 200 in 5.9078 ms
+2025-07-10 16:54:57.932 +03:00 [INF] HTTP GET /api/clubs/advisor/my-clubs responded 200 in 73.1515 ms
+2025-07-10 16:54:57.984 +03:00 [INF] HTTP GET /api/announcements/advisor responded 200 in 28.9471 ms
+2025-07-10 16:54:58.471 +03:00 [INF] HTTP GET /api/events/yetkili-etkinlikler responded 200 in 87.6134 ms
+2025-07-10 16:55:00.218 +03:00 [INF] HTTP PUT /api/events/1/advisor-approve responded 200 in 53.3787 ms
+2025-07-10 16:55:14.113 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.7137 ms
+2025-07-10 16:55:14.165 +03:00 [INF] HTTP GET /api/clubs/advisor/my-clubs responded 200 in 44.6913 ms
+2025-07-10 16:55:17.745 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.7243 ms
+2025-07-10 16:55:17.935 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 181.2929 ms
+2025-07-10 16:55:17.998 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 34.7881 ms
+2025-07-10 16:55:18.016 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.4633 ms
+2025-07-10 16:55:18.061 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 35.7131 ms
+2025-07-10 16:55:18.146 +03:00 [INF] HTTP GET /api/club-expenses/club/2 responded 200 in 77.9892 ms
+2025-07-10 16:55:38.045 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 138.3411 ms
+2025-07-10 16:55:38.120 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:55:38.127 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:55:38.130 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:55:38.152 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 32.4234 ms
+2025-07-10 16:55:38.154 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:55:38.155 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 36.1320 ms
+2025-07-10 16:55:38.195 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 75.3317 ms
+2025-07-10 16:55:39.618 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 3.5391 ms
+2025-07-10 16:55:39.621 +03:00 [INF] HTTP GET /api/Users responded 200 in 5.9118 ms
+2025-07-10 16:55:46.784 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.9481 ms
+2025-07-10 16:55:46.827 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 45.5355 ms
+2025-07-10 16:55:48.091 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 47.0888 ms
+2025-07-10 16:55:48.116 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 68.6324 ms
+2025-07-10 16:56:18.249 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 12.5963 ms
+2025-07-10 16:56:18.288 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 51.7587 ms
+2025-07-10 16:56:20.220 +03:00 [INF] HTTP GET /api/advisors responded 200 in 18.0915 ms
+2025-07-10 16:56:20.221 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 18.2622 ms
+2025-07-10 16:56:20.237 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 7.7294 ms
+2025-07-10 16:56:20.279 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 83.2168 ms
+2025-07-10 16:56:23.166 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 52.5140 ms
+2025-07-10 16:56:23.614 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 495.7703 ms
+2025-07-10 16:56:23.640 +03:00 [INF] HTTP GET /api/announcements responded 200 in 5.1087 ms
+2025-07-10 16:56:23.692 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 56.3911 ms
+2025-07-10 16:56:24.173 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 3.5261 ms
+2025-07-10 16:56:24.177 +03:00 [INF] HTTP GET /api/Users responded 200 in 8.4359 ms
+2025-07-10 16:56:24.687 +03:00 [INF] HTTP GET /api/statistics/clubs responded 200 in 18.0726 ms
+2025-07-10 16:56:24.694 +03:00 [INF] HTTP GET /api/statistics/expenses responded 200 in 25.0875 ms
+2025-07-10 16:56:24.707 +03:00 [INF] HTTP GET /api/statistics/summary responded 200 in 37.6320 ms
+2025-07-10 16:56:24.796 +03:00 [INF] HTTP GET /api/statistics/events responded 200 in 126.7432 ms
+2025-07-10 16:56:31.226 +03:00 [INF] HTTP GET /api/users responded 200 in 13.2212 ms
+2025-07-10 16:56:31.264 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 51.8067 ms
+2025-07-10 16:56:31.348 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 53.3774 ms
+2025-07-10 16:56:31.378 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.0377 ms
+2025-07-10 16:56:31.394 +03:00 [INF] HTTP GET /api/users responded 200 in 3.1478 ms
+2025-07-10 16:56:37.553 +03:00 [INF] HTTP GET /api/Users responded 200 in 4.3805 ms
+2025-07-10 16:56:37.555 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 2.6652 ms
+2025-07-10 16:56:38.066 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:56:38.067 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:56:38.068 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:56:38.075 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:56:38.076 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 10.7817 ms
+2025-07-10 16:56:38.362 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.4591 ms
+2025-07-10 16:56:38.423 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 63.4376 ms
+2025-07-10 16:56:40.064 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 55.8621 ms
+2025-07-10 16:56:40.066 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 61.7075 ms
+2025-07-10 16:57:38.082 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:57:38.082 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:57:38.083 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:57:38.089 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:57:38.090 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 9.0273 ms
+2025-07-10 16:58:38.088 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:58:38.089 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:58:38.089 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:58:38.099 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:58:38.100 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 12.3296 ms
+2025-07-10 16:59:38.066 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 16:59:38.067 +03:00 [INF] UserIdClaim: 3
+2025-07-10 16:59:38.070 +03:00 [INF] User ID parsed: 3
+2025-07-10 16:59:38.081 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 16:59:38.081 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 15.0406 ms
+2025-07-10 16:59:55.892 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 84.8566 ms
+2025-07-10 16:59:55.905 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 97.3968 ms
+2025-07-10 17:00:38.066 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:00:38.067 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:00:38.068 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:00:38.076 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:00:38.076 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 10.7821 ms
+2025-07-10 17:01:31.887 +03:00 [INF] HTTP PUT /api/events/1/admin-approve responded 200 in 63.0679 ms
+2025-07-10 17:01:31.942 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 44.5822 ms
+2025-07-10 17:01:36.798 +03:00 [INF] HTTP GET /api/advisors responded 200 in 18.9373 ms
+2025-07-10 17:01:36.820 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 40.6378 ms
+2025-07-10 17:01:36.828 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 7.7662 ms
+2025-07-10 17:01:36.875 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 95.2265 ms
+2025-07-10 17:01:38.073 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:01:38.074 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:01:38.074 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:01:38.079 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:01:38.079 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 6.8089 ms
+2025-07-10 17:02:38.064 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:02:38.065 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:02:38.066 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:02:38.073 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:02:38.073 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 10.5910 ms
+2025-07-10 17:03:38.216 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:03:38.217 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:03:38.217 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:03:38.228 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:03:38.230 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 14.2074 ms
+2025-07-10 17:03:55.447 +03:00 [INF] HTTP GET /api/advisors responded 200 in 21.7448 ms
+2025-07-10 17:03:55.450 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 18.6820 ms
+2025-07-10 17:03:55.460 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 31.6094 ms
+2025-07-10 17:03:55.513 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 87.3581 ms
+2025-07-10 17:04:48.225 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:04:48.225 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:04:48.226 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:04:48.241 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:04:48.242 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 17.5850 ms
+2025-07-10 17:05:38.064 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:05:38.065 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:05:38.066 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:05:38.084 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:05:38.084 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 20.1676 ms
+2025-07-10 17:05:55.495 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:05:55.499 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 6.7265 ms
+2025-07-10 17:05:55.507 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 15.0442 ms
+2025-07-10 17:05:55.510 +03:00 [INF] HTTP GET /api/advisors responded 200 in 15.5522 ms
+2025-07-10 17:05:55.500 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:05:55.524 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:05:55.532 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:05:55.533 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 38.5074 ms
+2025-07-10 17:05:55.599 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 107.8110 ms
+2025-07-10 17:06:55.504 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:06:55.504 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:06:55.505 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:06:55.521 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:06:55.521 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 19.6025 ms
+2025-07-10 17:07:49.150 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:07:49.156 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:07:49.159 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:07:49.168 +03:00 [INF] HTTP GET /api/advisors responded 200 in 18.5287 ms
+2025-07-10 17:07:49.175 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 26.6970 ms
+2025-07-10 17:07:49.169 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 19.5121 ms
+2025-07-10 17:07:49.187 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:07:49.190 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 40.8056 ms
+2025-07-10 17:07:49.257 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 98.3929 ms
+2025-07-10 17:07:53.617 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 6.6282 ms
+2025-07-10 17:07:53.697 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 71.0561 ms
+2025-07-10 17:07:53.711 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 2.9461 ms
+2025-07-10 17:07:53.723 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 3.3658 ms
+2025-07-10 17:07:53.743 +03:00 [INF] HTTP GET /api/memberships/member-details/1 responded 200 in 8.4977 ms
+2025-07-10 17:07:53.744 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 9.5588 ms
+2025-07-10 17:07:53.765 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 6.2182 ms
+2025-07-10 17:07:53.813 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 54.1557 ms
+2025-07-10 17:07:53.847 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 5.5504 ms
+2025-07-10 17:07:53.871 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0620 ms
+2025-07-10 17:07:57.105 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 2.2673 ms
+2025-07-10 17:07:57.108 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.3035 ms
+2025-07-10 17:07:57.113 +03:00 [INF] HTTP GET /api/advisors responded 200 in 10.8519 ms
+2025-07-10 17:07:57.177 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 74.7202 ms
+2025-07-10 17:08:42.296 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 44.2362 ms
+2025-07-10 17:08:42.352 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 85.6627 ms
+2025-07-10 17:08:44.132 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 65.5134 ms
+2025-07-10 17:08:44.146 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 76.7357 ms
+2025-07-10 17:08:45.440 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.7249 ms
+2025-07-10 17:08:45.477 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 43.7208 ms
+2025-07-10 17:08:46.044 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 3.4997 ms
+2025-07-10 17:08:46.047 +03:00 [INF] HTTP GET /api/Users responded 200 in 7.8789 ms
+2025-07-10 17:08:46.914 +03:00 [INF] HTTP GET /api/statistics/clubs responded 200 in 34.3832 ms
+2025-07-10 17:08:46.930 +03:00 [INF] HTTP GET /api/statistics/expenses responded 200 in 50.7416 ms
+2025-07-10 17:08:46.937 +03:00 [INF] HTTP GET /api/statistics/summary responded 200 in 59.1263 ms
+2025-07-10 17:08:46.974 +03:00 [INF] HTTP GET /api/statistics/events responded 200 in 94.6145 ms
+2025-07-10 17:08:48.507 +03:00 [INF] HTTP GET /api/users responded 200 in 5.1931 ms
+2025-07-10 17:08:48.547 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 45.3039 ms
+2025-07-10 17:08:48.615 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 48.4314 ms
+2025-07-10 17:08:48.636 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.1552 ms
+2025-07-10 17:08:48.653 +03:00 [INF] HTTP GET /api/users responded 200 in 2.6026 ms
+2025-07-10 17:08:49.148 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:08:49.148 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:08:49.149 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:08:49.156 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:08:49.157 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 9.1459 ms
+2025-07-10 17:08:49.299 +03:00 [INF] HTTP GET /api/statistics/clubs responded 200 in 15.5210 ms
+2025-07-10 17:08:49.306 +03:00 [INF] HTTP GET /api/statistics/expenses responded 200 in 22.1608 ms
+2025-07-10 17:08:49.312 +03:00 [INF] HTTP GET /api/statistics/summary responded 200 in 28.3247 ms
+2025-07-10 17:08:49.353 +03:00 [INF] HTTP GET /api/statistics/events responded 200 in 69.8719 ms
+2025-07-10 17:08:49.680 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 2.6125 ms
+2025-07-10 17:08:49.685 +03:00 [INF] HTTP GET /api/Users responded 200 in 4.2564 ms
+2025-07-10 17:08:50.106 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.6021 ms
+2025-07-10 17:08:50.148 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 44.8192 ms
+2025-07-10 17:08:50.649 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 50.0497 ms
+2025-07-10 17:08:50.656 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 53.3470 ms
+2025-07-10 17:08:54.606 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.4188 ms
+2025-07-10 17:08:54.607 +03:00 [INF] HTTP GET /api/advisors responded 200 in 3.6885 ms
+2025-07-10 17:08:54.616 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 7.1165 ms
+2025-07-10 17:08:54.648 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 44.5727 ms
+2025-07-10 17:09:20.177 +03:00 [INF] HTTP POST /api/settings/club-create-dates responded 200 in 9.8607 ms
+2025-07-10 17:09:26.697 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 132.3956 ms
+2025-07-10 17:09:26.833 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 35.5414 ms
+2025-07-10 17:09:26.885 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 30.3619 ms
+2025-07-10 17:09:27.757 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 5.6039 ms
+2025-07-10 17:09:27.770 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.0478 ms
+2025-07-10 17:09:27.816 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 37.5403 ms
+2025-07-10 17:09:27.845 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 3.6731 ms
+2025-07-10 17:09:27.845 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 3.6731 ms
+2025-07-10 17:10:22.534 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 22.1783 ms
+2025-07-10 17:10:22.562 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 4.0642 ms
+2025-07-10 17:10:22.636 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 59.7434 ms
+2025-07-10 17:10:22.679 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 3.6432 ms
+2025-07-10 17:10:22.679 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 4.2636 ms
+2025-07-10 17:10:34.274 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.4842 ms
+2025-07-10 17:10:34.275 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.9404 ms
+2025-07-10 17:10:34.286 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 5.3747 ms
+2025-07-10 17:11:14.101 +03:00 [INF] HTTP POST /api/clubs responded 200 in 100.1882 ms
+2025-07-10 17:11:14.172 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 6.2503 ms
+2025-07-10 17:11:14.183 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.3497 ms
+2025-07-10 17:11:14.247 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 57.4589 ms
+2025-07-10 17:11:14.283 +03:00 [INF] HTTP GET /api/memberships/club/3/members responded 200 in 5.3957 ms
+2025-07-10 17:11:14.283 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 5.3920 ms
+2025-07-10 17:11:14.283 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 5.4431 ms
+2025-07-10 17:13:12.831 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 163.5371 ms
+2025-07-10 17:13:12.862 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:13:12.865 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:13:12.867 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:13:12.880 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:13:12.882 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 19.3737 ms
+2025-07-10 17:13:12.890 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 28.0635 ms
+2025-07-10 17:13:12.949 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 87.1001 ms
+2025-07-10 17:13:14.228 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 11.3065 ms
+2025-07-10 17:13:14.228 +03:00 [INF] HTTP GET /api/advisors responded 200 in 11.3919 ms
+2025-07-10 17:13:14.249 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 8.9541 ms
+2025-07-10 17:13:14.307 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 93.2185 ms
+2025-07-10 17:13:20.566 +03:00 [INF] HTTP PUT /api/clubs/3/aktif-et responded 200 in 12.3060 ms
+2025-07-10 17:14:12.855 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:14:12.856 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:14:12.857 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:14:12.893 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:14:12.893 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 38.4450 ms
+2025-07-10 17:14:19.315 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 89.5572 ms
+2025-07-10 17:14:19.383 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 156.1879 ms
+2025-07-10 17:15:12.864 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:15:12.866 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:15:12.869 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:15:12.915 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:15:12.916 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 54.2566 ms
+2025-07-10 17:16:12.853 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:16:12.854 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:16:12.854 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:16:12.873 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:16:12.875 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 21.6030 ms
+2025-07-10 17:16:30.566 +03:00 [INF] HTTP GET /api/announcements responded 200 in 29.9201 ms
+2025-07-10 17:16:30.711 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 175.0215 ms
+2025-07-10 17:16:49.502 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 62.5837 ms
+2025-07-10 17:16:49.533 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 93.6154 ms
+2025-07-10 17:16:54.070 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.2263 ms
+2025-07-10 17:16:54.119 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 54.1370 ms
+2025-07-10 17:16:55.349 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 4.6681 ms
+2025-07-10 17:16:55.351 +03:00 [INF] HTTP GET /api/Users responded 200 in 7.7451 ms
+2025-07-10 17:17:12.850 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:17:12.851 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:17:12.851 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:17:12.857 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:17:12.858 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 7.9823 ms
+2025-07-10 17:18:12.869 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:18:12.870 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:18:12.875 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:18:12.882 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:18:12.882 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 15.2631 ms
+2025-07-10 17:19:12.858 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:19:12.858 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:19:12.859 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:19:12.874 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:19:12.875 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 17.4396 ms
+2025-07-10 17:20:12.866 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:20:12.866 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:20:12.867 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:20:12.885 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:20:12.886 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 20.4658 ms
+2025-07-10 17:21:12.855 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:21:12.855 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:21:12.856 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:21:12.872 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:21:12.875 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 20.7017 ms
+2025-07-10 17:22:12.862 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:22:12.863 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:22:12.863 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:22:12.881 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:22:12.882 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 19.8536 ms
+2025-07-10 17:23:12.854 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:23:12.855 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:23:12.855 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:23:12.870 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:23:12.871 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 18.5071 ms
+2025-07-10 17:24:12.859 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:24:12.862 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:24:12.864 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:24:12.882 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:24:12.883 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 24.2768 ms
+2025-07-10 17:25:12.865 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:25:12.865 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:25:12.866 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:25:12.882 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:25:12.883 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 18.4889 ms
+2025-07-10 17:25:54.923 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 98.6564 ms
+2025-07-10 17:25:54.963 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 138.2905 ms
+2025-07-10 17:25:55.180 +03:00 [INF] HTTP GET /api/advisors responded 200 in 13.5564 ms
+2025-07-10 17:25:55.195 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 30.1519 ms
+2025-07-10 17:25:55.210 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 15.0800 ms
+2025-07-10 17:25:55.262 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 100.7307 ms
+2025-07-10 17:26:01.660 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 47.6658 ms
+2025-07-10 17:26:01.674 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 62.3169 ms
+2025-07-10 17:26:02.889 +03:00 [INF] HTTP GET /api/announcements responded 200 in 7.1474 ms
+2025-07-10 17:26:02.947 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 69.6572 ms
+2025-07-10 17:26:03.557 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 3.6214 ms
+2025-07-10 17:26:03.561 +03:00 [INF] HTTP GET /api/Users responded 200 in 8.7544 ms
+2025-07-10 17:26:04.769 +03:00 [INF] HTTP GET /api/advisors responded 200 in 8.8739 ms
+2025-07-10 17:26:04.771 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 10.1510 ms
+2025-07-10 17:26:04.779 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 8.3818 ms
+2025-07-10 17:26:04.832 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 75.9391 ms
+2025-07-10 17:26:10.558 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 140.8491 ms
+2025-07-10 17:26:10.688 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 52.3643 ms
+2025-07-10 17:26:10.715 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 5.5271 ms
+2025-07-10 17:26:12.325 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 5.3284 ms
+2025-07-10 17:26:12.337 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.0801 ms
+2025-07-10 17:26:12.407 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 62.4003 ms
+2025-07-10 17:26:12.439 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 6.3257 ms
+2025-07-10 17:26:12.439 +03:00 [INF] HTTP GET /api/memberships/club/3/members responded 200 in 6.3875 ms
+2025-07-10 17:26:12.450 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 17.2906 ms
+2025-07-10 17:26:14.556 +03:00 [INF] HTTP GET /api/advisors responded 200 in 3.1430 ms
+2025-07-10 17:26:14.556 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.5683 ms
+2025-07-10 17:26:14.564 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 6.0385 ms
+2025-07-10 17:26:15.542 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 41.2591 ms
+2025-07-10 17:26:16.223 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.0956 ms
+2025-07-10 17:26:16.273 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 42.9092 ms
+2025-07-10 17:26:16.991 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 38.5113 ms
+2025-07-10 17:26:27.538 +03:00 [INF] HTTP POST /api/events/1/katil responded 200 in 113.2887 ms
+2025-07-10 17:26:35.514 +03:00 [INF] HTTP GET /api/announcements responded 200 in 1.8772 ms
+2025-07-10 17:26:35.574 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 48.9330 ms
+2025-07-10 17:26:36.439 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 11.6899 ms
+2025-07-10 17:26:36.454 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 5.5897 ms
+2025-07-10 17:26:36.494 +03:00 [INF] HTTP GET /api/clubs/3 responded 200 in 27.0093 ms
+2025-07-10 17:26:36.551 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 84.0655 ms
+2025-07-10 17:26:36.553 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 86.7031 ms
+2025-07-10 17:26:36.648 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 56.7845 ms
+2025-07-10 17:27:10.058 +03:00 [INF] HTTP POST /api/auth/2fa/enable responded 200 in 249.6046 ms
+2025-07-10 17:27:12.821 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 12.4771 ms
+2025-07-10 17:27:12.838 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 8.2728 ms
+2025-07-10 17:27:12.925 +03:00 [INF] HTTP GET /api/clubs/3 responded 200 in 75.9984 ms
+2025-07-10 17:27:13.037 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 188.7079 ms
+2025-07-10 17:27:13.065 +03:00 [INF] HTTP GET /api/clubs/2 responded 200 in 216.4444 ms
+2025-07-10 17:27:13.176 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 70.2159 ms
+2025-07-10 17:28:02.238 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 149.8137 ms
+2025-07-10 17:28:02.366 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 44.4898 ms
+2025-07-10 17:28:02.395 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 6.2135 ms
+2025-07-10 17:28:05.716 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 125.3793 ms
+2025-07-10 17:28:05.787 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:28:05.789 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:28:05.794 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:28:05.806 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:28:05.808 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 21.2923 ms
+2025-07-10 17:28:05.812 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 26.2206 ms
+2025-07-10 17:28:05.871 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 84.3194 ms
+2025-07-10 17:28:07.098 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 5.3289 ms
+2025-07-10 17:28:07.098 +03:00 [INF] HTTP GET /api/advisors responded 200 in 5.4293 ms
+2025-07-10 17:28:07.118 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 14.6621 ms
+2025-07-10 17:28:07.161 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 71.6565 ms
+2025-07-10 17:28:08.895 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 58.5193 ms
+2025-07-10 17:28:08.901 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 67.8078 ms
+2025-07-10 17:28:12.376 +03:00 [INF] HTTP GET /api/advisors responded 200 in 3.4104 ms
+2025-07-10 17:28:12.376 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.7932 ms
+2025-07-10 17:28:12.391 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 2.3166 ms
+2025-07-10 17:28:12.443 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 70.3733 ms
+2025-07-10 17:28:59.301 +03:00 [INF] HTTP POST /api/clubs responded 200 in 128.0320 ms
+2025-07-10 17:28:59.409 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 90.8702 ms
+2025-07-10 17:29:05.741 +03:00 [INF] GetUnreadNotifications started
+2025-07-10 17:29:05.742 +03:00 [INF] UserIdClaim: 3
+2025-07-10 17:29:05.742 +03:00 [INF] User ID parsed: 3
+2025-07-10 17:29:05.747 +03:00 [INF] Result obtained with 0 notifications
+2025-07-10 17:29:05.747 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 6.4871 ms
+2025-07-10 17:29:21.720 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 133.4426 ms
+2025-07-10 17:29:21.836 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 51.8970 ms
+2025-07-10 17:29:21.868 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 6.1501 ms
+2025-07-10 17:29:22.808 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.5781 ms
+2025-07-10 17:29:22.809 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.5249 ms
+2025-07-10 17:29:22.817 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 1.6292 ms
+2025-07-10 17:29:23.244 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 6.9394 ms
+2025-07-10 17:29:23.258 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.2251 ms
+2025-07-10 17:29:23.371 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 101.1670 ms
+2025-07-10 17:29:23.432 +03:00 [INF] HTTP GET /api/memberships/club/2/members responded 200 in 15.5539 ms
+2025-07-10 17:29:23.439 +03:00 [INF] HTTP GET /api/memberships/club/3/members responded 200 in 22.5908 ms
+2025-07-10 17:29:23.440 +03:00 [INF] HTTP GET /api/memberships/club/4/members responded 200 in 23.2079 ms
+2025-07-10 17:29:23.447 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 29.8510 ms

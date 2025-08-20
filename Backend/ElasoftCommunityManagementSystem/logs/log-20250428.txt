@@ -1,0 +1,754 @@
+2025-04-28 14:39:54.137 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 14:39:54.164 +03:00 [INF] UserIdClaim: 1
+2025-04-28 14:39:54.166 +03:00 [INF] User ID parsed: 1
+2025-04-28 14:39:55.110 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 14:39:55.120 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 1112.9098 ms
+2025-04-28 14:39:55.120 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 1111.0189 ms
+2025-04-28 14:39:55.149 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 1141.4648 ms
+2025-04-28 14:40:28.237 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 3347.8825 ms
+2025-04-28 14:40:43.889 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 189.9600 ms
+2025-04-28 14:40:44.031 +03:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[ClubId], [e].[CreatedAt], [e].[Description], [e].[EndDate], [e].[Image], [e].[ImageUrl], [e].[MaxParticipants], [e].[Name], [e].[ParticipantCount], [e].[StartDate], [e].[Status], [e].[UpdatedAt], [c].[ClubId], [c].[AdvisorId], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Document], [c].[EventCount], [c].[Image], [c].[MemberCount], [c].[Name], [c].[Status], [s].[ParticipantId], [s].[EventId], [s].[RegisteredAt], [s].[UserId], [s].[UserId0], [s].[CreatedAt], [s].[DepartmentId], [s].[Email], [s].[LastTwoFactorSetup], [s].[Name], [s].[Password], [s].[PasswordResetToken], [s].[PasswordResetTokenExpiry], [s].[PhoneNumber], [s].[Role], [s].[SchoolNumber], [s].[Surname], [s].[TwoFactorEnabled], [s].[TwoFactorSecret]
+FROM [Event] AS [e]
+INNER JOIN [Club] AS [c] ON [e].[ClubId] = [c].[ClubId]
+LEFT JOIN (
+    SELECT [e0].[ParticipantId], [e0].[EventId], [e0].[RegisteredAt], [e0].[UserId], [u].[UserId] AS [UserId0], [u].[CreatedAt], [u].[DepartmentId], [u].[Email], [u].[LastTwoFactorSetup], [u].[Name], [u].[Password], [u].[PasswordResetToken], [u].[PasswordResetTokenExpiry], [u].[PhoneNumber], [u].[Role], [u].[SchoolNumber], [u].[Surname], [u].[TwoFactorEnabled], [u].[TwoFactorSecret]
+    FROM [EventParticipant] AS [e0]
+    INNER JOIN [Users] AS [u] ON [e0].[UserId] = [u].[UserId]
+) AS [s] ON [e].[EventId] = [s].[EventId]
+ORDER BY [e].[EventId], [c].[ClubId], [s].[ParticipantId]
+2025-04-28 14:40:44.053 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:40:44.118 +03:00 [ERR] HTTP GET /api/events/listele responded 500 in 155.6129 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:40:44.229 +03:00 [ERR] Unexpected error occurred: Invalid column name 'Image'., TraceId: 0HNC6956F83H8:00000017
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ElasoftCommunityManagementSystem.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Middleware\ExceptionHandlingMiddleware.cs:line 26
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:03.572 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 19.1039 ms
+2025-04-28 14:41:03.589 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 10.2038 ms
+2025-04-28 14:41:03.603 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 8.8930 ms
+2025-04-28 14:41:04.151 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 15.5483 ms
+2025-04-28 14:41:04.152 +03:00 [INF] HTTP GET /api/advisors responded 200 in 16.0655 ms
+2025-04-28 14:41:04.732 +03:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[ClubId], [e].[CreatedAt], [e].[Description], [e].[EndDate], [e].[Image], [e].[ImageUrl], [e].[MaxParticipants], [e].[Name], [e].[ParticipantCount], [e].[StartDate], [e].[Status], [e].[UpdatedAt], [c].[ClubId], [c].[AdvisorId], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Document], [c].[EventCount], [c].[Image], [c].[MemberCount], [c].[Name], [c].[Status], [s].[ParticipantId], [s].[EventId], [s].[RegisteredAt], [s].[UserId], [s].[UserId0], [s].[CreatedAt], [s].[DepartmentId], [s].[Email], [s].[LastTwoFactorSetup], [s].[Name], [s].[Password], [s].[PasswordResetToken], [s].[PasswordResetTokenExpiry], [s].[PhoneNumber], [s].[Role], [s].[SchoolNumber], [s].[Surname], [s].[TwoFactorEnabled], [s].[TwoFactorSecret]
+FROM [Event] AS [e]
+INNER JOIN [Club] AS [c] ON [e].[ClubId] = [c].[ClubId]
+LEFT JOIN (
+    SELECT [e0].[ParticipantId], [e0].[EventId], [e0].[RegisteredAt], [e0].[UserId], [u].[UserId] AS [UserId0], [u].[CreatedAt], [u].[DepartmentId], [u].[Email], [u].[LastTwoFactorSetup], [u].[Name], [u].[Password], [u].[PasswordResetToken], [u].[PasswordResetTokenExpiry], [u].[PhoneNumber], [u].[Role], [u].[SchoolNumber], [u].[Surname], [u].[TwoFactorEnabled], [u].[TwoFactorSecret]
+    FROM [EventParticipant] AS [e0]
+    INNER JOIN [Users] AS [u] ON [e0].[UserId] = [u].[UserId]
+) AS [s] ON [e].[EventId] = [s].[EventId]
+ORDER BY [e].[EventId], [c].[ClubId], [s].[ParticipantId]
+2025-04-28 14:41:04.735 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:04.776 +03:00 [ERR] HTTP GET /api/events/listele responded 500 in 48.5825 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:04.825 +03:00 [ERR] Unexpected error occurred: Invalid column name 'Image'., TraceId: 0HNC6956F83H8:0000002F
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ElasoftCommunityManagementSystem.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Middleware\ExceptionHandlingMiddleware.cs:line 26
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:05.410 +03:00 [INF] HTTP GET /api/announcements responded 200 in 18.9670 ms
+2025-04-28 14:41:05.419 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 4.8717 ms
+2025-04-28 14:41:07.061 +03:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[ClubId], [e].[CreatedAt], [e].[Description], [e].[EndDate], [e].[Image], [e].[ImageUrl], [e].[MaxParticipants], [e].[Name], [e].[ParticipantCount], [e].[StartDate], [e].[Status], [e].[UpdatedAt], [c].[ClubId], [c].[AdvisorId], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Document], [c].[EventCount], [c].[Image], [c].[MemberCount], [c].[Name], [c].[Status], [s].[ParticipantId], [s].[EventId], [s].[RegisteredAt], [s].[UserId], [s].[UserId0], [s].[CreatedAt], [s].[DepartmentId], [s].[Email], [s].[LastTwoFactorSetup], [s].[Name], [s].[Password], [s].[PasswordResetToken], [s].[PasswordResetTokenExpiry], [s].[PhoneNumber], [s].[Role], [s].[SchoolNumber], [s].[Surname], [s].[TwoFactorEnabled], [s].[TwoFactorSecret]
+FROM [Event] AS [e]
+INNER JOIN [Club] AS [c] ON [e].[ClubId] = [c].[ClubId]
+LEFT JOIN (
+    SELECT [e0].[ParticipantId], [e0].[EventId], [e0].[RegisteredAt], [e0].[UserId], [u].[UserId] AS [UserId0], [u].[CreatedAt], [u].[DepartmentId], [u].[Email], [u].[LastTwoFactorSetup], [u].[Name], [u].[Password], [u].[PasswordResetToken], [u].[PasswordResetTokenExpiry], [u].[PhoneNumber], [u].[Role], [u].[SchoolNumber], [u].[Surname], [u].[TwoFactorEnabled], [u].[TwoFactorSecret]
+    FROM [EventParticipant] AS [e0]
+    INNER JOIN [Users] AS [u] ON [e0].[UserId] = [u].[UserId]
+) AS [s] ON [e].[EventId] = [s].[EventId]
+ORDER BY [e].[EventId], [c].[ClubId], [s].[ParticipantId]
+2025-04-28 14:41:07.063 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:07.103 +03:00 [ERR] HTTP GET /api/events/listele responded 500 in 47.9450 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:07.148 +03:00 [ERR] Unexpected error occurred: Invalid column name 'Image'., TraceId: 0HNC6956F83H8:00000037
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ElasoftCommunityManagementSystem.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Middleware\ExceptionHandlingMiddleware.cs:line 26
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:17.660 +03:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[ClubId], [e].[CreatedAt], [e].[Description], [e].[EndDate], [e].[Image], [e].[ImageUrl], [e].[MaxParticipants], [e].[Name], [e].[ParticipantCount], [e].[StartDate], [e].[Status], [e].[UpdatedAt], [c].[ClubId], [c].[AdvisorId], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Document], [c].[EventCount], [c].[Image], [c].[MemberCount], [c].[Name], [c].[Status], [s].[ParticipantId], [s].[EventId], [s].[RegisteredAt], [s].[UserId], [s].[UserId0], [s].[CreatedAt], [s].[DepartmentId], [s].[Email], [s].[LastTwoFactorSetup], [s].[Name], [s].[Password], [s].[PasswordResetToken], [s].[PasswordResetTokenExpiry], [s].[PhoneNumber], [s].[Role], [s].[SchoolNumber], [s].[Surname], [s].[TwoFactorEnabled], [s].[TwoFactorSecret]
+FROM [Event] AS [e]
+INNER JOIN [Club] AS [c] ON [e].[ClubId] = [c].[ClubId]
+LEFT JOIN (
+    SELECT [e0].[ParticipantId], [e0].[EventId], [e0].[RegisteredAt], [e0].[UserId], [u].[UserId] AS [UserId0], [u].[CreatedAt], [u].[DepartmentId], [u].[Email], [u].[LastTwoFactorSetup], [u].[Name], [u].[Password], [u].[PasswordResetToken], [u].[PasswordResetTokenExpiry], [u].[PhoneNumber], [u].[Role], [u].[SchoolNumber], [u].[Surname], [u].[TwoFactorEnabled], [u].[TwoFactorSecret]
+    FROM [EventParticipant] AS [e0]
+    INNER JOIN [Users] AS [u] ON [e0].[UserId] = [u].[UserId]
+) AS [s] ON [e].[EventId] = [s].[EventId]
+ORDER BY [e].[EventId], [c].[ClubId], [s].[ParticipantId]
+2025-04-28 14:41:17.664 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:17.703 +03:00 [ERR] HTTP GET /api/events/listele responded 500 in 47.6204 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:41:17.749 +03:00 [ERR] Unexpected error occurred: Invalid column name 'Image'., TraceId: 0HNC6956F83H8:0000003B
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ElasoftCommunityManagementSystem.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Middleware\ExceptionHandlingMiddleware.cs:line 26
+ClientConnectionId:2978725f-2a50-44e8-be0d-c3da2a419c4e
+Error Number:207,State:1,Class:16
+2025-04-28 14:51:00.330 +03:00 [ERR] Failed executing DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[ClubId], [e].[CreatedAt], [e].[Description], [e].[EndDate], [e].[Image], [e].[ImageUrl], [e].[MaxParticipants], [e].[Name], [e].[ParticipantCount], [e].[StartDate], [e].[Status], [e].[UpdatedAt], [c].[ClubId], [c].[AdvisorId], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Document], [c].[EventCount], [c].[Image], [c].[MemberCount], [c].[Name], [c].[Status], [s].[ParticipantId], [s].[EventId], [s].[RegisteredAt], [s].[UserId], [s].[UserId0], [s].[CreatedAt], [s].[DepartmentId], [s].[Email], [s].[LastTwoFactorSetup], [s].[Name], [s].[Password], [s].[PasswordResetToken], [s].[PasswordResetTokenExpiry], [s].[PhoneNumber], [s].[Role], [s].[SchoolNumber], [s].[Surname], [s].[TwoFactorEnabled], [s].[TwoFactorSecret]
+FROM [Event] AS [e]
+INNER JOIN [Club] AS [c] ON [e].[ClubId] = [c].[ClubId]
+LEFT JOIN (
+    SELECT [e0].[ParticipantId], [e0].[EventId], [e0].[RegisteredAt], [e0].[UserId], [u].[UserId] AS [UserId0], [u].[CreatedAt], [u].[DepartmentId], [u].[Email], [u].[LastTwoFactorSetup], [u].[Name], [u].[Password], [u].[PasswordResetToken], [u].[PasswordResetTokenExpiry], [u].[PhoneNumber], [u].[Role], [u].[SchoolNumber], [u].[Surname], [u].[TwoFactorEnabled], [u].[TwoFactorSecret]
+    FROM [EventParticipant] AS [e0]
+    INNER JOIN [Users] AS [u] ON [e0].[UserId] = [u].[UserId]
+) AS [s] ON [e].[EventId] = [s].[EventId]
+ORDER BY [e].[EventId], [c].[ClubId], [s].[ParticipantId]
+2025-04-28 14:51:00.385 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:cc1ed6e5-a75c-4ee1-969c-0f0428ec6aeb
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:cc1ed6e5-a75c-4ee1-969c-0f0428ec6aeb
+Error Number:207,State:1,Class:16
+2025-04-28 14:51:00.444 +03:00 [ERR] HTTP GET /api/events/listele responded 500 in 1147.1377 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:cc1ed6e5-a75c-4ee1-969c-0f0428ec6aeb
+Error Number:207,State:1,Class:16
+2025-04-28 14:51:00.527 +03:00 [ERR] Unexpected error occurred: Invalid column name 'Image'., TraceId: 0HNC69BCKIC9K:00000003
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Image'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElasoftCommunityManagementSystem.Services.EventService.GetEvents(Nullable`1 clubId, Int32 userId, String userRole, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Services\EventService.cs:line 45
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ElasoftCommunityManagementSystem.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\sametkaya\Documents\GitHub\ElasoftCommunityManagementSystem\Backend\ElasoftCommunityManagementSystem\Middleware\ExceptionHandlingMiddleware.cs:line 26
+ClientConnectionId:cc1ed6e5-a75c-4ee1-969c-0f0428ec6aeb
+Error Number:207,State:1,Class:16
+2025-04-28 14:54:20.582 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 1136.4872 ms
+2025-04-28 14:54:20.728 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 105.2700 ms
+2025-04-28 14:54:22.031 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 60.3545 ms
+2025-04-28 14:54:22.053 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 12.9492 ms
+2025-04-28 14:54:22.104 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 43.5145 ms
+2025-04-28 14:54:22.325 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 14.6898 ms
+2025-04-28 14:54:22.333 +03:00 [INF] HTTP GET /api/advisors responded 200 in 22.4386 ms
+2025-04-28 14:54:22.695 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.1588 ms
+2025-04-28 14:54:24.631 +03:00 [INF] HTTP GET /api/users/1 responded 404 in 38.8100 ms
+2025-04-28 14:54:24.643 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 6.6808 ms
+2025-04-28 14:54:24.653 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 4.0409 ms
+2025-04-28 14:54:25.096 +03:00 [INF] HTTP GET /api/announcements responded 200 in 19.1723 ms
+2025-04-28 14:54:25.104 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.6217 ms
+2025-04-28 14:54:25.408 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.2101 ms
+2025-04-28 14:54:25.907 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.7761 ms
+2025-04-28 14:54:25.909 +03:00 [INF] HTTP GET /api/advisors responded 200 in 6.0103 ms
+2025-04-28 14:54:26.268 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 6.8014 ms
+2025-04-28 14:54:26.276 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 3.6292 ms
+2025-04-28 14:54:26.283 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.1021 ms
+2025-04-28 14:54:26.613 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.6746 ms
+2025-04-28 14:54:26.623 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.8714 ms
+2025-04-28 14:54:57.957 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 3493.4459 ms
+2025-04-28 14:55:11.544 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 172.4203 ms
+2025-04-28 14:55:11.573 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.6893 ms
+2025-04-28 14:55:11.596 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 15.7833 ms
+2025-04-28 14:55:14.748 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 5.9800 ms
+2025-04-28 14:55:14.756 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.7784 ms
+2025-04-28 14:55:14.767 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 5.4424 ms
+2025-04-28 14:55:15.515 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.2232 ms
+2025-04-28 14:55:16.038 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.6349 ms
+2025-04-28 14:55:16.047 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.1687 ms
+2025-04-28 14:55:16.503 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 14.6896 ms
+2025-04-28 14:55:16.513 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.9515 ms
+2025-04-28 14:55:16.520 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.8551 ms
+2025-04-28 14:55:17.209 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.9447 ms
+2025-04-28 14:55:17.215 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.6825 ms
+2025-04-28 14:55:17.836 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 4.7827 ms
+2025-04-28 14:55:17.847 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.3056 ms
+2025-04-28 14:55:17.854 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.0170 ms
+2025-04-28 14:55:18.215 +03:00 [INF] HTTP GET /api/announcements responded 200 in 2.5157 ms
+2025-04-28 14:55:18.221 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.2792 ms
+2025-04-28 14:55:18.508 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.6998 ms
+2025-04-28 14:55:18.845 +03:00 [INF] HTTP GET /api/advisors responded 200 in 6.1927 ms
+2025-04-28 14:55:18.850 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 11.6171 ms
+2025-04-28 14:55:19.266 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.8920 ms
+2025-04-28 14:55:19.272 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.2320 ms
+2025-04-28 14:55:19.279 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.9035 ms
+2025-04-28 14:55:19.702 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.5704 ms
+2025-04-28 14:55:19.709 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 3.8826 ms
+2025-04-28 14:55:33.917 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.0153 ms
+2025-04-28 14:55:33.963 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.0311 ms
+2025-04-28 14:55:41.651 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 131.6735 ms
+2025-04-28 14:55:41.776 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.4745 ms
+2025-04-28 14:55:41.784 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 14:55:41.785 +03:00 [INF] UserIdClaim: 1
+2025-04-28 14:55:41.786 +03:00 [INF] User ID parsed: 1
+2025-04-28 14:55:41.800 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 14:55:41.801 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 28.2255 ms
+2025-04-28 14:55:41.816 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 42.1224 ms
+2025-04-28 14:55:44.723 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 11.2506 ms
+2025-04-28 14:55:44.728 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-04-28 14:55:44.729 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-04-28 14:55:44.739 +03:00 [INF] HTTP GET /api/Users responded 200 in 27.0790 ms
+2025-04-28 14:56:42.112 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 14:56:42.113 +03:00 [INF] UserIdClaim: 1
+2025-04-28 14:56:42.113 +03:00 [INF] User ID parsed: 1
+2025-04-28 14:56:42.118 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 14:56:42.119 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 7.2173 ms
+2025-04-28 14:57:42.108 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 14:57:42.108 +03:00 [INF] UserIdClaim: 1
+2025-04-28 14:57:42.109 +03:00 [INF] User ID parsed: 1
+2025-04-28 14:57:42.113 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 14:57:42.113 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 6.0881 ms
+2025-04-28 14:57:55.700 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 14:57:55.702 +03:00 [INF] UserIdClaim: 1
+2025-04-28 14:57:55.702 +03:00 [INF] User ID parsed: 1
+2025-04-28 14:57:55.706 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 14:57:55.708 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 7.5193 ms
+2025-04-28 14:57:55.755 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 47.4029 ms
+2025-04-28 14:57:55.760 +03:00 [INF] HTTP GET /api/Users responded 200 in 44.9683 ms
+2025-04-28 14:58:23.783 +03:00 [INF] HTTP POST /api/Users responded 201 in 158.6020 ms
+2025-04-28 14:58:23.807 +03:00 [INF] HTTP GET /api/Users responded 200 in 9.6913 ms
+2025-04-28 14:58:55.706 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 14:58:55.706 +03:00 [INF] UserIdClaim: 1
+2025-04-28 14:58:55.707 +03:00 [INF] User ID parsed: 1
+2025-04-28 14:58:55.711 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 14:58:55.712 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 6.3728 ms
+2025-04-28 14:59:56.112 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 14:59:56.113 +03:00 [INF] UserIdClaim: 1
+2025-04-28 14:59:56.114 +03:00 [INF] User ID parsed: 1
+2025-04-28 14:59:56.122 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 14:59:56.124 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 12.2606 ms
+2025-04-28 15:40:51.679 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 4406.9509 ms
+2025-04-28 15:41:02.151 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 361.9883 ms
+2025-04-28 15:41:02.381 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 133.3462 ms
+2025-04-28 15:41:02.462 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 67.2398 ms
+2025-04-28 15:41:03.515 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 32.4481 ms
+2025-04-28 15:41:03.532 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 10.2068 ms
+2025-04-28 15:41:03.542 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.9615 ms
+2025-04-28 15:41:06.426 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 10.1119 ms
+2025-04-28 15:41:14.089 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 154.8311 ms
+2025-04-28 15:41:14.098 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 3.9891 ms
+2025-04-28 15:41:16.731 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 4.4298 ms
+2025-04-28 15:41:16.741 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.9166 ms
+2025-04-28 15:41:18.002 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 20.2293 ms
+2025-04-28 15:41:18.020 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 10.6097 ms
+2025-04-28 15:41:18.060 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 33.9893 ms
+2025-04-28 15:41:18.844 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 12.7388 ms
+2025-04-28 15:41:18.850 +03:00 [INF] HTTP GET /api/advisors responded 200 in 18.4056 ms
+2025-04-28 15:41:19.337 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.3529 ms
+2025-04-28 15:41:19.818 +03:00 [INF] HTTP GET /api/announcements responded 200 in 18.6001 ms
+2025-04-28 15:41:19.826 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.6590 ms
+2025-04-28 15:41:20.119 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 4.4535 ms
+2025-04-28 15:41:20.129 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.9357 ms
+2025-04-28 15:41:20.136 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.7799 ms
+2025-04-28 15:41:33.512 +03:00 [INF] HTTP POST /api/auth/2fa/enable responded 200 in 65.3780 ms
+2025-04-28 15:41:35.436 +03:00 [INF] HTTP GET /api/users/1 responded 200 in 4.1569 ms
+2025-04-28 15:41:35.448 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.7648 ms
+2025-04-28 15:41:35.457 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.6943 ms
+2025-04-28 15:41:47.781 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 134.0699 ms
+2025-04-28 15:41:47.934 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 12.3547 ms
+2025-04-28 15:41:47.936 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 15:41:47.939 +03:00 [INF] UserIdClaim: 1
+2025-04-28 15:41:47.940 +03:00 [INF] User ID parsed: 1
+2025-04-28 15:41:47.955 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 15:41:47.957 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 35.7331 ms
+2025-04-28 15:41:47.972 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 50.2390 ms
+2025-04-28 15:41:49.803 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 4.9320 ms
+2025-04-28 15:41:49.817 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-04-28 15:41:49.819 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-04-28 15:41:49.831 +03:00 [INF] HTTP GET /api/Users responded 200 in 32.9375 ms
+2025-04-28 15:42:48.118 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 15:42:48.119 +03:00 [INF] UserIdClaim: 1
+2025-04-28 15:42:48.119 +03:00 [INF] User ID parsed: 1
+2025-04-28 15:42:48.126 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 15:42:48.127 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 9.4632 ms
+2025-04-28 15:43:11.119 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 15:43:11.120 +03:00 [INF] UserIdClaim: 1
+2025-04-28 15:43:11.122 +03:00 [INF] User ID parsed: 1
+2025-04-28 15:43:11.125 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 8.6273 ms
+2025-04-28 15:43:11.139 +03:00 [INF] HTTP GET /api/Users responded 200 in 20.3632 ms
+2025-04-28 15:43:11.145 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 15:43:11.146 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 32.8871 ms
+2025-04-28 15:43:38.355 +03:00 [INF] HTTP POST /api/Users responded 201 in 162.8631 ms
+2025-04-28 15:43:38.370 +03:00 [INF] HTTP GET /api/Users responded 200 in 3.9430 ms
+2025-04-28 15:44:11.103 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 15:44:11.104 +03:00 [INF] UserIdClaim: 1
+2025-04-28 15:44:11.105 +03:00 [INF] User ID parsed: 1
+2025-04-28 15:44:11.109 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 15:44:11.110 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 6.3551 ms
+2025-04-28 15:44:21.982 +03:00 [INF] HTTP POST /api/Users responded 201 in 131.4067 ms
+2025-04-28 15:44:22.003 +03:00 [INF] HTTP GET /api/Users responded 200 in 5.7278 ms
+2025-04-28 15:44:38.247 +03:00 [INF] HTTP GET /api/users responded 200 in 6.0441 ms
+2025-04-28 15:44:38.251 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 10.2826 ms
+2025-04-28 15:44:38.267 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.1901 ms
+2025-04-28 15:44:38.276 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.0798 ms
+2025-04-28 15:44:38.283 +03:00 [INF] HTTP GET /api/users responded 200 in 3.4091 ms
+2025-04-28 15:44:40.424 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 2.4732 ms
+2025-04-28 15:44:45.638 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 130.1837 ms
+2025-04-28 15:44:45.649 +03:00 [INF] HTTP GET /api/users responded 200 in 3.6923 ms
+2025-04-28 15:44:50.636 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 128.6177 ms
+2025-04-28 15:44:50.644 +03:00 [INF] HTTP GET /api/users responded 200 in 3.5829 ms
+2025-04-28 15:44:54.748 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 6.2388 ms
+2025-04-28 15:44:54.759 +03:00 [INF] HTTP GET /api/users responded 200 in 3.4779 ms
+2025-04-28 15:44:58.022 +03:00 [INF] HTTP POST /api/auth/2fa/enable responded 200 in 5.5122 ms
+2025-04-28 15:44:59.775 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 15:44:59.776 +03:00 [INF] UserIdClaim: 1
+2025-04-28 15:44:59.777 +03:00 [INF] User ID parsed: 1
+2025-04-28 15:44:59.785 +03:00 [INF] HTTP GET /api/users responded 200 in 9.8870 ms
+2025-04-28 15:44:59.785 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 9.8869 ms
+2025-04-28 15:44:59.795 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 15:44:59.796 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 21.3880 ms
+2025-04-28 15:44:59.805 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 6.0725 ms
+2025-04-28 15:44:59.815 +03:00 [INF] HTTP GET /api/announcements responded 200 in 3.3433 ms
+2025-04-28 15:44:59.823 +03:00 [INF] HTTP GET /api/users responded 200 in 3.8296 ms
+2025-04-28 15:45:08.383 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 132.6524 ms
+2025-04-28 15:45:12.997 +03:00 [INF] HTTP GET /api/users/departments responded 200 in 2.3698 ms
+2025-04-28 15:45:17.096 +03:00 [INF] HTTP PUT /api/users/1 responded 204 in 127.4576 ms
+2025-04-28 15:45:17.107 +03:00 [INF] HTTP GET /api/users responded 200 in 4.9970 ms
+2025-04-28 15:45:20.091 +03:00 [INF] HTTP GET /api/announcements responded 200 in 4.1875 ms
+2025-04-28 15:45:20.096 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 8.8136 ms
+2025-04-28 15:45:20.449 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 3.3801 ms
+2025-04-28 15:45:20.457 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.2842 ms
+2025-04-28 15:45:20.775 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.6170 ms
+2025-04-28 15:45:20.785 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 9.7013 ms
+2025-04-28 15:45:20.785 +03:00 [INF] HTTP GET /api/advisors responded 200 in 9.9243 ms
+2025-04-28 15:45:21.408 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.7458 ms
+2025-04-28 15:45:21.418 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 9.9237 ms
+2025-04-28 15:45:31.891 +03:00 [INF] HTTP GET /api/Users/departments responded 200 in 2.4273 ms
+2025-04-28 15:45:31.892 +03:00 [INF] HTTP GET /api/Users responded 200 in 4.2916 ms
+2025-04-28 15:45:39.909 +03:00 [INF] HTTP PUT /api/Users/2 responded 400 in 15.4587 ms
+2025-04-28 15:45:45.204 +03:00 [INF] HTTP PUT /api/Users/2 responded 400 in 0.6851 ms
+2025-04-28 15:45:57.923 +03:00 [INF] HTTP PUT /api/Users/3 responded 400 in 0.4363 ms
+2025-04-28 15:45:59.771 +03:00 [INF] GetUnreadNotifications started
+2025-04-28 15:45:59.772 +03:00 [INF] UserIdClaim: 1
+2025-04-28 15:45:59.772 +03:00 [INF] User ID parsed: 1
+2025-04-28 15:45:59.776 +03:00 [INF] Result obtained with 0 notifications
+2025-04-28 15:45:59.777 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 5.6290 ms

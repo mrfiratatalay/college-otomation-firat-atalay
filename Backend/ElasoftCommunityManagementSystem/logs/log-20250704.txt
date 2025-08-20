@@ -1,0 +1,5 @@
+2025-07-04 19:22:31.787 +03:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+                CREATE UNIQUE INDEX IX_ClubMembership_ClubId_President 
+                ON ClubMembership (ClubId) 
+                WHERE Status = 'approved' AND LOWER(Role) = 'başkan'

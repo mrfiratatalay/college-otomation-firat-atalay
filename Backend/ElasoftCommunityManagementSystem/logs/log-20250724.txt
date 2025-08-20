@@ -1,0 +1,486 @@
+2025-07-24 11:11:02.271 +03:00 [ERR] HTTP GET /api/events/listele responded 500 in 191.9445 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Desktop\ElasoftCommunityManagementSystem-firat-president-check\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-07-24 11:11:02.346 +03:00 [ERR] Unexpected error occurred: Value cannot be null. (Parameter 's'), TraceId: 0HNEAH5TIERJA:00000003
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ElasoftCommunityManagementSystem.Controllers.EventController.GetEvents(Nullable`1 clubId, String search) in C:\Users\sametkaya\Desktop\ElasoftCommunityManagementSystem-firat-president-check\Backend\ElasoftCommunityManagementSystem\Controllers\EventController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ElasoftCommunityManagementSystem.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\sametkaya\Desktop\ElasoftCommunityManagementSystem-firat-president-check\Backend\ElasoftCommunityManagementSystem\Middleware\ExceptionHandlingMiddleware.cs:line 26
+2025-07-24 11:11:37.785 +03:00 [WRN] The foreign key property 'EventReservation.TimeSlotId1' was created in shadow state because a conflicting property with the simple name 'TimeSlotId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-07-24 11:11:54.418 +03:00 [ERR] An error occurred using the connection to database 'Elasoft53' on server 'DESKTOP-E472VPC\VEYSEL'.
+2025-07-24 11:11:54.428 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-07-24 11:11:54.483 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 17211.2395 ms
+2025-07-24 11:15:36.172 +03:00 [WRN] The foreign key property 'EventReservation.TimeSlotId1' was created in shadow state because a conflicting property with the simple name 'TimeSlotId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-07-24 11:15:39.423 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 3909.2528 ms
+2025-07-24 11:15:57.121 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 383.4984 ms
+2025-07-24 11:15:57.308 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 132.6424 ms
+2025-07-24 11:15:57.380 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 62.0632 ms
+2025-07-24 11:19:28.917 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 23.5942 ms
+2025-07-24 11:19:28.937 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 11.2141 ms
+2025-07-24 11:19:28.979 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 35.7728 ms
+2025-07-24 11:19:30.652 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 12.3554 ms
+2025-07-24 11:19:30.660 +03:00 [INF] HTTP GET /api/advisors responded 200 in 20.3267 ms
+2025-07-24 11:19:30.701 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 19.4243 ms
+2025-07-24 11:19:32.299 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 4.9796 ms
+2025-07-24 11:19:32.311 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 5.7047 ms
+2025-07-24 11:20:14.916 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 2087.5314 ms
+2025-07-24 11:20:38.292 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 130.2331 ms
+2025-07-24 11:20:38.329 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.9300 ms
+2025-07-24 11:20:38.339 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 3.9397 ms
+2025-07-24 11:20:40.510 +03:00 [INF] HTTP GET /api/users/2 responded 200 in 30.2272 ms
+2025-07-24 11:20:40.521 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.8363 ms
+2025-07-24 11:20:40.528 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.6527 ms
+2025-07-24 11:20:51.784 +03:00 [INF] HTTP POST /api/auth/change-password responded 200 in 269.9773 ms
+2025-07-24 11:21:42.718 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 2025.6620 ms
+2025-07-24 11:21:57.872 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 129.8444 ms
+2025-07-24 11:21:57.909 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.1539 ms
+2025-07-24 11:21:57.919 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.3583 ms
+2025-07-24 11:21:59.224 +03:00 [INF] HTTP GET /api/users/3 responded 200 in 4.2726 ms
+2025-07-24 11:21:59.234 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 4.8298 ms
+2025-07-24 11:21:59.243 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 4.6440 ms
+2025-07-24 11:22:11.034 +03:00 [INF] HTTP POST /api/auth/change-password responded 200 in 255.0837 ms
+2025-07-24 11:23:11.402 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 129.0393 ms
+2025-07-24 11:23:11.603 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 6.4865 ms
+2025-07-24 11:23:11.608 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:23:11.608 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:23:11.609 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:23:11.624 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:23:11.625 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 27.9470 ms
+2025-07-24 11:23:11.641 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 43.4951 ms
+2025-07-24 11:23:17.893 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:23:17.894 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:23:17.896 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:23:17.921 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:23:17.921 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 28.0603 ms
+2025-07-24 11:23:17.922 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 28.6356 ms
+2025-07-24 11:23:17.922 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 29.3308 ms
+2025-07-24 11:28:05.768 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:28:05.769 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:28:05.769 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:28:05.774 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:28:05.775 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 10.2697 ms
+2025-07-24 11:28:05.805 +03:00 [INF] HTTP GET /api/eventreservation/all-reservations responded 200 in 34.3637 ms
+2025-07-24 11:28:22.708 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-details responded 200 in 17.0696 ms
+2025-07-24 11:28:32.015 +03:00 [INF] HTTP POST /api/eventreservation/add-location responded 200 in 29.2398 ms
+2025-07-24 11:28:32.035 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-details responded 200 in 9.0504 ms
+2025-07-24 11:28:36.922 +03:00 [INF] HTTP GET /api/eventreservation/daily-slots/1/0 responded 200 in 10.0532 ms
+2025-07-24 11:29:05.715 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:29:05.716 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:29:05.717 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:29:05.720 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:29:05.721 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 5.7609 ms
+2025-07-24 11:29:09.144 +03:00 [INF] HTTP POST /api/eventreservation/update-daily-slots responded 200 in 40.5932 ms
+2025-07-24 11:29:09.165 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-details responded 200 in 9.2016 ms
+2025-07-24 11:29:13.056 +03:00 [INF] HTTP GET /api/eventreservation/daily-slots/1/1 responded 200 in 4.6283 ms
+2025-07-24 11:29:32.965 +03:00 [INF] HTTP POST /api/eventreservation/update-daily-slots responded 200 in 4.3991 ms
+2025-07-24 11:29:32.979 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-details responded 200 in 2.0661 ms
+2025-07-24 11:29:37.997 +03:00 [INF] HTTP GET /api/eventreservation/daily-slots/1/2 responded 200 in 2.0299 ms
+2025-07-24 11:29:57.759 +03:00 [INF] HTTP POST /api/eventreservation/update-daily-slots responded 200 in 3.5919 ms
+2025-07-24 11:29:57.773 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-details responded 200 in 2.1070 ms
+2025-07-24 11:30:06.247 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:30:06.248 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:30:06.248 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:30:06.251 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:30:06.251 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 4.7635 ms
+2025-07-24 11:31:45.938 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 129.1776 ms
+2025-07-24 11:31:45.984 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.9291 ms
+2025-07-24 11:31:45.998 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 7.8449 ms
+2025-07-24 11:31:54.445 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 4.8039 ms
+2025-07-24 11:31:54.454 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.2404 ms
+2025-07-24 11:31:54.462 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.0496 ms
+2025-07-24 11:31:55.320 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 16.6057 ms
+2025-07-24 11:31:55.324 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 8.5234 ms
+2025-07-24 11:31:55.324 +03:00 [INF] HTTP GET /api/advisors responded 200 in 13.7891 ms
+2025-07-24 11:34:52.434 +03:00 [INF] HTTP GET /api/advisors responded 200 in 8.6609 ms
+2025-07-24 11:34:52.440 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 5.4927 ms
+2025-07-24 11:34:52.448 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 23.0043 ms
+2025-07-24 11:35:47.407 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.8708 ms
+2025-07-24 11:35:47.416 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 3.6801 ms
+2025-07-24 11:38:22.735 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 8.6076 ms
+2025-07-24 11:38:22.748 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.2480 ms
+2025-07-24 11:38:22.757 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.2028 ms
+2025-07-24 11:38:24.676 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.3926 ms
+2025-07-24 11:38:24.687 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 2.9402 ms
+2025-07-24 11:38:26.597 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 2.8065 ms
+2025-07-24 11:38:26.605 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.1697 ms
+2025-07-24 11:38:26.610 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 2.0179 ms
+2025-07-24 11:38:28.286 +03:00 [INF] HTTP GET /api/advisors responded 200 in 12.1264 ms
+2025-07-24 11:38:28.289 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 15.6579 ms
+2025-07-24 11:38:28.291 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 4.2872 ms
+2025-07-24 11:38:50.560 +03:00 [INF] HTTP POST /api/clubs responded 200 in 179.5692 ms
+2025-07-24 11:38:50.612 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 11.0031 ms
+2025-07-24 11:38:50.620 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.9827 ms
+2025-07-24 11:38:50.653 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 27.5063 ms
+2025-07-24 11:38:50.672 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 11.7457 ms
+2025-07-24 11:39:17.164 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 132.1557 ms
+2025-07-24 11:39:17.219 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:39:17.220 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:39:17.226 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:39:17.243 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 24.2022 ms
+2025-07-24 11:39:17.243 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:39:17.245 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 26.8263 ms
+2025-07-24 11:39:17.248 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 29.5411 ms
+2025-07-24 11:39:18.696 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 7.8254 ms
+2025-07-24 11:39:18.696 +03:00 [INF] HTTP GET /api/advisors responded 200 in 8.0376 ms
+2025-07-24 11:39:18.703 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 2.0902 ms
+2025-07-24 11:39:18.711 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 26.6981 ms
+2025-07-24 11:39:19.930 +03:00 [INF] HTTP PUT /api/clubs/1/aktif-et responded 200 in 15.6813 ms
+2025-07-24 11:39:30.941 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 128.9907 ms
+2025-07-24 11:39:30.978 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.5466 ms
+2025-07-24 11:39:31.005 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 18.3767 ms
+2025-07-24 11:39:32.433 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.1517 ms
+2025-07-24 11:39:32.442 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.8239 ms
+2025-07-24 11:39:32.457 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 10.1489 ms
+2025-07-24 11:39:32.466 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.2487 ms
+2025-07-24 11:39:34.561 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.3349 ms
+2025-07-24 11:39:34.583 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-07-24 11:39:34.640 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 71.1841 ms
+2025-07-24 11:39:34.703 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 53.2576 ms
+2025-07-24 11:39:34.709 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.1865 ms
+2025-07-24 11:39:34.743 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 28.1676 ms
+2025-07-24 11:39:34.743 +03:00 [INF] HTTP GET /api/memberships/member-details/3 responded 200 in 28.1848 ms
+2025-07-24 11:39:34.762 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 12.7941 ms
+2025-07-24 11:39:34.771 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 22.0368 ms
+2025-07-24 11:39:34.799 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 22.7390 ms
+2025-07-24 11:39:34.805 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.1214 ms
+2025-07-24 11:39:37.522 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.4187 ms
+2025-07-24 11:39:38.473 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.4170 ms
+2025-07-24 11:39:38.483 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.1235 ms
+2025-07-24 11:39:38.497 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 9.6680 ms
+2025-07-24 11:39:38.506 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.2779 ms
+2025-07-24 11:39:39.727 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.1708 ms
+2025-07-24 11:39:39.750 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 15.0742 ms
+2025-07-24 11:39:39.762 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 2.9202 ms
+2025-07-24 11:39:39.768 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.2126 ms
+2025-07-24 11:39:39.777 +03:00 [INF] HTTP GET /api/memberships/member-details/3 responded 200 in 4.0144 ms
+2025-07-24 11:39:39.777 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 4.0144 ms
+2025-07-24 11:39:39.785 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 2.3364 ms
+2025-07-24 11:39:39.786 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.5781 ms
+2025-07-24 11:39:39.801 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 7.7364 ms
+2025-07-24 11:39:39.807 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0325 ms
+2025-07-24 11:39:42.201 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.6603 ms
+2025-07-24 11:39:43.424 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 2.0203 ms
+2025-07-24 11:39:45.777 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.2692 ms
+2025-07-24 11:39:48.280 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.6155 ms
+2025-07-24 11:39:48.280 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.9696 ms
+2025-07-24 11:39:48.289 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 1.4710 ms
+2025-07-24 11:39:48.887 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.5845 ms
+2025-07-24 11:39:49.409 +03:00 [INF] HTTP GET /api/advisors responded 200 in 2.8911 ms
+2025-07-24 11:39:49.409 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.8492 ms
+2025-07-24 11:39:49.417 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 1.3353 ms
+2025-07-24 11:39:49.873 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.5355 ms
+2025-07-24 11:39:52.515 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.1152 ms
+2025-07-24 11:39:52.524 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 1.8553 ms
+2025-07-24 11:39:52.538 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 9.5377 ms
+2025-07-24 11:39:52.548 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.2060 ms
+2025-07-24 11:39:53.741 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.3031 ms
+2025-07-24 11:39:53.764 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 14.5216 ms
+2025-07-24 11:39:53.777 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 2.9519 ms
+2025-07-24 11:39:53.783 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.1429 ms
+2025-07-24 11:39:53.792 +03:00 [INF] HTTP GET /api/memberships/member-details/3 responded 200 in 3.9969 ms
+2025-07-24 11:39:53.792 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 3.9973 ms
+2025-07-24 11:39:53.801 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 2.2450 ms
+2025-07-24 11:39:53.801 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.3677 ms
+2025-07-24 11:39:53.817 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 8.3724 ms
+2025-07-24 11:39:53.822 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0312 ms
+2025-07-24 11:39:55.808 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 2.1749 ms
+2025-07-24 11:40:38.915 +03:00 [INF] HTTP POST /api/events/ekle responded 400 in 102.4928 ms
+2025-07-24 11:40:49.993 +03:00 [INF] HTTP POST /api/events/ekle responded 200 in 65.0578 ms
+2025-07-24 11:40:50.026 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 26.3870 ms
+2025-07-24 11:42:13.294 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 10.1469 ms
+2025-07-24 11:42:13.328 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 26.2001 ms
+2025-07-24 11:42:13.343 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 3.8912 ms
+2025-07-24 11:42:13.352 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.2441 ms
+2025-07-24 11:42:13.373 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 8.1332 ms
+2025-07-24 11:42:13.373 +03:00 [INF] HTTP GET /api/memberships/member-details/3 responded 200 in 9.8424 ms
+2025-07-24 11:42:13.382 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 2.5939 ms
+2025-07-24 11:42:13.403 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 23.9120 ms
+2025-07-24 11:42:13.416 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 6.5942 ms
+2025-07-24 11:42:13.422 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0356 ms
+2025-07-24 11:42:15.433 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.6360 ms
+2025-07-24 11:42:18.802 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 16.7449 ms
+2025-07-24 11:42:26.316 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 11.0258 ms
+2025-07-24 11:42:37.919 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 2.9398 ms
+2025-07-24 11:42:37.928 +03:00 [INF] HTTP GET /api/memberships/my-club/basvurular responded 200 in 2.0521 ms
+2025-07-24 11:42:37.949 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 15.8038 ms
+2025-07-24 11:42:37.958 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.1572 ms
+2025-07-24 11:42:40.050 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 3.5373 ms
+2025-07-24 11:42:40.073 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 16.5483 ms
+2025-07-24 11:42:40.086 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 2.5112 ms
+2025-07-24 11:42:40.091 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 2.1240 ms
+2025-07-24 11:42:40.102 +03:00 [INF] HTTP GET /api/memberships/member-details/3 responded 200 in 3.7562 ms
+2025-07-24 11:42:40.102 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 3.7617 ms
+2025-07-24 11:42:40.115 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 2.2383 ms
+2025-07-24 11:42:40.123 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 9.9963 ms
+2025-07-24 11:42:40.137 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 7.5542 ms
+2025-07-24 11:42:40.144 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0386 ms
+2025-07-24 11:42:42.333 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.4211 ms
+2025-07-24 11:42:44.235 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-timeslots responded 200 in 20.0848 ms
+2025-07-24 11:42:44.256 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 9.3625 ms
+2025-07-24 11:42:50.225 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 9.8872 ms
+2025-07-24 11:42:54.211 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-timeslots responded 200 in 2.0967 ms
+2025-07-24 11:42:54.239 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 16.1393 ms
+2025-07-24 11:43:30.696 +03:00 [INF] HTTP GET /api/eventreservation/daily-slots/1/1 responded 200 in 19.2994 ms
+2025-07-24 11:43:37.070 +03:00 [INF] HTTP GET /api/eventreservation/daily-slots/1/1 responded 200 in 3.0294 ms
+2025-07-24 11:43:40.733 +03:00 [INF] HTTP POST /api/eventreservation/reserve responded 200 in 23.6384 ms
+2025-07-24 11:43:55.696 +03:00 [INF] HTTP GET /api/eventreservation/daily-slots/1/1 responded 200 in 8.7917 ms
+2025-07-24 11:44:01.558 +03:00 [INF] HTTP GET /api/memberships/whoami responded 200 in 2.8459 ms
+2025-07-24 11:44:01.586 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 18.5896 ms
+2025-07-24 11:44:01.599 +03:00 [INF] HTTP GET /api/memberships/my-led-clubs/pending-applications responded 200 in 3.2936 ms
+2025-07-24 11:44:01.608 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 1.9626 ms
+2025-07-24 11:44:01.620 +03:00 [INF] HTTP GET /api/memberships/member-details/2 responded 200 in 6.8418 ms
+2025-07-24 11:44:01.622 +03:00 [INF] HTTP GET /api/memberships/member-details/3 responded 200 in 8.8262 ms
+2025-07-24 11:44:01.633 +03:00 [INF] HTTP GET /api/announcements/club/1 responded 200 in 3.5836 ms
+2025-07-24 11:44:01.648 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 19.4180 ms
+2025-07-24 11:44:01.662 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 6.5708 ms
+2025-07-24 11:44:01.668 +03:00 [INF] HTTP GET /api/events/pending responded 404 in 0.0403 ms
+2025-07-24 11:44:03.059 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.5082 ms
+2025-07-24 11:44:04.278 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-timeslots responded 200 in 7.4109 ms
+2025-07-24 11:44:04.298 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.1898 ms
+2025-07-24 11:44:06.166 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.7261 ms
+2025-07-24 11:44:07.010 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-timeslots responded 200 in 3.1799 ms
+2025-07-24 11:44:07.031 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.3818 ms
+2025-07-24 11:44:12.183 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.9598 ms
+2025-07-24 11:44:13.062 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-timeslots responded 200 in 1.9781 ms
+2025-07-24 11:44:13.081 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 7.7947 ms
+2025-07-24 11:44:14.411 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.8436 ms
+2025-07-24 11:44:16.882 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-timeslots responded 200 in 2.0831 ms
+2025-07-24 11:44:16.902 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.4825 ms
+2025-07-24 11:44:18.025 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 9.0846 ms
+2025-07-24 11:44:32.566 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-timeslots responded 200 in 2.0890 ms
+2025-07-24 11:44:32.588 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 10.2475 ms
+2025-07-24 11:44:47.349 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 9.2573 ms
+2025-07-24 11:45:25.738 +03:00 [INF] HTTP POST /api/events/ekle responded 200 in 45.5949 ms
+2025-07-24 11:45:25.763 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 15.9133 ms
+2025-07-24 11:45:29.355 +03:00 [INF] HTTP GET /api/eventreservation/locations-with-timeslots responded 200 in 1.8757 ms
+2025-07-24 11:45:29.385 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 18.2043 ms
+2025-07-24 11:45:37.296 +03:00 [INF] HTTP GET /api/eventreservation/daily-slots/1/0 responded 200 in 3.6362 ms
+2025-07-24 11:45:42.056 +03:00 [INF] HTTP POST /api/eventreservation/reserve responded 200 in 4.9883 ms
+2025-07-24 11:46:01.467 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 129.4817 ms
+2025-07-24 11:46:01.523 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:46:01.524 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:46:01.529 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:46:01.544 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:46:01.545 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 21.9626 ms
+2025-07-24 11:46:01.550 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 30.7266 ms
+2025-07-24 11:46:01.553 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 33.2380 ms
+2025-07-24 11:46:02.892 +03:00 [INF] HTTP GET /api/eventreservation/all-reservations responded 200 in 20.7559 ms
+2025-07-24 11:46:36.673 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 9.3073 ms
+2025-07-24 11:46:36.704 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 51.5078 ms
+2025-07-24 11:46:36.718 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 56.3681 ms
+2025-07-24 11:46:36.731 +03:00 [INF] HTTP GET /api/events/completed/undefined responded 400 in 64.4612 ms
+2025-07-24 11:46:41.068 +03:00 [INF] HTTP GET /api/eventreservation/all-reservations responded 200 in 21.4743 ms
+2025-07-24 11:47:01.512 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:47:01.513 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:47:01.513 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:47:01.520 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:47:01.520 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 8.7808 ms
+2025-07-24 11:47:37.499 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 132.1663 ms
+2025-07-24 11:47:37.618 +03:00 [INF] HTTP GET /api/dashboard/advisordashboard responded 200 in 35.2581 ms
+2025-07-24 11:47:39.515 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.5730 ms
+2025-07-24 11:47:39.555 +03:00 [INF] HTTP GET /api/clubs/advisor/my-clubs responded 200 in 32.2880 ms
+2025-07-24 11:47:41.873 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.2344 ms
+2025-07-24 11:47:41.911 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 32.2598 ms
+2025-07-24 11:47:41.922 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 3.1957 ms
+2025-07-24 11:47:41.956 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 28.2792 ms
+2025-07-24 11:47:41.990 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 26.5943 ms
+2025-07-24 11:47:42.006 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 10.4260 ms
+2025-07-24 11:47:53.677 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.6653 ms
+2025-07-24 11:47:53.699 +03:00 [INF] HTTP GET /api/clubs/advisor/my-clubs responded 200 in 15.8723 ms
+2025-07-24 11:48:00.940 +03:00 [INF] HTTP GET /api/events/yetkili-etkinlikler responded 200 in 60.2345 ms
+2025-07-24 11:48:02.793 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.0201 ms
+2025-07-24 11:48:02.809 +03:00 [INF] HTTP GET /api/clubs/advisor/my-clubs responded 200 in 9.4438 ms
+2025-07-24 11:48:29.700 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.4146 ms
+2025-07-24 11:48:29.743 +03:00 [INF] HTTP GET /api/clubs/1 responded 200 in 34.6688 ms
+2025-07-24 11:48:29.754 +03:00 [INF] HTTP GET /api/memberships/club/1/members responded 200 in 3.1645 ms
+2025-07-24 11:48:29.782 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 23.9510 ms
+2025-07-24 11:48:29.805 +03:00 [INF] HTTP GET /api/memberships/advisor/pending-applications responded 200 in 16.1987 ms
+2025-07-24 11:48:29.826 +03:00 [INF] HTTP GET /api/club-expenses/club/1 responded 200 in 15.6980 ms
+2025-07-24 11:48:48.604 +03:00 [INF] HTTP GET /api/events/yetkili-etkinlikler responded 200 in 14.0903 ms
+2025-07-24 11:48:53.788 +03:00 [INF] HTTP PUT /api/events/2/advisor-approve responded 200 in 26.3338 ms
+2025-07-24 11:49:08.725 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 132.0102 ms
+2025-07-24 11:49:08.764 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:49:08.766 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:49:08.768 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:49:08.775 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:49:08.776 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 11.8080 ms
+2025-07-24 11:49:08.780 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 13.7074 ms
+2025-07-24 11:49:08.783 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 18.8312 ms
+2025-07-24 11:49:10.021 +03:00 [INF] HTTP GET /api/advisors responded 200 in 7.1074 ms
+2025-07-24 11:49:10.022 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 8.3844 ms
+2025-07-24 11:49:10.033 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 3.9834 ms
+2025-07-24 11:49:10.038 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 28.1284 ms
+2025-07-24 11:49:11.763 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 2.5812 ms
+2025-07-24 11:49:11.771 +03:00 [INF] HTTP GET /api/events/completed/undefined responded 400 in 7.0248 ms
+2025-07-24 11:49:11.781 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 20.8816 ms
+2025-07-24 11:49:11.798 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 33.4392 ms
+2025-07-24 11:49:27.352 +03:00 [INF] HTTP GET /api/eventreservation/all-reservations responded 200 in 16.6939 ms
+2025-07-24 11:49:28.567 +03:00 [INF] HTTP GET /api/settings/club-create-dates responded 200 in 2.2145 ms
+2025-07-24 11:49:28.572 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.0836 ms
+2025-07-24 11:49:28.583 +03:00 [INF] HTTP GET /api/advisors responded 200 in 15.0917 ms
+2025-07-24 11:49:28.593 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 26.1063 ms
+2025-07-24 11:49:32.488 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 3.3420 ms
+2025-07-24 11:49:32.489 +03:00 [INF] HTTP GET /api/events/completed/undefined responded 400 in 3.3943 ms
+2025-07-24 11:49:32.501 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 18.6998 ms
+2025-07-24 11:49:32.509 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 23.2012 ms
+2025-07-24 11:49:46.051 +03:00 [INF] HTTP GET /api/eventreservation/all-reservations responded 200 in 11.3501 ms
+2025-07-24 11:49:58.746 +03:00 [INF] HTTP GET /api/events/completed/undefined responded 400 in 0.7914 ms
+2025-07-24 11:49:58.749 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 4.4215 ms
+2025-07-24 11:49:58.763 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 22.1929 ms
+2025-07-24 11:49:58.790 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 48.4622 ms
+2025-07-24 11:50:08.742 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:50:08.743 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:50:08.743 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:50:08.751 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:50:08.751 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 9.5137 ms
+2025-07-24 11:50:12.470 +03:00 [INF] HTTP PUT /api/events/2/admin-approve responded 200 in 12.3597 ms
+2025-07-24 11:50:12.502 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 24.2942 ms
+2025-07-24 11:50:13.826 +03:00 [INF] HTTP GET /api/eventreservation/all-reservations responded 200 in 18.2000 ms
+2025-07-24 11:50:24.568 +03:00 [INF] HTTP GET /api/events/completed/undefined responded 400 in 0.6198 ms
+2025-07-24 11:50:24.580 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 13.1983 ms
+2025-07-24 11:50:24.596 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 29.4224 ms
+2025-07-24 11:50:24.604 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 37.4441 ms
+2025-07-24 11:50:59.360 +03:00 [INF] HTTP GET /api/eventreservation/all-reservations responded 200 in 19.5954 ms
+2025-07-24 11:51:01.914 +03:00 [INF] HTTP GET /api/events/completed/undefined responded 400 in 6.5148 ms
+2025-07-24 11:51:01.921 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 13.7203 ms
+2025-07-24 11:51:01.939 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 31.6104 ms
+2025-07-24 11:51:01.947 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 39.1844 ms
+2025-07-24 11:51:08.735 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:51:08.736 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:51:08.737 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:51:08.743 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:51:08.744 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 8.9384 ms
+2025-07-24 11:51:14.843 +03:00 [INF] HTTP GET /api/events/documents/application_39d5b36e-2471-4657-a331-71e9f0a929bd.pdf responded 200 in 19.8334 ms
+2025-07-24 11:51:17.342 +03:00 [INF] HTTP GET /api/events/documents/application_39d5b36e-2471-4657-a331-71e9f0a929bd.pdf responded 200 in 8.1160 ms
+2025-07-24 11:51:20.668 +03:00 [INF] HTTP GET /api/events/documents/management_5f898e86-05cd-4a45-9ca9-7e7df115ca3d.pdf responded 200 in 6.5871 ms
+2025-07-24 11:51:53.958 +03:00 [INF] HTTP GET /api/eventreservation/all-reservations responded 200 in 24.1080 ms
+2025-07-24 11:52:08.742 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:52:08.743 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:52:08.743 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:52:08.748 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:52:08.749 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 7.0715 ms
+2025-07-24 11:52:16.238 +03:00 [INF] HTTP GET /api/events/completed/undefined responded 400 in 5.9256 ms
+2025-07-24 11:52:16.238 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 7.4020 ms
+2025-07-24 11:52:16.263 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 32.2124 ms
+2025-07-24 11:52:16.268 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 40.3118 ms
+2025-07-24 11:53:08.742 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:53:08.743 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:53:08.743 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:53:08.748 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:53:08.749 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 6.9605 ms
+2025-07-24 11:54:09.255 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:54:09.256 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:54:09.256 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:54:09.262 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:54:09.263 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 8.4124 ms
+2025-07-24 11:55:08.741 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:55:08.742 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:55:08.742 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:55:08.748 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:55:08.749 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 8.2415 ms
+2025-07-24 11:56:09.245 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:56:09.245 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:56:09.246 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:56:09.251 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:56:09.252 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 7.4620 ms
+2025-07-24 11:57:40.255 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:57:40.255 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:57:40.256 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:57:40.261 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:57:40.262 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 7.3948 ms
+2025-07-24 11:58:40.251 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:58:40.252 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:58:40.252 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:58:40.257 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:58:40.258 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 6.9208 ms
+2025-07-24 11:59:16.988 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:59:16.988 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:59:16.989 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:59:16.996 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:59:16.997 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 9.3508 ms
+2025-07-24 11:59:20.539 +03:00 [INF] GetUnreadNotifications started
+2025-07-24 11:59:20.542 +03:00 [INF] UserIdClaim: 1
+2025-07-24 11:59:20.547 +03:00 [INF] User ID parsed: 1
+2025-07-24 11:59:20.548 +03:00 [INF] HTTP GET /api/events/completed/undefined responded 400 in 6.4557 ms
+2025-07-24 11:59:20.560 +03:00 [INF] HTTP GET /api/categories/listele responded 200 in 18.6168 ms
+2025-07-24 11:59:20.568 +03:00 [INF] Result obtained with 0 notifications
+2025-07-24 11:59:20.572 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 37.2314 ms
+2025-07-24 11:59:20.591 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 50.5999 ms
+2025-07-24 11:59:20.601 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 60.5567 ms
