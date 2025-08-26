@@ -1,8 +1,4 @@
-Elbette, aşağıda `README.md` dosyan için hazırlanan içeriğin doğrudan kopyalanabilir **Markdown formatındaki ham metnini** bulabilirsin.
 
-Bu metni kopyalayıp projenin `README.md` dosyasına yapıştırman yeterlidir.
-
-```markdown
 ## 🚀 Kimlik Doğrulama Formları Modernizasyonu ve Geliştirilmiş Kullanıcı Deneyimi (UX)
 
 Bu güncelleme, projenin en kritik kullanıcı etkileşim noktaları olan **Giriş Yap (`Login.vue`)** ve **Kayıt Ol (`Register.vue`)** component'lerini temelden modernize eder. Yapılan değişiklikler, kod kalitesini artırmak, kullanıcı deneyimini iyileştirmek ve gelecekteki bakımı kolaylaştırmak amacıyla gerçekleştirilmiştir.
