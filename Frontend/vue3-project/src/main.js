@@ -1,42 +1,42 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import Toast, { POSITION } from "vue-toastification"; // <-- Import with POSITION (or other options if needed)
-import "vue-toastification/dist/index.css"; // CSS'i import et
 import '@fortawesome/fontawesome-free/css/all.css'
 import axios from 'axios'
+import { createApp } from 'vue'
+import Toast, { POSITION } from 'vue-toastification'
+import 'vue-toastification/dist/index.css'
+import App from './App.vue'
+import router from './router'
 
-//Vee Validate
-import { defineRule, configure } from 'vee-validate';
-import { required, email } from '@vee-validate/rules';
-import { localize, setLocale } from '@vee-validate/i18n';
-import tr from '@vee-validate/i18n/dist/locale/tr.json';
+// vee-validate
+import { localize, setLocale } from '@vee-validate/i18n'
+import tr from '@vee-validate/i18n/dist/locale/tr.json'
+import { email, max, min, required } from '@vee-validate/rules'
+import { configure, defineRule } from 'vee-validate'
 
 const app = createApp(App)
 
+// Kuralları kaydet (kullandıkların mutlaka burada olmalı)
+defineRule('required', required)
+defineRule('email', email)
+defineRule('min', min)
+defineRule('max', max)
+// İleride alpha/numeric/regex vs. kullanırsan, burada defineRule ile ekle.
 
-// VeeValidate Kurallarını Tanımla
-defineRule('required', required);
-defineRule('email', email);
-
-// VeeValidate'i Türkçe ve anında kontrol edecek şekilde ayarla
+// Mesajlar + yazarken doğrulama
 configure({
   generateMessage: localize({ tr }),
   validateOnInput: true,
-});
-setLocale('tr');
+})
+setLocale('tr')
 
-
-// Define toast options (optional, but good practice)
+// Toast varsayılanları (opsiyonel)
 const toastOptions = {
-  position: POSITION.BOTTOM_RIGHT, // Example: Set default position
-  timeout: 3000, // Example: Set default timeout (3 seconds)
-  // You can add other default options here
-};
+  position: POSITION.BOTTOM_RIGHT,
+  timeout: 3000,
+}
 
-// Axios'u global olarak tüm bileşenlerde $http olarak kullanabilmek için
+// Axios’u global (opsiyonel)
 app.config.globalProperties.$http = axios
 
 app.use(router)
-app.use(Toast, toastOptions); // <-- Pass options object
+app.use(Toast, toastOptions)
 app.mount('#app')
