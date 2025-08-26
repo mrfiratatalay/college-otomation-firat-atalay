@@ -1,317 +1,44 @@
-# ElasoftCommunityManagementSystem
+Elbette, aşağıda `README.md` dosyan için hazırlanan içeriğin doğrudan kopyalanabilir **Markdown formatındaki ham metnini** bulabilirsin.
 
-A comprehensive community management system built with ASP.NET Core backend and Vue.js frontend for managing university clubs and communities.
+Bu metni kopyalayıp projenin `README.md` dosyasına yapıştırman yeterlidir.
 
-## 🆕 New Feature: Single President Per Club Constraint
+```markdown
+## 🚀 Kimlik Doğrulama Formları Modernizasyonu ve Geliştirilmiş Kullanıcı Deneyimi (UX)
 
-### Overview
-
-This system now ensures that **only one president can be assigned to a single community/club** at any time. This feature includes database-level constraints, API endpoints, and comprehensive validation to maintain data integrity.
-
-### 🔧 Implementation Details
-
-#### 1. Database-Level Constraint
-
-- **Unique Partial Index**: `IX_ClubMembership_ClubId_President`
-- **Purpose**: Prevents multiple presidents per club at the database level
-- **Constraint**: Only one approved membership with role "başkan" can exist per club
-- **Migration**: `20250704162312_AddUniqueConstraintForClubPresident`
-
-```sql
-CREATE UNIQUE INDEX IX_ClubMembership_ClubId_President
-ON ClubMembership (ClubId)
-WHERE Status = 'approved' AND Role = 'başkan'
-```
-
-#### 2. Enhanced Service Methods
-
-##### `SetClubLeaderAsync(int membershipId, int userId)`
-
-- **Transaction-based**: Uses database transactions to prevent race conditions
-- **Automatic demotion**: Current president is automatically demoted to "member" role
-- **Validation**: Checks if user is already a president before assignment
-- **Notifications**: Sends notifications to both new and old presidents
-- **Authorization**: Only admins and advisors can set club leaders
-
-##### `ValidateClubPresidentUniquenessAsync(int clubId)`
-
-- **Purpose**: Validates that a club has exactly one president
-- **Returns**: Boolean indicating if the club has valid president count
-- **Usage**: Data integrity checks and validation
-
-##### `GetClubPresidentAsync(int clubId)`
-
-- **Purpose**: Retrieves the current president of a club
-- **Returns**: President's membership information or null if no president exists
-- **Includes**: User details and membership information
-
-#### 3. New API Endpoints
-
-##### Set Club Leader
-
-```http
-PUT /api/memberships/set-leader/{membershipId}
-Authorization: Bearer {token}
-```
-
-- **Purpose**: Sets a club member as the club president
-- **Authorization**: Admin or Advisor roles only
-- **Response**: Success message or error details
-
-##### Validate Club President
-
-```http
-GET /api/memberships/validate-president/{clubId}
-Authorization: Bearer {token}
-```
-
-- **Purpose**: Validates club president uniqueness
-- **Returns**: Validation result and current president information
-- **Response Format**:
-
-```json
-{
-  "isValid": true,
-  "hasPresident": true,
-  "president": {
-    "userId": 123,
-    "name": "John",
-    "surname": "Doe",
-    "role": "başkan",
-    "joinedAt": "2024-01-15T10:30:00Z"
-  }
-}
-```
-
-### 🛡️ Security Features
-
-#### Authorization Rules
-
-- **Set Leader**: Only users with "admin" or "advisor" roles
-- **Validate President**: All authenticated users
-- **Authentication**: JWT token required for all endpoints
-
-#### Validation Checks
-
-- User must be authenticated
-- Membership must exist and be approved
-- User must have appropriate role permissions
-- Prevents setting same user as president twice
-
-### 🔄 Business Logic Flow
-
-#### Setting a New President
-
-1. **Validation**: Check if membership exists and is approved
-2. **Authorization**: Verify user has admin/advisor role
-3. **Duplicate Check**: Ensure user isn't already president
-4. **Transaction Start**: Begin database transaction
-5. **Demote Current**: Change current president to "member" role
-6. **Promote New**: Set new user as "başkan"
-7. **Save Changes**: Commit transaction
-8. **Notifications**: Send notifications to affected users
-
-#### President Validation
-
-1. **Count Check**: Verify exactly one president exists
-2. **Status Check**: Ensure president has "approved" status
-3. **Role Check**: Confirm role is "başkan"
-4. **Return Result**: Provide validation status and president details
-
-### 📊 Database Schema Changes
-
-#### ClubMembership Table
-
-- **Unique Index**: Added partial unique index on ClubId for presidents
-- **Constraint**: Prevents multiple presidents per club
-- **Performance**: Optimized queries for president lookups
-
-### 🚀 API Documentation
-
-The API is fully documented with Swagger/OpenAPI. Access the documentation at:
-
-```
-https://localhost:7274/swagger/index.html
-```
-
-#### Key Endpoints Added:
-
-- `PUT /api/memberships/set-leader/{membershipId}` - Set club leader
-- `GET /api/memberships/validate-president/{clubId}` - Validate president
-
-### 🔧 Technical Implementation
-
-#### Transaction Management
-
-```csharp
-using var transaction = await _context.Database.BeginTransactionAsync();
-try
-{
-    // Business logic here
-    await _context.SaveChangesAsync();
-    await transaction.CommitAsync();
-}
-catch
-{
-    await transaction.RollbackAsync();
-    throw;
-}
-```
-
-#### Notification System Integration
-
-```csharp
-// Notify new president
-await _notificationService.CreateNotificationAsync(
-    membership.UserId,
-    "Başkanlık Atama",
-    $"Tebrikler! {membership.Club?.Name} başkanı olarak atandınız.",
-    "membership"
-);
-
-// Notify old president
-await _notificationService.CreateNotificationAsync(
-    currentLeader.UserId,
-    "Başkanlık Devri",
-    $"{membership.Club?.Name} başkanlığınız başka bir üyeye devredildi.",
-    "membership"
-);
-```
-
-### 🎯 Benefits
-
-#### Data Integrity
-
-- **Database-level enforcement** prevents corruption
-- **Transaction-based operations** ensure consistency
-- **Validation at multiple levels** (API, service, database)
-
-#### User Experience
-
-- **Clear notifications** for president changes
-- **Proper error messages** for invalid operations
-- **Smooth transitions** when changing leadership
-
-#### System Reliability
-
-- **Race condition prevention** through transactions
-- **Comprehensive error handling** with meaningful messages
-- **Authorization checks** prevent unauthorized access
-
-### 🧪 Testing
-
-#### Manual Testing
-
-1. **Set President**: Use the API endpoint to set a club leader
-2. **Validate**: Check that only one president exists per club
-3. **Duplicate Prevention**: Try to set multiple presidents (should fail)
-4. **Notifications**: Verify notifications are sent correctly
-
-#### Database Testing
-
-1. **Constraint Test**: Try to insert multiple presidents directly in database
-2. **Index Performance**: Verify query performance with the new index
-3. **Migration Test**: Ensure migration applies correctly
-
-### 📝 Usage Examples
-
-#### Setting a Club Leader (cURL)
-
-```bash
-curl -X PUT "https://localhost:7274/api/memberships/set-leader/123" \
-  -H "Authorization: Bearer YOUR_JWT_TOKEN" \
-  -H "Content-Type: application/json"
-```
-
-#### Validating Club President (cURL)
-
-```bash
-curl -X GET "https://localhost:7274/api/memberships/validate-president/456" \
-  -H "Authorization: Bearer YOUR_JWT_TOKEN"
-```
-
-### 🔮 Future Enhancements
-
-#### Potential Improvements
-
-- **President History**: Track previous presidents
-- **Term Limits**: Add support for presidential terms
-- **Automatic Elections**: Implement voting system for president selection
-- **Deputy President**: Add support for vice-president roles
-
-#### Monitoring
-
-- **Audit Logs**: Track all president changes
-- **Analytics**: Monitor club leadership patterns
-- **Alerts**: Notify admins of leadership changes
-
-### 🏗️ Project Structure
-
-```
-Backend/ElasoftCommunityManagementSystem/
-├── Controllers/
-│   └── ClubMembershipController.cs      # New endpoints added
-├── Services/
-│   └── ClubMembershipService.cs         # Enhanced with new methods
-├── Interfaces/
-│   └── IClubMembershipService.cs        # New method signatures
-├── Migrations/
-│   └── 20250704162312_AddUniqueConstraintForClubPresident.cs
-└── Models/
-    └── ClubMembershipModel.cs           # Existing model with new constraints
-```
-
-### 🚀 Getting Started
-
-#### Prerequisites
-
-- .NET 8.0 SDK
-- SQL Server
-- Entity Framework Core Tools
-
-#### Running the Application
-
-1. **Database Setup**:
-
-   ```bash
-   dotnet ef database update
-   ```
-
-2. **Run Backend**:
-
-   ```bash
-   cd Backend/ElasoftCommunityManagementSystem
-   dotnet run
-   ```
-
-3. **Access API Documentation**:
-   ```
-   https://localhost:7274/swagger/index.html
-   ```
-
-### 📞 Support
-
-For questions or issues related to the president uniqueness feature:
-
-- Check the API documentation at `/swagger/index.html`
-- Review the service methods in `ClubMembershipService.cs`
-- Validate database constraints in the migration files
+Bu güncelleme, projenin en kritik kullanıcı etkileşim noktaları olan **Giriş Yap (`Login.vue`)** ve **Kayıt Ol (`Register.vue`)** component'lerini temelden modernize eder. Yapılan değişiklikler, kod kalitesini artırmak, kullanıcı deneyimini iyileştirmek ve gelecekteki bakımı kolaylaştırmak amacıyla gerçekleştirilmiştir.
 
 ---
 
-## Original Project Features
+### ✨ Ana Geliştirmeler ve Eklenen Özellikler
 
-[Include your existing project documentation here...]
+#### 1. Mimarî Modernizasyon (`<script setup>`)
+* **Ne Yapıldı?** Her iki component'in mantığı (`logic`), Vue 2'den kalma Options API yapısından, Vue 3'ün modern, daha performanslı ve okunabilir **Composition API**'sine (`<script setup>`) taşınmıştır.
+* **Kazanım:** Daha az kod, daha iyi organize edilmiş reaktif değişkenler (`ref`) ve daha kolay yönetilebilir bir component yapısı.
 
-## Technology Stack
+#### 2. Gelişmiş Form Doğrulama (`VeeValidate`)
+Eski, tarayıcı tabanlı `required` doğrulamasının yerini alan, çok daha güçlü ve esnek bir sistem entegre edilmiştir.
+* **Anlık Geribildirim:** Kullanıcılar artık formu göndermeyi beklemeden, yazdıkları anda alan bazlı hataları (`Bu alan zorunludur`, `Geçersiz e-posta`, `Bu alan en az 2 karakter olmalıdır` vb.) anında görürler.
+* **Dinamik Stil Desteği:** Alanlar, doğrulama durumuna göre (`is-valid`, `is-invalid`) dinamik olarak yeşil veya kırmızı kenarlıklarla renklendirilerek kullanıcıya görsel ipuçları sunar.
+* **Koşullu Doğrulama:** "Engelli Durumu" seçeneğine bağlı olarak "Açıklama" alanının zorunlu hale gelmesi gibi gelişmiş senaryolar desteklenmektedir.
+* **Merkezi Kural Yönetimi:** Tüm doğrulama kuralları (`required`, `email`, `min`, `max`) ve Türkçe hata mesajları `main.js` dosyasında merkezi olarak tanımlanmıştır. Bu, uygulama genelinde tutarlılık sağlar.
 
-- **Backend**: ASP.NET Core 8.0
-- **Frontend**: Vue.js 3
-- **Database**: SQL Server
-- **ORM**: Entity Framework Core
-- **Authentication**: JWT
-- **API Documentation**: Swagger/OpenAPI
+#### 3. Tutarlı Bildirim Sistemi (`vue-toastification`)
+* **Ne Yapıldı?** Form gönderimlerinin başarı (`Kayıt başarılı!`) veya sunucu kaynaklı hata (`Bu e-posta zaten kayıtlı`) sonuçları için kullanılan tutarsız `div` kutuları tamamen kaldırılmıştır.
+* **Kazanım:** Artık tüm sonuçlar, uygulama genelinde kullanılan modern ve şık **`toast` bildirimleri** ile gösterilmektedir. Bu, kullanıcıya tutarlı ve profesyonel bir deneyim sunar.
 
-## License
+#### 4. Kullanıcı Arayüzü (UI) ve Erişilebilirlik (A11y) İyileştirmeleri
+* Giriş formuna, kullanıcıların şifrelerini doğru yazdıklarından emin olmalarını sağlayan bir **şifreyi göster/gizle** butonu eklenmiştir.
+* Bu özellik, ekran okuyucular için `aria` etiketleri ile **erişilebilirlik standartlarına** uygun hale getirilmiştir.
+* Form elemanlarının `focus` durumları ve genel stil paleti, daha modern ve kullanıcı dostu bir görünüm için iyileştirilmiştir.
 
-[Your license information here]
+---
+
+### 🔧 Teknik Uygulama Detayları
+
+Bu modernizasyon, aşağıdaki temel yapı üzerine kurulmuştur:
+* **`<Form>` Component'i:** Formun genelini sarmalar ve `@submit` olayı yalnızca tüm alanlar geçerli olduğunda tetiklenir.
+* **`<Field v-slot>` Mimarisi:** Her form elemanı, `v-slot` kullanarak render edilir. Bu, `vee-validate`'in doğrulama mantığını (`field`, `errorMessage`, `meta`) mevcut HTML `input` elemanlarımıza tam kontrol ile bağlamamızı sağlar.
+* **`onSubmit(values)` Fonksiyonu:** Form gönderildiğinde, `vee-validate` tüm form verilerini `values` adında bir obje olarak bu fonksiyona otomatik olarak geçirir. Artık her alanı tek tek `ref`'lerden toplamak yerine, bu hazır obje doğrudan `authService`'e gönderilir.
+
+Bu yapı, projedeki gelecekteki tüm formlar için **yeniden kullanılabilir ve standart bir şablon** oluşturur.
+```
