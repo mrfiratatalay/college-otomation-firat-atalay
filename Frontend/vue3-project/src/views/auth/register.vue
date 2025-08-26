@@ -2,65 +2,82 @@
   <div class="register-container">
     <div class="register-box">
       <h2>Kayıt Ol</h2>
-      <div v-if="error" class="error-message">
-        {{ error }}
-      </div>
-      <div v-if="success" class="success-message">
-        {{ success }}
-      </div>
-      <form @submit.prevent="handleRegister">
+
+
+
+      <Form @submit="handleRegister" class="form-container">
+
         <div class="form-group">
-          <label>Ad:</label>
-          <input type="text" v-model="name" required>
+          <label for="name">Ad:</label>
+          <Field name="ad" type="text" v-model="name" rules="required" class="form-input" id="name" />
+          <ErrorMessage name="ad" class="field-error" />
         </div>
+
         <div class="form-group">
-          <label>Soyad:</label>
-          <input type="text" v-model="surname" required>
+          <label for="surname">Soyad:</label>
+          <Field name="soyad" type="text" v-model="surname" rules="required" class="form-input" id="surname" />
+          <ErrorMessage name="soyad" class="field-error" />
         </div>
+
         <div class="form-group">
-          <label>E-posta:</label>
-          <input type="email" v-model="email" required>
+          <label for="email">E-posta:</label>
+          <Field name="email" type="email" v-model="email" rules="required|email" class="form-input" id="email" />
+          <ErrorMessage name="email" class="field-error" />
         </div>
+
         <div class="form-group">
-          <label>Telefon Numarası:</label>
-          <input type="tel" v-model="phoneNumber" required>
+          <label for="phoneNumber">Telefon Numarası:</label>
+          <Field name="telefon" type="tel" v-model="phoneNumber" rules="required" class="form-input" id="phoneNumber" />
+          <ErrorMessage name="telefon" class="field-error" />
         </div>
+
         <div class="form-group">
-          <label>Okul Numarası:</label>
-          <input type="text" v-model="schoolNumber" required>
+          <label for="schoolNumber">Okul Numarası:</label>
+          <Field name="okulNo" type="text" v-model="schoolNumber" rules="required" class="form-input" id="schoolNumber" />
+          <ErrorMessage name="okulNo" class="field-error" />
         </div>
+
         <div class="form-group">
-          <label>Uyruk:</label>
-          <select v-model="nationality" class="form-select" required>
-            <option value="">Uyruk seçiniz</option>
+          <label for="nationality">Uyruk:</label>
+          <Field name="uyruk" as="select" v-model="nationality" rules="required" class="form-select" id="nationality">
+            <option value="" disabled>Uyruk seçiniz</option>
             <option v-for="country in countries" :key="country.code" :value="country.code">
               {{ country.name }}
             </option>
-          </select>
+          </Field>
+          <ErrorMessage name="uyruk" class="field-error" />
         </div>
+
         <div class="form-group">
-          <label>Cinsiyet:</label>
-          <select v-model="gender" class="form-select" required>
-            <option value="">Cinsiyet seçiniz</option>
+          <label for="gender">Cinsiyet:</label>
+          <Field name="cinsiyet" as="select" v-model="gender" rules="required" class="form-select" id="gender">
+            <option value="" disabled>Cinsiyet seçiniz</option>
             <option value="Erkek">Erkek</option>
             <option value="Kadın">Kadın</option>
-          </select>
+          </Field>
+          <ErrorMessage name="cinsiyet" class="field-error" />
         </div>
+
         <div class="form-group">
-          <label>Engelli Durumu:</label>
-          <select v-model="hasDisability" class="form-select" required>
+          <label for="hasDisability">Engelli Durumu:</label>
+          <Field name="engelDurumu" as="select" v-model="hasDisability" rules="required" class="form-select" id="hasDisability">
             <option value="Yok">Yok</option>
             <option value="Evet">Evet</option>
-          </select>
+          </Field>
+          <ErrorMessage name="engelDurumu" class="field-error" />
         </div>
+
         <div v-if="hasDisability === 'Evet'" class="form-group">
-          <label>Açıklama:</label>
-          <textarea v-model="disabilityDescription" required></textarea>
+          <label for="disabilityDescription">Açıklama:</label>
+          <Field name="engelAciklama" as="textarea" v-model="disabilityDescription" rules="required" class="form-textarea" id="disabilityDescription" />
+          <ErrorMessage name="engelAciklama" class="field-error" />
         </div>
+
         <button type="submit" class="btn btn-primary" :disabled="loading">
           {{ loading ? 'Kayıt Yapılıyor...' : 'Kayıt Ol' }}
         </button>
-      </form>
+      </Form>
+
       <div class="login-link">
         <p>Zaten hesabınız var mı? <router-link to="/login">Giriş Yap</router-link></p>
       </div>
@@ -68,71 +85,68 @@
   </div>
 </template>
 
-<script>
-import { authService } from '@/services';
+<script setup>
 import { countries } from '@/constants/countries';
-export default {
-  name: 'Register',
-  data() {
-    return {
-      name: '',
-      surname: '',
-      email: '',
-      phoneNumber: '',
-      schoolNumber: '',
-      nationality: '',
-      gender: '',
-      hasDisability: 'Yok',
-      disabilityDescription: '',
-      countries,
-      loading: false,
-      error: null,
-      success: null,
+import { authService } from '@/services';
+import { ErrorMessage, Field, Form } from 'vee-validate';
+import { useToast } from 'vue-toastification'; // <-- BU SATIRI EKLE
+
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+// useRouter hook'u ile router'a erişim
+const router = useRouter();
+const toast = useToast(); // <-- VE BUNU EKLE
+
+// Options API'deki data() yerine ref() kullanıyoruz
+const name = ref('');
+const surname = ref('');
+const email = ref('');
+const phoneNumber = ref('');
+const schoolNumber = ref('');
+const nationality = ref('');
+const gender = ref('');
+const hasDisability = ref('Yok');
+const disabilityDescription = ref('');
+const loading = ref(false);
+
+
+// methods objesi yerine standart bir fonksiyon tanımı
+const handleRegister = async () => {
+  loading.value = true;
+
+  try {
+    const userData = {
+      Name: name.value,
+      Surname: surname.value,
+      Email: email.value,
+      PhoneNumber: phoneNumber.value,
+      SchoolNumber: schoolNumber.value,
+      Nationality: nationality.value,
+      Gender: gender.value,
+      DisabilityStatus: hasDisability.value === 'Evet' ? disabilityDescription.value : hasDisability.value,
+    };
+
+    console.log('Register Payload:', userData);
+
+    const response = await authService.register(userData);
+
+    if (response.data.success) {
+      toast.success('Kayıt başarılı! Giriş sayfasına yönlendiriliyorsunuz.'); // toast.success kullan
+      localStorage.setItem('tempUser', JSON.stringify({ email: email.value }));
+
+      setTimeout(() => {
+        router.push('/login');
+      }, 3000);
     }
-  },
-  methods: {
-    async handleRegister() {
-      this.loading = true;
-      this.error = null;
-      this.success = null;
-
-      try {
-        const userData = {
-          Name: this.name,
-          Surname: this.surname,
-          Email: this.email,
-          PhoneNumber: this.phoneNumber,
-          SchoolNumber: this.schoolNumber,
-          Nationality: this.nationality,
-          Gender: this.gender,
-          DisabilityStatus: this.hasDisability === 'Evet' ? this.disabilityDescription : this.hasDisability,
-        };
-
-        console.log('Register Payload:', userData); // Log the payload
-
-        const response = await authService.register(userData);
-
-        if (response.data.success) {
-          this.success = 'Kayıt başarılı! E-posta adresinize gönderilen şifre ile giriş yapabilirsiniz.';
-          localStorage.setItem('tempUser', JSON.stringify({ email: this.email }));
-
-          setTimeout(() => {
-            this.$router.push('/login');
-          }, 3000);
-        }
-      } catch (error) {
-        console.error('Kayıt hatası:', error);
-        if (error.response) {
-          this.error = error.response.data.message || 'Kayıt işlemi başarısız oldu!';
-        } else {
-          this.error = 'Kayıt yapılırken bir hata oluştu!';
-        }
-      } finally {
-        this.loading = false;
-      }
-    }
+  } catch (err) {
+    console.error('Kayıt hatası:', err);
+    // YENİ HALİ:
+    const errorMessage = err.response?.data?.message || 'Kayıt işlemi başarısız oldu! Lütfen bilgilerinizi kontrol edin.';
+    toast.error(errorMessage); // toast.error kullan
+  } finally {
+    loading.value = false;
   }
-}
+};
 </script>
 
 <style scoped>
@@ -151,6 +165,11 @@ export default {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
+}
+.field-error {
+  color: #d32f2f;
+  font-size: 0.875em;
+  margin-top: 6px;
 }
 
 h2 {
@@ -230,23 +249,6 @@ textarea {
   text-decoration: underline;
 }
 
-.error-message {
-  background-color: #f8d7da;
-  color: #721c24;
-  padding: 0.75rem;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.success-message {
-  background-color: #d4edda;
-  color: #155724;
-  padding: 0.75rem;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-  text-align: center;
-}
 
 .radio-group {
   display: flex;

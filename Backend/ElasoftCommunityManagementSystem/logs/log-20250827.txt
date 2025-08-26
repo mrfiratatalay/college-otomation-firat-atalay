@@ -1,0 +1,31 @@
+2025-08-27 00:06:33.063 +03:00 [WRN] The foreign key property 'EventReservation.TimeSlotId1' was created in shadow state because a conflicting property with the simple name 'TimeSlotId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-08-27 00:06:33.777 +03:00 [INF] HTTP GET /api/announcements responded 200 in 1279.4077 ms
+2025-08-27 00:06:33.887 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 94.0115 ms
+2025-08-27 00:06:39.148 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 97.5194 ms
+2025-08-27 00:06:39.238 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 77.9462 ms
+2025-08-27 00:11:21.391 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 78.3513 ms
+2025-08-27 00:26:55.782 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 3362.7490 ms
+2025-08-27 00:27:24.406 +03:00 [WRN] The foreign key property 'EventReservation.TimeSlotId1' was created in shadow state because a conflicting property with the simple name 'TimeSlotId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-08-27 00:27:25.543 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 1768.5485 ms
+2025-08-27 00:27:25.717 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 132.5560 ms
+2025-08-27 00:27:25.856 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 125.1642 ms
+2025-08-27 00:27:39.319 +03:00 [INF] HTTP GET /api/users/6 responded 200 in 35.0180 ms
+2025-08-27 00:27:39.338 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 9.3006 ms
+2025-08-27 00:27:39.349 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 4.2087 ms
+2025-08-27 00:27:48.435 +03:00 [INF] HTTP POST /api/auth/change-password responded 200 in 436.3649 ms
+2025-08-27 00:27:54.296 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 5.3354 ms
+2025-08-27 00:27:54.312 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 7.7689 ms
+2025-08-27 00:28:25.395 +03:00 [INF] HTTP GET /api/users/6 responded 200 in 7.3106 ms
+2025-08-27 00:28:25.429 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 26.7405 ms
+2025-08-27 00:28:25.444 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 8.1634 ms
+2025-08-27 00:28:26.210 +03:00 [INF] HTTP GET /api/announcements responded 200 in 27.7567 ms
+2025-08-27 00:28:26.258 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 40.6403 ms
+2025-08-27 00:28:48.346 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 117.8143 ms
+2025-08-27 00:28:48.376 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 4.7738 ms
+2025-08-27 00:28:48.392 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 7.7924 ms
+2025-08-27 00:28:57.119 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 218.8735 ms
+2025-08-27 00:37:31.411 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 269.5467 ms
+2025-08-27 00:37:38.496 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 203.6916 ms
+2025-08-27 00:37:46.507 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 134.1291 ms
+2025-08-27 00:37:46.559 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 12.7405 ms
+2025-08-27 00:37:46.601 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 31.9734 ms

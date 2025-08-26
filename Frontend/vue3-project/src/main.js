@@ -6,7 +6,26 @@ import "vue-toastification/dist/index.css"; // CSS'i import et
 import '@fortawesome/fontawesome-free/css/all.css'
 import axios from 'axios'
 
+//Vee Validate
+import { defineRule, configure } from 'vee-validate';
+import { required, email } from '@vee-validate/rules';
+import { localize, setLocale } from '@vee-validate/i18n';
+import tr from '@vee-validate/i18n/dist/locale/tr.json';
+
 const app = createApp(App)
+
+
+// VeeValidate Kurallarını Tanımla
+defineRule('required', required);
+defineRule('email', email);
+
+// VeeValidate'i Türkçe ve anında kontrol edecek şekilde ayarla
+configure({
+  generateMessage: localize({ tr }),
+  validateOnInput: true,
+});
+setLocale('tr');
+
 
 // Define toast options (optional, but good practice)
 const toastOptions = {
