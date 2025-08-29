@@ -102,7 +102,10 @@ const routes = [
         path: 'facilities',
         name: 'AdminFacilities',
         component: () => import('../views/admin/Facilities.vue')
-      }
+      },
+      //404 Sayfasi icin
+      { path: ':pathMatch(.*)*', name: 'AdminNotFound', component: () => import('../views/NotFound.vue') }
+
     ]
   },
 
@@ -153,7 +156,11 @@ const routes = [
         path: 'profile',
         name: 'AdvisorProfile',
         component: () => import('../views/advisor/Profile.vue')
-      }
+      },
+
+      //404
+      { path: ':pathMatch(.*)*', name: 'AdvisorNotFound', component: () => import('../views/NotFound.vue') }
+
     ]
   },
 
@@ -212,7 +219,10 @@ const routes = [
         path: 'profile',
         name: 'StudentProfile',
         component: () => import('../views/student/Profile.vue')
-      }
+      },
+      //404
+      { path: ':pathMatch(.*)*', name: 'StudentNotFound', component: () => import('../views/NotFound.vue') }
+
     ]
   },
 
@@ -222,15 +232,30 @@ const routes = [
     props: true,
     component: () => import('../views/leader/CommunityManagement.vue')
   },
+
+  //Global 404
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('../views/NotFound.vue')
+  }
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  //sayfa değişince üste dön:
+  scrollBehavior() { return { top: 0 } }
 })
 
 // ROUTER GUARD TEKRAR AKTİF EDİLDİ
 router.beforeEach((to, from, next) => {
+
+  // 404 rotalarını her zaman göster
+  if (to.matched.some(r => r.name === 'NotFound' || r.name?.endsWith('NotFound'))) {
+    return next()
+  }
+
   console.log(`Routing from ${from.path} to ${to.path}`);
   let user = null;
   try {
