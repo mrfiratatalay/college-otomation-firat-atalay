@@ -1,40 +1,117 @@
-
-## 🚀 Kimlik Doğrulama Formları Modernizasyonu ve Geliştirilmiş Kullanıcı Deneyimi (UX)
-
-Bu güncelleme, projenin en kritik kullanıcı etkileşim noktaları olan **Giriş Yap (`Login.vue`)** ve **Kayıt Ol (`Register.vue`)** component'lerini temelden modernize eder. Yapılan değişiklikler, kod kalitesini artırmak, kullanıcı deneyimini iyileştirmek ve gelecekteki bakımı kolaylaştırmak amacıyla gerçekleştirilmiştir.
-
+# Routing Revamp — **Öncesi / Sonrası** (Markdown)
 ---
-
-### ✨ Ana Geliştirmeler ve Eklenen Özellikler
-
-#### 1. Mimarî Modernizasyon (`<script setup>`)
-* **Ne Yapıldı?** Her iki component'in mantığı (`logic`), Vue 2'den kalma Options API yapısından, Vue 3'ün modern, daha performanslı ve okunabilir **Composition API**'sine (`<script setup>`) taşınmıştır.
-* **Kazanım:** Daha az kod, daha iyi organize edilmiş reaktif değişkenler (`ref`) ve daha kolay yönetilebilir bir component yapısı.
-
-#### 2. Gelişmiş Form Doğrulama (`VeeValidate`)
-Eski, tarayıcı tabanlı `required` doğrulamasının yerini alan, çok daha güçlü ve esnek bir sistem entegre edilmiştir.
-* **Anlık Geribildirim:** Kullanıcılar artık formu göndermeyi beklemeden, yazdıkları anda alan bazlı hataları (`Bu alan zorunludur`, `Geçersiz e-posta`, `Bu alan en az 2 karakter olmalıdır` vb.) anında görürler.
-* **Dinamik Stil Desteği:** Alanlar, doğrulama durumuna göre (`is-valid`, `is-invalid`) dinamik olarak yeşil veya kırmızı kenarlıklarla renklendirilerek kullanıcıya görsel ipuçları sunar.
-* **Koşullu Doğrulama:** "Engelli Durumu" seçeneğine bağlı olarak "Açıklama" alanının zorunlu hale gelmesi gibi gelişmiş senaryolar desteklenmektedir.
-* **Merkezi Kural Yönetimi:** Tüm doğrulama kuralları (`required`, `email`, `min`, `max`) ve Türkçe hata mesajları `main.js` dosyasında merkezi olarak tanımlanmıştır. Bu, uygulama genelinde tutarlılık sağlar.
-
-#### 3. Tutarlı Bildirim Sistemi (`vue-toastification`)
-* **Ne Yapıldı?** Form gönderimlerinin başarı (`Kayıt başarılı!`) veya sunucu kaynaklı hata (`Bu e-posta zaten kayıtlı`) sonuçları için kullanılan tutarsız `div` kutuları tamamen kaldırılmıştır.
-* **Kazanım:** Artık tüm sonuçlar, uygulama genelinde kullanılan modern ve şık **`toast` bildirimleri** ile gösterilmektedir. Bu, kullanıcıya tutarlı ve profesyonel bir deneyim sunar.
-
-#### 4. Kullanıcı Arayüzü (UI) ve Erişilebilirlik (A11y) İyileştirmeleri
-* Giriş formuna, kullanıcıların şifrelerini doğru yazdıklarından emin olmalarını sağlayan bir **şifreyi göster/gizle** butonu eklenmiştir.
-* Bu özellik, ekran okuyucular için `aria` etiketleri ile **erişilebilirlik standartlarına** uygun hale getirilmiştir.
-* Form elemanlarının `focus` durumları ve genel stil paleti, daha modern ve kullanıcı dostu bir görünüm için iyileştirilmiştir.
-
+## Fırat Atalay
 ---
+## 1) Nested Route (child path başında `/`)
 
-### 🔧 Teknik Uygulama Detayları
+**Öncesi:** `/admin/announcements/detail/:id` ve `/advisor/...` child yolları `/` ile yazıldığı için **layout kopuyor**, menü/header kayboluyordu.
+**Sonrası:** Baştaki `/` kaldırıldı → alt sayfalar artık **panel layout’u içinde** açılıyor.
 
-Bu modernizasyon, aşağıdaki temel yapı üzerine kurulmuştur:
-* **`<Form>` Component'i:** Formun genelini sarmalar ve `@submit` olayı yalnızca tüm alanlar geçerli olduğunda tetiklenir.
-* **`<Field v-slot>` Mimarisi:** Her form elemanı, `v-slot` kullanarak render edilir. Bu, `vee-validate`'in doğrulama mantığını (`field`, `errorMessage`, `meta`) mevcut HTML `input` elemanlarımıza tam kontrol ile bağlamamızı sağlar.
-* **`onSubmit(values)` Fonksiyonu:** Form gönderildiğinde, `vee-validate` tüm form verilerini `values` adında bir obje olarak bu fonksiyona otomatik olarak geçirir. Artık her alanı tek tek `ref`'lerden toplamak yerine, bu hazır obje doğrudan `authService`'e gönderilir.
+```diff
+- { path: '/admin/announcements/detail/:id', name: 'AdminAnnouncementDetail', component: ... }
++ { path: 'announcements/detail/:id', name: 'AdminAnnouncementDetail', props: true, component: ... }
 
-Bu yapı, projedeki gelecekteki tüm formlar için **yeniden kullanılabilir ve standart bir şablon** oluşturur.
+- { path: '/advisor/announcements/detail/:id', name: 'AdvisorAnnouncementDetail', component: ... }
++ { path: 'announcements/detail/:id', name: 'AdvisorAnnouncementDetail', props: true, component: ... }
 ```
+
+---
+
+## 2) Kök Panel Yönlendirmeleri
+
+**Öncesi:** `/admin`, `/advisor`, `/student` adresleri **boş ekran**.
+**Sonrası:** Her panelde kök yol **dashboard’a redirect** ediyor.
+
+```js
+{ path: '', redirect: { name: 'AdminDashboard' } }
+{ path: '', redirect: { name: 'AdvisorDashboard' } }
+{ path: '', redirect: { name: 'StudentDashboard' } }
+```
+---
+
+## 3) Router Guard Rol Tutarlılığı
+
+**Öncesi:** `User`/`user` karışıklığı nedeniyle yönlendirmeler **yanılabiliyordu**.
+**Sonrası:** Tümü **`user`** olarak normalize edildi → **stabil** yönlendirme.
+
+```diff
+- case 'User': next('/student/dashboard'); break;
++ case 'user': next('/student/dashboard'); break;
+```
+
+---
+
+## 4) Dinamik Parametrelerin Aktarımı
+
+**Öncesi:** `:id` gibi parametreler component içinde **dağınık** (`$route.params`) kullanılıyordu.
+**Sonrası:** Detay rotalarına **`props: true`** eklendi → **temiz ve standart** prop akışı.
+
+```js
+{ path: 'announcements/detail/:id', name: 'AdminAnnouncementDetail', props: true, component: ... }
+{ path: 'community-management/:id', name: 'AdminCommunityManagement', props: true, component: ... }
+```
+
+---
+
+## 5) 404 Deneyimi (Global + Panel İçi)
+
+**Öncesi:** Yanlış URL’de **boş/şaşırtıcı** ekran.
+**Sonrası:**
+
+* **Global 404:** routes sonunda `/:pathMatch(.*)*` → `NotFound.vue`
+* **Panel içi 404:** Admin/Advisor/Student `children` sonunda `:pathMatch(.*)*` → **layout korunarak** 404
+* **Guard istisnası:** 404 rotaları guard’dan **her zaman geçer**
+
+```js
+// children sonu (ör. admin)
+{ path: ':pathMatch(.*)*', name: 'AdminNotFound', component: () => import('../views/NotFound.vue') }
+
+// global en son
+{ path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') }
+
+// guard başı
+if (to.matched.some(r => r.name === 'NotFound' || r.name?.endsWith('NotFound'))) {
+  return next()
+}
+```
+
+---
+
+## 6) Kurumsal 404 Arayüzü
+
+**Öncesi:** Basit/temsili 404.
+**Sonrası:** **RTEÜ temalı** `NotFound.vue` (logo + slogan, koyu arka plan, rol’e göre “**Panelime Dön**” / “**Girişe Dön**”).
+
+> Logo: `src/assets/rteu-logo.png`
+> Dosya: `src/views/NotFound.vue`
+
+---
+
+## 7) Scroll Davranışı
+
+**Öncesi:** Route değişiminde sayfanın konumu korunabiliyordu.
+**Sonrası:** **`scrollBehavior`** eklendi → her sayfa geçişinde **üste dön**.
+
+```js
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+  scrollBehavior() { return { top: 0 } }
+})
+```
+
+
+---
+
+## 8) Hata Dayanıklılığı
+
+**Öncesi:** Bozuk `localStorage` JSON’u guard’ı **kırabiliyordu**.
+**Sonrası:** `try/catch` ile güvenli parse; kullanıcı yoksa **public/login** akışı sorunsuz.
+
+---
+
+### **Kısa Özet**
+
+* **Layout kopmaları bitti**, kök URL’ler anlamlı yönleniyor, guard **tutarlı**.
+* **Global + panel içi 404** ile kullanıcı **hiç boşta kalmıyor**.
+* 404 ekranı **kurumsal** kimliğe uygun ve **rol farkında** geri dönüşler sunuyor.
