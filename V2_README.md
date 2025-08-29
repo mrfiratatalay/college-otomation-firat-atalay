@@ -27,7 +27,6 @@
 { path: '', redirect: { name: 'AdvisorDashboard' } }
 { path: '', redirect: { name: 'StudentDashboard' } }
 ```
-
 ---
 
 ## 3) Router Guard Rol Tutarlılığı
