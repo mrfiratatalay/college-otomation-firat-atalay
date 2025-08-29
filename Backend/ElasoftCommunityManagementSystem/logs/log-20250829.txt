@@ -1,2 +1,37 @@
 2025-08-29 03:51:24.786 +03:00 [WRN] The foreign key property 'EventReservation.TimeSlotId1' was created in shadow state because a conflicting property with the simple name 'TimeSlotId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
 2025-08-29 03:51:25.775 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 1670.9319 ms
+2025-08-29 03:53:07.630 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 775.3411 ms
+2025-08-29 03:53:07.685 +03:00 [INF] GetUnreadNotifications started
+2025-08-29 03:53:07.686 +03:00 [INF] UserIdClaim: 4
+2025-08-29 03:53:07.687 +03:00 [INF] User ID parsed: 4
+2025-08-29 03:53:07.730 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 50.4653 ms
+2025-08-29 03:53:07.755 +03:00 [INF] Result obtained with 0 notifications
+2025-08-29 03:53:07.762 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 82.2199 ms
+2025-08-29 03:53:07.793 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 112.7902 ms
+2025-08-29 03:53:20.707 +03:00 [INF] GetUnreadNotifications started
+2025-08-29 03:53:20.709 +03:00 [INF] UserIdClaim: 4
+2025-08-29 03:53:20.711 +03:00 [INF] User ID parsed: 4
+2025-08-29 03:53:20.717 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 10.1091 ms
+2025-08-29 03:53:20.723 +03:00 [INF] Result obtained with 0 notifications
+2025-08-29 03:53:20.724 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 16.9321 ms
+2025-08-29 03:53:20.725 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 18.0306 ms
+2025-08-29 03:53:35.435 +03:00 [INF] GetUnreadNotifications started
+2025-08-29 03:53:35.436 +03:00 [INF] UserIdClaim: 4
+2025-08-29 03:53:35.440 +03:00 [INF] User ID parsed: 4
+2025-08-29 03:53:35.441 +03:00 [INF] HTTP GET /api/clubs/listele responded 200 in 7.2193 ms
+2025-08-29 03:53:35.456 +03:00 [INF] Result obtained with 0 notifications
+2025-08-29 03:53:35.458 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 23.9841 ms
+2025-08-29 03:53:35.460 +03:00 [INF] HTTP GET /api/dashboard/admindashboard responded 200 in 25.5939 ms
+2025-08-29 03:54:08.115 +03:00 [INF] GetUnreadNotifications started
+2025-08-29 03:54:08.117 +03:00 [INF] UserIdClaim: 4
+2025-08-29 03:54:08.118 +03:00 [INF] User ID parsed: 4
+2025-08-29 03:54:08.126 +03:00 [INF] Result obtained with 0 notifications
+2025-08-29 03:54:08.127 +03:00 [INF] HTTP GET /api/notifications/unread responded 200 in 11.9495 ms
+2025-08-29 04:03:03.588 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 172.2782 ms
+2025-08-29 04:03:03.666 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 62.3225 ms
+2025-08-29 04:03:05.678 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 5.3322 ms
+2025-08-29 04:03:05.694 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 7.0129 ms
+2025-08-29 04:14:48.261 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 100.7044 ms
+2025-08-29 04:14:48.302 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 31.6829 ms
+2025-08-29 04:15:00.306 +03:00 [INF] HTTP GET /api/events/listele responded 200 in 3.0491 ms
+2025-08-29 04:15:00.327 +03:00 [INF] HTTP GET /api/dashboard/studentdashboard responded 200 in 5.1442 ms
