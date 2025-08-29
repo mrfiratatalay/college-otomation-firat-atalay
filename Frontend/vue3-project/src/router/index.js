@@ -44,6 +44,9 @@ const routes = [
     name: 'AdminLayout',
     component: () => import('../views/admin/Layout.vue'),
     children: [
+      // YENİ EKLENDİ: Kullanıcı doğrudan '/admin' adresine giderse,
+      // onu otomatik olarak dashboard'a yönlendirir.
+      { path: '', redirect: { name: 'AdminDashboard' } },
       {
         path: 'dashboard',
         name: 'AdminDashboard',
@@ -65,8 +68,13 @@ const routes = [
         component: () => import('../views/admin/Announcements.vue')
       },
       {
-        path: '/admin/announcements/detail/:id',
+        // YANLIŞ HALİ: path: '/admin/announcements/detail/:id',
+        // DÜZELTME: Child path'ler başındaki '/' ile başlamamalıdır.
+        // Aksi halde ebeveyn olan '/admin' yolundan kopar ve layout bozulur.
+        // Ayrıca 'props: true' eklenerek :id parametresinin component'e prop olarak geçilmesi sağlandı.
+        path: 'announcements/detail/:id',
         name: 'AdminAnnouncementDetail',
+        props: true, // :id'yi prop olarak almak için
         component: () => import('../views/admin/AnnouncementDetail.vue')
       },
       {
@@ -87,6 +95,7 @@ const routes = [
       {
         path: 'community-management/:id',
         name: 'AdminCommunityManagement',
+        props: true,
         component: () => import('../views/leader/CommunityManagement.vue')
       },
       {
@@ -102,6 +111,9 @@ const routes = [
     name: 'AdvisorLayout',
     component: () => import('../views/advisor/Layout.vue'),
     children: [
+      // YENİ EKLENDİ: Kullanıcı doğrudan '/advisor' adresine giderse,
+      // onu otomatik olarak dashboard'a yönlendirir.
+      { path: '', redirect: { name: 'AdvisorDashboard' } },
       {
         path: 'dashboard',
         name: 'AdvisorDashboard',
@@ -123,13 +135,18 @@ const routes = [
         component: () => import('../views/advisor/Announcements.vue')
       },
       {
-        path: '/advisor/announcements/detail/:id',
+        // YANLIŞ HALİ: path: '/advisor/announcements/detail/:id',
+        // DÜZELTME: Child path olduğu için başındaki '/' kaldırıldı.
+        // Bu sayede '/advisor' yolunun altında doğru bir şekilde çalışır.
+        path: 'announcements/detail/:id',
         name: 'AdvisorAnnouncementDetail',
+        props: true,
         component: () => import('../views/advisor/AnnouncementDetail.vue')
       },
       {
         path: 'community-management/:id',
         name: 'AdvisorCommunityManagement',
+        props: true,
         component: () => import('../views/advisor/CommunityManagement.vue')
       },
       {
@@ -145,6 +162,9 @@ const routes = [
     name: 'StudentLayout',
     component: () => import('../views/student/Layout.vue'),
     children: [
+      // YENİ EKLENDİ: Kullanıcı doğrudan '/student' adresine giderse,
+      // onu otomatik olarak dashboard'a yönlendirir.
+      { path: '', redirect: { name: 'StudentDashboard' } },
       {
         path: 'dashboard',
         name: 'StudentDashboard',
@@ -163,6 +183,7 @@ const routes = [
       {
         path: 'community-management/:id',
         name: 'StudentCommunityManagement',
+        props: true,
         component: () => import('../views/leader/CommunityManagement.vue')
       },
       {
@@ -173,7 +194,8 @@ const routes = [
       {
         path: 'events/:id',
         name: 'StudentEventDetail',
-        component: () => import('../views/student/AnnouncementDetail.vue')
+        props: true,
+        component: () => import('../views/student/AnnouncementDetail.vue') // DİKKAT: Bu component doğru mu? Genelde EventDetail.vue olur.
       },
       {
         path: 'announcements',
@@ -183,6 +205,7 @@ const routes = [
       {
         path: 'announcements/detail/:id',
         name: 'StudentAnnouncementDetail',
+        props: true,
         component: () => import('../views/student/AnnouncementDetail.vue')
       },
       {
@@ -196,6 +219,7 @@ const routes = [
   {
     path: '/leader/community/:id/manage',
     name: 'LeaderCommunityManagement',
+    props: true,
     component: () => import('../views/leader/CommunityManagement.vue')
   },
 ]
@@ -274,7 +298,7 @@ router.beforeEach((to, from, next) => {
           case 'advisor':
             next('/advisor/dashboard');
             break;
-          case 'User':
+          case 'user': // 'user' olmalı, büyük harf hatası yapilmisdi,duzelttim.
             next('/student/dashboard');
             break;
           default:
